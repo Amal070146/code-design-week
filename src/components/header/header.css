@@ -5,6 +5,7 @@
     linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
   height: fit-content;
   padding: 0px 150px;
+  margin-bottom: -24px;
 }
 
 .header-head {
@@ -53,17 +54,45 @@
   width: 30px;
 }
 
-.design-arrow{
-    display: flex;
-    flex-direction: column;
-    width: max-content;
-    align-items: center;
-    justify-content: center;
+.design-arrow {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
 }
 
+.design-arroid {
+  width: 95.75rem;
+  height: 52.734375rem;
+  border-radius: 150px 150px 0px 0px;
+}
 
-.design-arroid{
-    width: 95.75rem;
-    height: 52.734375rem;
-    border-radius:150px 150px 0px 0px ;
+/*name tag*/
+
+.nametag-wrapper {
+  background-color: black;
+}
+.scroll-container {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+
+}
+.scroll-content {
+  animation: scroll 165s linear infinite;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: max-content;
+  white-space: nowrap;
+  font-size: 30px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
