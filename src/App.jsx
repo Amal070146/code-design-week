@@ -1,10 +1,13 @@
 import './App.css';
+import Navbar from './components/navbar/Navbar'
+import Headers from './components/header/Headers'
 
 function App() {
   return (
-    <div className="App">
-      hii all
-    </div>
+    <>
+      <Navbar />
+      <Headers />
+    </>
   );
 }
 
