@@ -16,16 +16,18 @@
   padding-top: 150px;
 }
 .font-style {
-  margin-top: 0px;
+  margin: 0px;
 }
 .font-styles {
-  margin-top: -150px;
+  margin: 0%;
+  margin: 0px;
 }
 .header-head > div {
   display: flex;
 }
 
 .dots-image {
+  margin-top: 50px;
   margin-left: 30px;
   margin-bottom: -20px;
 }
@@ -42,17 +44,16 @@
 }
 
 .sec-twin {
-  margin-top: -150px;
+  margin: 0px;
 }
 .play {
   margin-top: 20px;
-
   height: 7.2vw;
   width: 35.4vw;
 }
 
 .loc-cal {
-  margin-top: -120px;
+  margin: 0px;
   display: flex;
   color: white;
   gap: 30px;

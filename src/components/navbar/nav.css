@@ -1,3 +1,6 @@
+.navbar{
+  position: relative;
+}
 .nav-bar-wrapper {
   position: fixed;
   display: flex;
@@ -8,6 +11,9 @@
   background: rgba(0, 0, 0, 0.4);
   border-radius: 0px 30px 30px 30px;
 }
+
+
+
 a {
   text-decoration: none;
   color: white;
@@ -17,7 +23,7 @@ a {
 
 .nav-links {
   display: flex;
-  gap: 105px;
+  gap: 45px;
   padding-right: 120px;
 }
 #header>img {
