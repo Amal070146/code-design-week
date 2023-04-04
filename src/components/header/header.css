@@ -5,7 +5,6 @@
     linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
   height: fit-content;
   padding: 0px 150px;
-  margin-bottom: -24px;
 }
 
 .header-head {
@@ -55,8 +54,9 @@
 }
 
 .design-arrow {
-  display: flex;
-  flex-direction: column;
+  margin-top: 50px;
+  /* position: relative; */
+  display: inline-block;
   width: max-content;
   align-items: center;
   justify-content: center;
@@ -68,6 +68,20 @@
   border-radius: 150px 150px 0px 0px;
 }
 
+.image-button {
+  position: absolute;
+  margin-top: -50px;
+  right: 0px;
+  margin-right: 300px; 
+  padding: 10px;
+
+}
+
+.image-button > img {
+  width: 158px;
+  height: 158px;
+}
+
 /*name tag*/
 
 .nametag-wrapper {
@@ -77,7 +91,6 @@
   width: 100%;
   height: 100px;
   overflow: hidden;
-
 }
 .scroll-content {
   animation: scroll 165s linear infinite;

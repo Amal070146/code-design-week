@@ -4,6 +4,7 @@ import play from "../../assets/header-play-img.svg";
 import loc from '../../assets/location-logo.svg';
 import cal from '../../assets/calender-logo.svg';
 import he from '../../assets/header-image.svg'
+import arrow from '../../assets/header-arrow-img.svg'
 import Nametag from './namebar'
 
 const header = () => {
@@ -32,6 +33,7 @@ const header = () => {
           </div>
           <div className="design-arrow">
             <img className="design-arroid" src={he} alt="objects" />
+            <a className="image-button" href=""><img className="" src={arrow} alt="" /></a>
           </div>
         </div>
       </div>
