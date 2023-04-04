@@ -1,0 +1,32 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.body-wrapper {
+  background: #171717;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Set the width and color of the scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #f5f5f5;
+}
+
+/* Customize the track of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+/* Customize the thumb of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #ff8c00;
+  border-radius: 5px;
+}
+
+/* Customize the corner of the scrollbar */
+::-webkit-scrollbar-corner {
+  background-color: #f5f5f5;
+}

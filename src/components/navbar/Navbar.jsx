@@ -6,13 +6,13 @@ const Nav = () => {
   return (
     <div className='nav-bar-wrapper'>
         <div>
-            <a href=""><img src={logo} alt="" /></a>
+            <a href="#header"><img src={logo} alt="" /></a>
         </div>
         <div className='nav-links'>
-          <a href="">ABOUT US</a>
-          <a href="">EVENTS</a>
-          <a href="">OUR TEAM</a>
-          <a href="">CONTACT</a>
+          <a href="#about">ABOUT US</a>
+          <a href="#events">EVENTS</a>
+          <a href="#team">OUR TEAM</a>
+          <a href="#contact">CONTACT</a>
         </div>
     </div>
   )

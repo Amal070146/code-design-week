@@ -8,14 +8,14 @@ import Sponsors from './components/sponsors/sponsors'
 
 function App() {
   return (
-    <>
+    <div className='body-wrapper'>
       <Navbar />
       <Headers />
       <About />
       <Events />
       <Team />
       <Sponsors />
-    </>
+    </div>
   );
 }
 
