@@ -1,6 +1,9 @@
 .team-wrapper {
-  padding: 1px 150px;
+   padding: 25px auto 0px auto;
+  align-items: center;
+  justify-content: center;
   background: #171717;
+  width: 80vw;
 }
 
 .event-header {
@@ -16,7 +19,7 @@
 .transition-div-t {
   position: relative;
   left: 0;
-  width: 60vw;
+  width: 70vw;
   height: 100px;
   animation: slide-in-t 5s forwards;
 }
@@ -52,7 +55,7 @@
 .box {
   position: relative;
   width: calc(90% / 3);
-  height: 592.3px;
+  height: calc(100%/3);
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -72,12 +75,19 @@
 
 .name-tag-team {
   position: absolute;
-  top: 90%;
+  top: 93%;
+  /* bottom: 0%; */
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   pointer-events: none;
+  width: max-content;
   transition: opacity 0.5s ease;
+  background-color: #e30069;
+  margin: 0%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px 50px 0px 0px;
 }
 
 .box:hover .name-tag-team {
@@ -89,20 +99,9 @@
   color: #ffffff;
   font-weight: 600;
   font-size: 22px;
+  text-align: center;
 }
 
-.buttons-team {
-  margin-top: 10px;
-}
-
-.buttons-team > button {
-  background-color: #fff;
-  color: #333;
-  border: none;
-  padding: 5px 10px;
-  margin-right: 10px;
-  cursor: pointer;
-}
 
 @media screen and (max-width: 767px) {
   .box {
@@ -122,7 +121,29 @@
   margin-top: 40px;
   display: flex;
   color: white;
+  align-items: first baseline;
   justify-content: space-between;
+}
+.cd-left-team{
+width: 55%;
+margin: 0%;
+}
+
+.cd-left-team>.cd-left-team-one{
+  font-size: 5.2vw;
+  margin: 0%;
+}
+
+.cd-left-team>.cd-left-team-two{
+  font-size: 1.6vw;
+  margin: 0%;
+}
+.cd-right-team{
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 10px;
 }
 
 .right-cd-div{
@@ -131,7 +152,9 @@
   justify-content: center;
   border: 2px solid white;
   margin: 0%;
-  padding: 5px 10px;
+  padding: 2px 25px;
   border-radius: 80px;
-  height: 55px;
+  gap: 10px;
+  width: fit-content;
+  cursor: pointer;
 }

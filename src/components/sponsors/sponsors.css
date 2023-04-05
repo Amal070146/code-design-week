@@ -1,5 +1,7 @@
-.sponsors-wrapper{
-    padding: 1px 150px;
+.sponsors-wrapper {
+  padding: 25px auto 0px auto;
+  align-items: center;
+  justify-content: center;
   background: #171717;
 }
 
@@ -24,6 +26,6 @@
     transform: translateX(160%);
   }
   100% {
-    transform: translateX(40%);
+    transform: translateX(15%);
   }
 }

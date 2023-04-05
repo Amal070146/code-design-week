@@ -1,20 +1,17 @@
-.navbar{
+.navbar {
   position: relative;
 }
 .nav-bar-wrapper {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
-  padding: 30px 60px;
+  width: 100%;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 0px 30px 30px 30px;
+  padding: 10px 30px 10px 60px;
+  background: rgba(0, 0, 0, 0.1);
 }
 
-
-
-a {
+.nav-links> a {
   text-decoration: none;
   color: white;
   font-weight: 700;
@@ -24,8 +21,9 @@ a {
 .nav-links {
   display: flex;
   gap: 45px;
-  padding-right: 120px;
+  padding: 30px;
 }
-#header>img {
+
+#header > img {
   width: 330px;
 }
