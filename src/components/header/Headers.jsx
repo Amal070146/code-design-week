@@ -48,7 +48,7 @@ const header = () => {
           </div>
           <div className="design-arrow">
             <img className="design-arroid" src={he} alt="objects" />
-            <a className="image-button" href="">
+            <a className="image-button" href="#about">
               <img className="" src={arrow} alt="" />
             </a>
           </div>

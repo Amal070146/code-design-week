@@ -9,7 +9,6 @@
   display: flex;
   height: 100px;
   margin: 0;
-  margin-top: 100px;
   right: 0;
   padding: 0px;
   
@@ -29,7 +28,7 @@
     transform: translateX(160%);
   }
   100% {
-    transform: translateX(35%);
+    transform: translateX(50%);
   }
 }
 

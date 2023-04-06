@@ -5,6 +5,7 @@ import About from './components/about/About'
 import Events from './components/events/Events'
 import Team from './components/team/team'
 import Sponsors from './components/sponsors/sponsors'
+import Contacts from './components/contact/Contacts'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Events />
       <Team />
       <Sponsors />
+      <Contacts />
     </div>
   );
 }

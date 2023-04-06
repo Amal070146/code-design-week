@@ -1,0 +1,25 @@
+.contacts-wrapper {
+  padding: 25px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+  background: #171717;
+  margin: 0%;
+  margin-top: 40px;
+}
+
+.transition-div-c {
+  position: relative;
+  left: 0;
+  width: 70vw;
+  height: 100px;
+  animation: slide-in-c 5s forwards;
+}
+
+@keyframes slide-in-c {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}

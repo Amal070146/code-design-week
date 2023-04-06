@@ -13,7 +13,7 @@ const Nav = () => {
           <a href="#events">EVENTS</a>
           <a href="#team">OUR TEAM</a>
           <a href="#sponsors">SPONSORS</a>
-          <a href="#contact">CONTACT</a>
+          <a href="#contacts">CONTACT</a>
         </div>
     </div>
   )
