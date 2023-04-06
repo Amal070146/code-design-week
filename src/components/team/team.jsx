@@ -2,6 +2,11 @@ import React from "react";
 import "./team.css";
 import headTeam from "../../assets/team-header-img.svg";
 import enric from "../../assets/enric.svg";
+import amalcp from '../../assets/amalcp.png';
+import ajay from "../../assets/ajayvishnu.svg";
+import noah from "../../assets/Noah.svg";
+import pranav from "../../assets/pranav.svg";
+import varsha from "../../assets/Varsha.svg";
 import talksession from "../../assets/talksession.svg";
 import expo from "../../assets/expo.svg";
 import handsonworkshop from "../../assets/handsonworkshop.svg";
@@ -26,10 +31,34 @@ const team = () => {
             </div>
           </div>
           <div class="box">
-            <img src={enric} alt="" />
+            <img src={amalcp} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
+                Amal C P <br /> Lead
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src={ajay} alt="" />
+            <div class="name-tag-team">
+              <div class="name-team">
+               Ajay Vishnu E <br /> Lead
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src={noah} alt="" />
+            <div class="name-tag-team">
+              <div class="name-team">
+                Noah Johny <br /> Lead
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <img src={pranav} alt="" />
+            <div class="name-tag-team">
+              <div class="name-team">
+                Pranav Madhu <br /> Lead
               </div>
             </div>
           </div>
@@ -50,34 +79,10 @@ const team = () => {
             </div>
           </div>
           <div class="box">
-            <img src={enric} alt="" />
+            <img src={varsha} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src={enric} alt="" />
-            <div class="name-tag-team">
-              <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src={enric} alt="" />
-            <div class="name-tag-team">
-              <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <img src={enric} alt="" />
-            <div class="name-tag-team">
-              <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
+                Varsha Babu Akkara <br /> Lead
               </div>
             </div>
           </div>

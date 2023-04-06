@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   background: #171717;
+  color: white;
+  width: 80vw;
 }
 
 .transition-div-s {
@@ -23,10 +25,10 @@
 
 @keyframes slide-in-s {
   0% {
-    transform: translateX(160%);
+    transform: translateX(100%);
   }
   100% {
-    transform: translateX(40%);
+    transform: translateX(55%);
   }
 }
 
@@ -35,6 +37,7 @@
   flex-direction: column;
   gap: 10px;
   margin-top: 50px;
+  width: 100%;
 }
 
 .line {
@@ -74,4 +77,29 @@
 .company-sponsors-div>img{
   width: 17vw;
   height: 6vw;
+}
+
+.sponsors-text-div-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.sponsors-text-div{
+  width: 85%;
+}
+
+.sponsors-text-one{
+  font-size: 4.7vw;
+  width: 100%;
+}
+.sponsors-text-two{
+  font-size: 1.7vw;
+}
+
+#arrow{
+  fill: aqua;
+  transform: rotate(80deg);
+  width: 130px;
 }

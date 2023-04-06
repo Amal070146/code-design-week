@@ -2,10 +2,10 @@
   position: fixed;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   align-items: center;
-  padding: 10px 30px 10px 60px;
-  background: rgba(0, 0, 0, 0.1);
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
   z-index: 9999;
 }
 
@@ -19,9 +19,12 @@
 .nav-links {
   display: flex;
   gap: 45px;
-  padding: 30px;
+  margin: 0%;
+  padding-right: 30px;
 }
 
-#header > img {
-  width: 330px;
+.header-nav-img>a > img {
+  width: 18vw;
+  padding-left: 30px;
+  margin: 0%;
 }

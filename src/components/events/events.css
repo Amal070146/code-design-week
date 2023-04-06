@@ -25,7 +25,7 @@
 
 @keyframes slide-in {
   0% {
-    transform: translateX(160%);
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(50%);
