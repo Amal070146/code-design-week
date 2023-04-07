@@ -5,6 +5,8 @@
   background: #171717;
   margin: 0%;
   margin-top: 40px;
+  color: white;
+  width: 80vw;
 }
 
 .transition-div-c {
@@ -20,6 +22,34 @@
     transform: translateX(-100%);
   }
   100% {
-    transform: translateX(-10%);
+    transform: translateX(0%);
   }
+}
+
+.contact-content-wrapper {
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  padding: 30px;
+  margin-top: 70px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.contact-email,
+.contact-phone,
+.contact-social {
+  display: flex;
+  margin: 0%;
+  width: 30%;
+  gap: 15px;
+}
+.contact-email > img,
+.contact-phone > img {
+  height: 35px;
+}
+.contact-email > div>p,
+.contact-phone > div>p{
+font-weight: 400;
+font-size: 29.7px;
 }

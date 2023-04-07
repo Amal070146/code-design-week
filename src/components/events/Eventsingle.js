@@ -15,15 +15,6 @@ const Eventsingle = ({ number, title, description1, image, description2 }) => {
             className={
               "number-event " + (openpopup ? "number-event-active" : null)
             }
-            // style={{
-            //   background: openpopup
-            //     ? "linear-gradient(180deg, rgba(255, 117, 181, 0.5) 27.36%, rgba(237, 68, 146, 0) 89.89%)"
-            //     : `linear-gradient(
-            //       180deg,
-            //       #626262 27.36%,
-            //       rgba(40, 40, 40, 0) 89.89%
-            //     )`,
-            // }}
           >
             {number}
           </p>

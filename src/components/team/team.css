@@ -70,9 +70,7 @@
   filter: grayscale(100%);
   transition: filter 0.5s all;
 }
- .box :hover{
-  filter: grayscale(0%);
-}
+
 .box:hover {
   background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
 }

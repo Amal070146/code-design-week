@@ -19,17 +19,17 @@ const About = () => {
           </div>
           <div>
             <p>
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus.
+              Computer Science is not just coding, or programming. It is about
+              how we use such tools, and what we find out when we do. Its our
+              goal to find the designer within you. If you love design, you want
+              to pursue your career in design, CODe will help you build up your
+              DESIGN skills.
             </p>
           </div>
         </div>
         <div className="about-info">
           <div className="card">
-            <div className="card-front">
-            </div>
+            <div className="card-front"></div>
             <div className="card-back">
               <p>
                 CODe Design Week is a week completely dedicated to design,
@@ -48,8 +48,8 @@ const About = () => {
               <p>DESIGNING DAYS</p>
             </div>
             <div>
-              <h3>55</h3>
-              <p>COMPLETED PROJECTS</p>
+              <h3>10+</h3>
+              <p>SKILLED MENTORS</p>
             </div>
             <div>
               <h3>20+</h3>
