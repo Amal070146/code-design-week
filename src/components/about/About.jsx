@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.css";
 import strip from "../../assets/dual-color-strip.svg";
-import des from "../../assets/about-page-img.svg";
 
 const About = () => {
   return (
@@ -28,8 +27,20 @@ const About = () => {
           </div>
         </div>
         <div className="about-info">
-          <div>
-            <img src={des} alt="" />
+          <div className="card">
+            <div className="card-front">
+            </div>
+            <div className="card-back">
+              <p>
+                CODe Design Week is a week completely dedicated to design,
+                hosted by Community Of Developers (CODe), Department of Computer
+                Science & Engineering, Christ College of Engineering,
+                Irinjalakuda.The event will help you exploring the
+                possibilities, opportunities & finding the passion in design.
+                There will be workshops, talk sessions, expos, games and
+                quizzes.
+              </p>
+            </div>
           </div>
           <div className="about-info-data">
             <div>

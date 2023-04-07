@@ -37,7 +37,9 @@ const Eventsingle = ({ number, title, description1, image, description2 }) => {
             className="openpopup"
             onClick={openPopup}
             style={{
-              backgroundColor: openpopup ? "#fff" : "transparent",
+              background: openpopup
+                ? "linear-gradient(128.92deg, #8E0042 0%, #E30069 57.77%)"
+                : "transparent",
               rotate: openpopup ? "60deg" : "",
             }}
           >
