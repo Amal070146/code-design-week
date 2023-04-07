@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="about-wrapper">
-        <div>
+        <div className="about-wrapper-heads">
           <p className="text-color-main">
             ARE YOU <span className="text-color">PASSIONATE</span> ABOUT DESIGN?
             WE WILL <span className="text-color">RAISE YOU</span> UP

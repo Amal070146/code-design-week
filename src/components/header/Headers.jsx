@@ -19,21 +19,29 @@ const Header = () => {
             <div className="dots-image">
               <img src={dots} alt="" />
             </div>
-            <div>
-              <p className="font-style">CODE</p>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                marginBottom: "-20px",
+              }}
+            >
+              <div style={{ display: "flex", marginBottom: "-65px" }}>
+                <p className="font-style">CODE</p>
+                <div className="text-image-wrap">
+                  <div className="text-image">
+                    <img src={twinkle} alt="" />
+                    <img src={twinkle} alt="" />
+                  </div>
+                  <img className="play" src={play} alt="" />
+                </div>
+              </div>
               <div className="text-image-wrap">
-                <div className="text-image">
+                <p className="font-styles">DESIGN WEEK</p>
+                <div className="text-image sec-twin">
                   <img src={twinkle} alt="" />
                   <img src={twinkle} alt="" />
                 </div>
-                <img className="play" src={play} alt="" />
-              </div>
-            </div>
-            <div className="text-image-wrap">
-              <p className="font-styles">DESIGN WEEK</p>
-              <div className="text-image sec-twin">
-                <img src={twinkle} alt="" />
-                <img src={twinkle} alt="" />
               </div>
             </div>
           </div>

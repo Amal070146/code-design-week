@@ -31,10 +31,15 @@ const Contacts = () => {
             </div>
           </div>
           <div className="contact-social">
-            <a href="#header"><img src={cdw} alt="" /></a>
-            <a href=""><img src={insta} alt="" /></a>
+            <a href="#header">
+              <img src={cdw} alt="" />
+            </a>
+            <a href="">
+              <img src={insta} alt="" />
+            </a>
           </div>
         </div>
+        
       </div>
     </section>
   );

@@ -51,5 +51,32 @@
 .contact-email > div>p,
 .contact-phone > div>p{
 font-weight: 400;
-font-size: 29.7px;
+font-size: 1.2vw;
+  font-family: "NeueMachinaRegular";
+
+}
+.line-contact{
+  width: 100%;
+  height: 1px;
+  background-color: #8B8B8B;
+}
+.copy-right-wrapper{
+   padding: 25px auto 0px auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  color: white;
+  width: 80vw;
+  margin-bottom: 30px;
+  font-family: "NeueMachinaRegular";
+
+}
+.copy-right-contact{
+  display: flex;
+  color: #8B8B8B;
+  justify-content: space-between;
+}
+.copy-right-contact-right{
+  display: flex;
+  gap: 30px;
 }

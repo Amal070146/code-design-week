@@ -9,17 +9,19 @@
 
 .event-header {
   display: flex;
-  height: 100px;
+  height: 80px;
   margin: 0;
   right: 0;
   padding: 0px;
+  font-family: "NeueMachinaUltrabold";  
+
 }
 
 .transition-div {
   position: relative;
   right: 0;
   width: 60vw;
-  height: 100px;
+  height: 80px;
   animation: slide-in 5s forwards;
   gap: 10px;
 }
@@ -35,10 +37,10 @@
 
 .event-header > p {
   font-weight: 800;
-  font-size: 153.542px;
+  font-size: 140px;
   color: rgba(255, 255, 255, 0.5);
   padding: 0;
-  margin: -35px 10px 0px -50px;
+  margin: -40px 10px 0px 0px;
 }
 
 .events-content-wrapper {
@@ -65,6 +67,8 @@
   flex-direction: column;
   justify-content: center;
   padding: 0px 20px;
+  font-family: 'NeueMachinaUltrabold';
+
 }
 
 .number-event {
@@ -104,6 +108,8 @@
   justify-content: center;
   padding: 30px 60px;
   gap: 30px;
+  font-family: "NeueMachinaRegular";
+
 }
 .events-content-div-right > p {
   font-weight: 400;
@@ -136,6 +142,8 @@
   display: flex;
   border: 3px solid transparent;
   z-index: 9999;
+  font-family: "NeueMachinaRegular";
+
 }
 
 .form-container {

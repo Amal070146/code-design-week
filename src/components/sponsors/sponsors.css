@@ -91,11 +91,16 @@
 }
 
 .sponsors-text-one{
-  font-size: 4.7vw;
+  font-size: 4vw;
+  line-height: 0.9;
   width: 100%;
+  font-family: "NeueMachinaUltrabold";  
+
 }
 .sponsors-text-two{
-  font-size: 1.7vw;
+  font-size: 1.4vw;
+  font-family: "NeueMachinaRegular";
+
 }
 
 #arrow{
