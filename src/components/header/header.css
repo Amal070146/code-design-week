@@ -15,7 +15,7 @@
   font-size: 8vw;
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
   padding-top: 130px;
   font-family: "NeueMachinaUltrabold";
   width: fit-content;
@@ -61,7 +61,7 @@
   display: flex;
   color: white;
   gap: 30px;
-  font-family: 'NeueMachinaRegular';
+  font-family: "NeueMachinaRegular";
 }
 
 .loc-cal > div {
@@ -71,6 +71,7 @@
   align-items: center;
   padding: 10px 20px;
   gap: 10px;
+  width: fit-content;
 }
 
 .loc-cal > div > img {
@@ -108,10 +109,9 @@
 .heroOverlay > div > h1 {
   font-size: 6vw;
   margin-bottom: -20px;
-
 }
 
-.heroOverlay > div >span{
+.heroOverlay > div > span {
   font-size: 40px;
   margin-right: 100px;
 }
@@ -138,6 +138,7 @@
 /*name tag*/
 
 .nametag-wrapper {
+  margin-top: -70px;
   background-color: black;
 }
 .scroll-container {
@@ -163,4 +164,64 @@
   100% {
     transform: translateX(100%);
   }
+}
+
+@media screen and (max-width: 1337px) {
+  .play {
+    display: none;
+  }
+  .font-styles {
+    margin-top: 30px;
+  }
+  .text-image > img {
+    gap: 2vw;
+    padding: 0px 20px 0px;
+  }
+  .sec-twin {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .loc-cal {
+    flex-direction: column;
+  }
+  .font-styles {
+    margin-top: 50px;
+  }
+
+  .header-head>.dots-image {
+    display: none;
+  }
+  .image-button {
+  top: -30px;
+  right: 10%;
+}
+ .text-image > img {
+    gap: 1.5vw;
+    padding: 0px 15px 0px;
+    width: 70px;
+  }
+  .sec-twin {
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+.loc-cal>div>h3{
+  font-size: 14px;
+}
+.loc-cal {
+  gap: 15px;
+}
+}
+@media screen and (max-width: 500px){
+.text-image{
+  display: none;
+}
+.font-style,
+.font-styles{
+  font-size: 12vw;
+}
 }

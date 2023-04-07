@@ -16,7 +16,6 @@
   font-weight: 700;
   font-size: 22px;
   font-family: "NeueMachinaRegular";
-
 }
 
 .nav-links {
@@ -26,8 +25,26 @@
   padding-right: 60px;
 }
 
-.header-nav-img>a > img {
+.header-nav-img > a > img {
   width: 15vw;
   padding-left: 60px;
   margin: 0%;
+}
+.nav-menu-short {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-menu-short {
+    display: inline;
+    padding-right: 30px;
+  }
+  .header-nav-img > a > img {
+    width: 270px;
+  padding-left: 30px;
+
+  }
 }

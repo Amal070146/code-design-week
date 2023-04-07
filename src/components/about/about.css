@@ -5,16 +5,17 @@
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-  width: 90vw;
+  width: 92vw;
 }
 
-.about-wrapper-heads,.about-info-data{
-  font-family: 'NeueMachinaUltrabold';
+.about-wrapper-heads,
+.about-info-data {
+  font-family: "NeueMachinaUltrabold";
 }
 .text-color-main {
   color: white;
   font-weight: 800;
-  font-size: 4.9vw;
+  font-size: 5vw;
   line-height: 0.85;
 }
 
@@ -35,10 +36,9 @@
   width: 60vw;
   gap: 20px;
   margin: 50px;
-  font-family: "MoriGothic-Semibold";  
-  
+  font-family: "MoriGothic-Semibold";
 }
-.about-description>div>p{
+.about-description > div > p {
   line-height: 0.95;
   font-size: 1.31vw;
 }
@@ -47,13 +47,14 @@
   display: flex;
   color: white;
   /* align-items: center; */
-  gap: 20px;
+  gap: 10px;
   height: fit-content;
   justify-content: space-between;
+  width: 75vw;
+  height: fit-content;
 }
-.card-back{
-  font-family: 'NeueMachinaRegular';
-
+.card-back {
+  font-family: "NeueMachinaRegular";
 }
 
 /* .about-info > div > img {
@@ -64,35 +65,35 @@
   height: 32vw;
   width: 52vw;
   display: flex;
-  justify-content: left;
   align-items: start;
   perspective: 1000px; /* Set the perspective for 3D effects */
 }
 
 .card-front {
   background-image: url("../../assets/about-page-img.png");
-  width: 100%;
-  height: 100%;
+  height: 32vw;
+  width: 52vw;
+  background-size: contain;
   background-repeat: no-repeat;
-
   position: absolute;
-  backface-visibility: hidden; /* Hide the backface of the card */
-  transition: transform 0.6s ease-out; /* Add transition for smooth flipping */
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-out;
 }
 .card-back {
   background-image: url("../../assets/about-page-imgfl.png");
-  width: 100%;
-  height: 100%;
   display: flex;
+  height: 32vw;
+  width: 52vw;
+  background-size: contain;
+  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
-  background-repeat: no-repeat;
   position: absolute;
   backface-visibility: hidden; /* Hide the backface of the card */
   transition: transform 0.6s ease-out; /* Add transition for smooth flipping */
 }
 .card-back > p {
-  padding: 50px 150px 50px 100px;
+  padding: 20px 110px 20px 100px;
   font-weight: 400;
   font-size: 30px;
   text-align: justify;
@@ -127,6 +128,33 @@
 
 .about-info-data > div > p {
   font-weight: 800;
-  font-size: 37.3564px;
+  font-size: 2vw;
   margin: 0%;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-info {
+ flex-direction: column;
+ align-items: center;
+}
+  .card-back > p {
+    padding: 10px 50px 10px 40px;
+    font-size: 18px;
+  }
+  .about-info-data{
+    display: flex;
+    gap: 20px ;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .card-back > p {
+    padding: 5px 40px 5px 30px;
+    font-size: 10px;
+  }
+  .about-info-data{
+    flex-direction: column;
+    gap: 20px ;
+  }
 }

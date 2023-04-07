@@ -55,7 +55,7 @@ const Header = () => {
               <h3>22 - 28 MAY 2023</h3>
             </div>
           </div>
-          <div className="design-arrow" style={{ background: `url(${he})` }}>
+          <div className="design-arrow" style={{ background: `url(${he})`,backgroundRepeat:'no-repeat' }}>
             {enableoverlay && (
               <div className="heroOverlay">
                 <div>

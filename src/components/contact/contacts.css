@@ -82,3 +82,8 @@ font-size: 1.2vw;
   display: flex;
   gap: 30px;
 }
+@media screen and (max-width: 500px){
+.copy-right-contact-right{
+  display: none;
+}
+}
