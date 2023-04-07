@@ -24,6 +24,12 @@ body {
     url("./fonts/NeueMachina-Ultrabold.otf") format("truetype");
   font-weight: bolder;
 }
+@font-face {
+  font-family: "MoriGothic-Semibold";  
+  src: local("GoldmanBold"),
+    url("./fonts/MoriGothic-SemiBold.ttf") format("truetype");
+  font-weight: bolder;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

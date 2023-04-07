@@ -72,6 +72,8 @@ font-size: 1.2vw;
 
 }
 .copy-right-contact{
+  margin-top: 30px;
+
   display: flex;
   color: #8B8B8B;
   justify-content: space-between;

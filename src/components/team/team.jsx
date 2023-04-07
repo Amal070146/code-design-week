@@ -26,7 +26,8 @@ const team = () => {
             <img src={enric} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
+                <p className="name-team-member">Enric S Neelamkavil</p>{" "}
+                <p className="position-team-membere">President, CODe</p>
               </div>
             </div>
           </div>
@@ -34,7 +35,8 @@ const team = () => {
             <img src={amalcp} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Amal C P <br /> Lead
+                <p className="name-team-member">Amal C P</p>{" "}
+                <p className="position-team-membere">Lead Organizer</p>
               </div>
             </div>
           </div>
@@ -42,7 +44,8 @@ const team = () => {
             <img src={ajay} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-               Ajay Vishnu E <br /> Lead
+                <p className="name-team-member">Ajay Vishnu E</p>{" "}
+                <p className="position-team-membere">Event Head</p>
               </div>
             </div>
           </div>
@@ -50,7 +53,8 @@ const team = () => {
             <img src={noah} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Noah Johny <br /> Lead
+                <p className="name-team-member">Noah Johny</p>{" "}
+                <p className="position-team-membere">Graphic Designer</p>
               </div>
             </div>
           </div>
@@ -58,7 +62,8 @@ const team = () => {
             <img src={pranav} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Pranav Madhu <br /> Lead
+                <p className="name-team-member">Pranav Madhu</p>{" "}
+                <p className="position-team-membere">Technical Lead</p>
               </div>
             </div>
           </div>
@@ -66,7 +71,8 @@ const team = () => {
             <img src={enric} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
+                <p className="name-team-member">Amal C P</p>{" "}
+                <p className="position-team-membere"> Lead</p>
               </div>
             </div>
           </div>
@@ -74,7 +80,8 @@ const team = () => {
             <img src={enric} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
+                <p className="name-team-member">Amal C P</p>{" "}
+                <p className="position-team-membere"> Lead</p>
               </div>
             </div>
           </div>
@@ -82,7 +89,8 @@ const team = () => {
             <img src={varsha} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Varsha Babu Akkara <br /> Lead
+                <p className="name-team-member">Varsha Babu Akkara</p>{" "}
+                <p className="position-team-membere">Content Lead</p>
               </div>
             </div>
           </div>
@@ -90,7 +98,8 @@ const team = () => {
             <img src={enric} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                Enric S Neelamkavil <br /> Lead
+                <p className="name-team-member">Theresa T S</p>{" "}
+                <p className="position-team-membere">Outreach Lead</p>
               </div>
             </div>
           </div>

@@ -7,13 +7,14 @@
   padding: 15px 0px;
   background: rgba(0, 0, 0, 0.6);
   z-index: 9999;
+  height: 120px;
 }
 
 .nav-links > a {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  font-size: 25.1364px;
+  font-size: 22px;
   font-family: "NeueMachinaRegular";
 
 }
@@ -22,11 +23,11 @@
   display: flex;
   gap: 45px;
   margin: 0%;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 
 .header-nav-img>a > img {
-  width: 18vw;
-  padding-left: 30px;
+  width: 15vw;
+  padding-left: 60px;
   margin: 0%;
 }

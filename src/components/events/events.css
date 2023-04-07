@@ -59,6 +59,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 35px;
 }
 
 .events-content-div-left {
@@ -96,7 +97,7 @@
   color: transparent;
 }
 .events-content-div-left > .heading-events {
-  margin-top: -40px;
+  margin-top: -50px;
   font-weight: 800;
   font-size: 45px;
 }
@@ -115,6 +116,9 @@
   font-weight: 400;
   font-size: 26px;
   width: 70%;
+  color: #6c6969;
+  margin-top: 15px;
+
 }
 .events-content-div-right > button {
   width: 120px;
@@ -122,9 +126,10 @@
   border-radius: 50%;
   border: none;
   cursor: pointer;
+
 }
 
-.events-content-div-right > button > img {
+.arrow-event {
   width: 120px;
 }
 
@@ -133,7 +138,8 @@
   align-items: start;
   width: 95%;
   height: 2px;
-  background-color: #e4e4e4;
+  background-color: #6c6969;
+  margin-top: 100px;
 }
 
 /*popup*/

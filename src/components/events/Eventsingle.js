@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { arrow } from "../../assets";
+import arrow  from "../../assets/arrow-white.png";
 import "./events.css";
 const Eventsingle = ({ number, title, description1, image, description2 }) => {
   const [openpopup, setopenpopup] = useState(false);
@@ -31,10 +31,10 @@ const Eventsingle = ({ number, title, description1, image, description2 }) => {
               background: openpopup
                 ? "linear-gradient(128.92deg, #8E0042 0%, #E30069 57.77%)"
                 : "transparent",
-              rotate: openpopup ? "60deg" : "",
+              rotate: openpopup ? "90deg" : "",
             }}
           >
-            <img src={arrow} alt="" />
+            <img className="arrow-event" src={arrow} alt="" />
           </button>
         </div>
       </div>

@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-wrapper-heads">
           <p className="text-color-main">
             ARE YOU <span className="text-color">PASSIONATE</span> ABOUT DESIGN?
-            WE WILL <span className="text-color">RAISE YOU</span> UP
+            CODe WILL <span className="text-color">RAISE YOU</span> UP
             <span className="text-color">.</span>
           </p>
         </div>

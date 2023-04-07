@@ -40,7 +40,7 @@
   justify-content: center;
   align-items: center;
   margin: 0%;
-  margin-top: 40px;
+  margin-top: 140px;
   height: fit-content;
   gap: 30px;
 }
@@ -70,20 +70,20 @@
 
 .name-tag-team {
   position: absolute;
-  top: 95%;
-  /* bottom: 0%; */
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
+  bottom: -26%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
   pointer-events: none;
-  width: max-content;
   transition: opacity 0.4s ease;
-  background: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 47.91%);
   margin: 0%;
+  height: 50%;
   width: 100%;
-  padding: 10px;
-  border-radius: 50px 50px 0px 0px;
-  font-family: "NeueMachinaRegular";
+  font-family: "MoriGothic-Semibold";
 
 }
 
@@ -95,10 +95,17 @@
 .name-team {
   color: #ffffff;
   font-weight: 600;
-  font-size: 22px;
   text-align: center;
+  margin-bottom: 20px;
 }
+.name-team >.name-team-member{
+  font-size: 35px;
 
+}
+.position-team-member{
+  font-size: 22px;
+margin-top: -10px;
+}
 
 @media screen and (max-width: 767px) {
   .box {
@@ -115,7 +122,7 @@
 }
 
 .cd-team-wrapper{
-  margin-top: 40px;
+  margin-top: 100px;
   display: flex;
   color: white;
   align-items: first baseline;
@@ -127,7 +134,7 @@ margin: 0%;
 }
 
 .cd-left-team>.cd-left-team-one{
-  font-size: 5vw;
+  font-size: 4.9vw;
   margin: 0%;
   line-height: 0.9;
   font-family: "NeueMachinaUltrabold";  
@@ -137,12 +144,13 @@ margin: 0%;
 .cd-left-team>.cd-left-team-two{
   font-size: 1.5vw;
   margin: 0%;
+  margin-top: 20px;
   font-family: "NeueMachinaRegular";
 
 }
 .cd-right-team{
   display: flex;
-  width: 30%;
+  width: 25%;
   flex-wrap: wrap;
   justify-content: right;
   gap: 10px;
@@ -154,11 +162,22 @@ margin: 0%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   margin: 0%;
-  padding: 2px 25px;
+  padding: 7px 25px;
   border-radius: 80px;
   gap: 10px;
   width: fit-content;
   cursor: pointer;
+  font-family: "NeueMachinaUltrabold";  
+
+}
+
+.right-cd-div{
+  filter: opacity(0.5);
+
+}
+
+.right-cd-div:hover{
+    filter: opacity(1);
 }

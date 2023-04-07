@@ -6,7 +6,7 @@ import tinkerhub from "../../assets/tinkerhub.svg";
 import neurahire from "../../assets/neurahire.svg";
 import ggnation from "../../assets/ggnation.svg";
 import iedc from "../../assets/iedc.svg";
-import arrow from "../../assets/header-arrow-img.svg";
+import arrow from "../../assets/sponsors-arrow.svg";
 
 const sponsors = () => {
   return (

@@ -34,12 +34,11 @@ const Contacts = () => {
             <a href="#header">
               <img src={cdw} alt="" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/codedesignweek/">
               <img src={insta} alt="" />
             </a>
           </div>
         </div>
-        
       </div>
     </section>
   );

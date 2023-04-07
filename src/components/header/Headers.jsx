@@ -26,7 +26,7 @@ const Header = () => {
                 marginBottom: "-20px",
               }}
             >
-              <div style={{ display: "flex", marginBottom: "-65px" }}>
+              <div style={{ display: "flex", marginBottom: "-60px" ,gap:'2.5vw'}}>
                 <p className="font-style">CODE</p>
                 <div className="text-image-wrap">
                   <div className="text-image">
@@ -59,8 +59,12 @@ const Header = () => {
             {enableoverlay && (
               <div className="heroOverlay">
                 <div>
-                  <h1>DESIGNATHON</h1>
-                  <span>By CODe</span>
+                  <h1 style={{ fontFamily: "NeueMachinaUltrabold" }}>
+                    DESIGNATHON
+                  </h1>
+                  <span style={{ fontFamily: "NeueMachinaRegular" }}>
+                    By CODe
+                  </span>
                 </div>
               </div>
             )}
