@@ -8,6 +8,7 @@ import arrow from "../../assets/header-arrow-img.svg";
 import Nametag from "./namebar";
 import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
+import Marqueuecomponent from "./Marqueuecomponent";
 
 const header = () => {
   return (
@@ -54,7 +55,9 @@ const header = () => {
           </div>
         </div>
       </div>
-      <Nametag />
+      <Marqueuecomponent
+        content={`CODE DESIGN WEEK code design week CODE DESIGN WEEK code design week CODE DESIGN WEEK code design week CODE DESIGN WEEK code design week CODE DESIGN WEEK code design week CODE DESIGN WEEK code design week CODE DESIGN WEEK code design week CODE DESIGN WEEK code design week CODE DESIGN WEEK`}
+      />
     </section>
   );
 };

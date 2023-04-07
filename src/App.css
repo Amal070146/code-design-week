@@ -7,8 +7,6 @@
 
 .body-wrapper {
   background: #171717;
-  width: 100vw;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;

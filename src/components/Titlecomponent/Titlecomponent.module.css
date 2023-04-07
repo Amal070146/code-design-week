@@ -1,0 +1,7 @@
+.titlecomponentwrapper {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  gap: 10px;
+  background-color: red;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import "./events.css";
-import headEvent from "../../assets/events-head-img.svg";
 import { eventAdobe } from "../../assets";
 import Eventsingle from "./Eventsingle";
+import Titlecomponent from "../Titlecomponent/Titlecomponent";
 
 const Events = () => {
   const eventArray = [
@@ -111,10 +111,7 @@ const Events = () => {
   return (
     <section id="events">
       <div className="event-wrapper">
-        <div className="event-header transition-div">
-          <img src={headEvent} alt="" />
-          <p>EVENTS</p>
-        </div>
+        <Titlecomponent title="EVENTS"/>
         <div className="events-content-wrapper">
           {eventArray.map(
             ({ description1, description2, title, image, number }) => (
