@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 import play from "../../assets/header-play-img.svg";
 import loc from "../../assets/location-logo.svg";
@@ -9,11 +9,12 @@ import Nametag from "./namebar";
 import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
 
-const header = () => {
+const Header = () => {
+  const [enableoverlay, setEnableOverlay] = useState(false);
   return (
     <section id="header">
       <div className="header-wrapper">
-        <div>
+        <div style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
           <div className="header-head">
             <div className="dots-image">
               <img src={dots} alt="" />
@@ -46,11 +47,26 @@ const header = () => {
               <h3>22 - 28 MAY 2023</h3>
             </div>
           </div>
-          <div className="design-arrow">
-            <img className="design-arroid" src={he} alt="objects" />
-            <a className="image-button" href="#about">
-              <img className="" src={arrow} alt="" />
-            </a>
+          <div className="design-arrow" style={{ background: `url(${he})` }}>
+            {enableoverlay && (
+              <div className="heroOverlay">
+                <div>
+                  <h1>DESIGNATHON</h1>
+                  <span>By CODe</span>
+                </div>
+              </div>
+            )}
+            <button
+              className="image-button"
+              onClick={() => setEnableOverlay(!enableoverlay)}
+            >
+              <img
+                className=""
+                src={arrow}
+                alt=""
+                style={{ rotate: enableoverlay ? "180deg" : "" }}
+              />
+            </button>
           </div>
         </div>
       </div>
@@ -59,4 +75,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
