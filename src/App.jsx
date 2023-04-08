@@ -1,26 +1,24 @@
-import './App.css';
-import Navbar from './components/navbar/Navbar'
-import Headers from './components/header/Headers'
-import About from './components/about/About'
-import Events from './components/events/Events'
-import Team from './components/team/team'
-import Sponsors from './components/sponsors/sponsors'
-import Contacts from './components/contact/Contacts'
-import CopyRight from './components/copyright/CopyRight'
-
+import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Schedule from "./pages/Schedule/Schedule";
+import Events from "./pages/Events/Events";
 function App() {
-  return (
-    <div className='body-wrapper'>
-      <Navbar />
-      <Headers />
-      <About />
-      <Events />
-      <Team />
-      <Sponsors />
-      <Contacts />
-      <CopyRight />
-    </div>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/schedule",
+      element: <Schedule />,
+    },
+    {
+      path: "/events",
+      element: <Events />,
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
 
 export default App;
