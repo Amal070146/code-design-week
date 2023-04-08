@@ -2,6 +2,8 @@ import React,{useState} from "react";
 import "./about.css";
 import strip from "../../assets/dual-color-strip.svg";
 import arrow from '../../assets/about-arrow.png'
+import logo from "../../assets/cdw-logo.svg";
+
 
 const About = () => {
   const [rotatecard, setrotatecard] = useState(false);
@@ -37,9 +39,15 @@ const About = () => {
         <div className="about-info">
           <div className="card">
             <div
-              style={{ rotate: rotatecard ? "180deg" : "0deg" }}
-              className="card-front"
-            ></div>
+              // style={{ rotate: rotatecard ? "180deg" : "0deg" }}
+              className={
+                rotatecard
+                  ? "about-arrow-rotate-rev card-front"
+                  : "about-arrow-rotate-zero card-back"
+              }
+            >
+              <img className="cdw-logo-about" src={logo} alt="" />
+            </div>
             <div className="about-arrow" onClick={rotateCard}>
               <img
                 style={{ rotate: rotatecard ? "90deg" : "" }}
@@ -49,8 +57,12 @@ const About = () => {
             </div>
             {rotatecard && (
               <div
-                style={{ rotate: rotatecard ? "0deg" : "180deg" }}
-                className="card-back"
+                // style={{ rotate: rotatecard ? "0deg" : "180deg" }}
+                className={
+                  rotatecard
+                    ? "about-arrow-rotate-zero card-back "
+                    : "about-arrow-rotate-rev card-front"
+                }
               >
                 <p>
                   CODe Design Week is a week completely dedicated to design,

@@ -12,6 +12,9 @@
 .about-info-data {
   font-family: "NeueMachinaUltrabold";
 }
+.about-wrapper-heads {
+  width: 76vw;
+}
 .text-color-main {
   color: white;
   font-weight: 800;
@@ -79,12 +82,12 @@
   backface-visibility: hidden;
   transition: transform 0.6s ease-out;
 }
-.about-arrow{
+.about-arrow {
   position: absolute;
   z-index: 9988;
   margin-bottom: 100px;
 }
-.about-arrow>img{
+.about-arrow > img {
   width: 9.6vw;
   height: 9.6vw;
   margin-bottom: -35.2vw;
@@ -100,8 +103,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  backface-visibility: hidden; /* Hide the backface of the card */
-  transition: transform 0.6s ease-out; /* Add transition for smooth flipping */
+  /* backface-visibility: hidden; */
+  transition: transform 0.6s ease-in;
 }
 .card-back > p {
   padding: 20px 110px 20px 100px;
@@ -110,25 +113,16 @@
   text-align: justify;
 }
 
-/* .card-front {
-  transform: rotateY(0deg); 
+.about-arrow-rotate-zero {
+  transform: rotateY(0deg);
 }
-
-.card-back {
+.about-arrow-rotate-rev {
   transform: rotateY(180deg);
 }
 
-.card:hover .card-front {
-  transform: rotateY(180deg); 
-}
-
-.card:hover .card-back {
-  transform: rotateY(0deg);
-} */
-
 .about-info-data > div > h3 {
   font-weight: 800;
-  font-size: 87px;
+  font-size: 4.8vw;
   -webkit-background-clip: text;
   background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
   -webkit-background-clip: text;
@@ -142,30 +136,143 @@
   font-size: 2vw;
   margin: 0%;
 }
-
+@media screen and (max-width: 1400px) {
+  .card-back > p {
+    padding: 10px 50px 10px 40px;
+    font-size: 22px;
+  }
+  .about-wrapper-heads {
+    width: 74vw;
+    margin-top: -40px;
+  }
+  .text-color-main {
+    font-size: 4.9vw;
+    display: inline;
+  }
+}
 @media screen and (max-width: 1000px) {
   .about-info {
- flex-direction: column;
- align-items: center;
-}
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
   .card-back > p {
     padding: 10px 50px 10px 40px;
     font-size: 18px;
   }
-  .about-info-data{
+  .about-info-data {
     display: flex;
-    gap: 20px ;
+    gap: 20px;
+  }
+  .about-info-data > div > p {
+    font-size: 2.2vw;
+  }
+
+  .about-description > div > img {
+    height: 6vw;
+  }
+
+  .about-description {
+    width: 65vw;
+    margin: 50px;
+    margin-top: 20px;
+  }
+  .about-description > div > p {
+    line-height: 0.96;
+    font-size: 1.51vw;
+  }
+}
+@media screen and (max-width: 880px) {
+  .about-info {
+    gap: 80px;
+  }
+  .card-back {
+    height: 38vw;
+    width: 58vw;
+  }
+  .card-back > p {
+    padding: 0px 40px 20px 40px;
+    font-size: 14px;
+  }
+  .about-arrow > img {
+    width: 8.5vw;
+    height: 8.5vw;
+    margin-bottom: -39vw;
+    margin-left: 40vw;
+  }
+  .about-wrapper-heads {
+    width: 77vw;
+    margin-top: -60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cdw-logo-about {
+    width: 45vw;
+  }
+  .about-description > div > img {
+    height: 7.5vw;
+  }
+
+  .about-description {
+    width: 68vw;
+    margin-bottom: 25px;
+  }
+  .about-description > div > p {
+    line-height: 0.97;
+    font-size: 1.91vw;
+  }
+  .about-info-data > div >h3{
+    font-size: 7vw;
+  }
+   .about-info-data > div > p{
+    font-size: 2.2vw;
+   }
+}
+@media screen and (max-width: 600px) {
+  .card-back > p {
+    padding: 0px 30px 10px 30px;
+    font-size: 12px;
+  }
+  .card-back {
+    height: 40vw;
+    width: 60vw;
   }
 }
 
 @media screen and (max-width: 480px) {
-
   .card-back > p {
-    padding: 5px 40px 5px 30px;
+    padding: 0px 10px 5px 10px;
     font-size: 10px;
   }
-  .about-info-data{
+  .about-info {
+    gap: 40px;
+  }
+  .about-info-data {
     flex-direction: column;
-    gap: 20px ;
+    gap: 10px;
+  }
+  .about-info-data > div >h3{
+    font-size: 10vw;
+  }
+   .about-info-data > div > p{
+    font-size: 4vw;
+   }
+  .about-wrapper-heads {
+    width: 80vw;
+    margin-top: -60px;
+  }
+  .about-description > div > img {
+    height: 12vw;
+  }
+
+  .about-description {
+    width: 72vw;
+    margin-bottom: 25px;
+  }
+  .about-description > div > p {
+    line-height: 1;
+    font-size: 2.3vw;
   }
 }

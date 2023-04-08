@@ -83,6 +83,21 @@ font-size: 1.2vw;
   gap: 30px;
 }
 @media screen and (max-width: 500px){
+  .contact-social>a>img{
+    height: 12vw;
+  }
+  .contact-content-wrapper{
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 0px;
+  }
+  .copy-right-contact{
+    margin-top: 10px;
+    margin-bottom: -12px;
+  }
+  .copy-right-contact>div>p{
+    font-size: 2.3vw;
+  }
 .copy-right-contact-right{
   display: none;
 }
