@@ -110,8 +110,9 @@ const Events = () => {
           <p>EVENTS</p>
         </div>
         <div className="events-content-wrapper">
-          {eventArray.map(
-            ({ description1, description2, title, image, number }) => (
+          {eventArray
+            .slice(0, 3)
+            .map(({ description1, description2, title, image, number }, i) => (
               <Eventsingle
                 description1={description1}
                 description2={description2}
@@ -119,8 +120,7 @@ const Events = () => {
                 number={number}
                 title={title}
               />
-            )
-          )}
+            ))}
         </div>
       </div>
     </section>
