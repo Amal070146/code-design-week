@@ -79,6 +79,17 @@
   backface-visibility: hidden;
   transition: transform 0.6s ease-out;
 }
+.about-arrow{
+  position: absolute;
+  z-index: 9988;
+  margin-bottom: 100px;
+}
+.about-arrow>img{
+  width: 9.6vw;
+  height: 9.6vw;
+  margin-bottom: -35.2vw;
+  margin-left: 37vw;
+}
 .card-back {
   background-image: url("../../assets/about-page-imgfl.png");
   display: flex;
@@ -99,8 +110,8 @@
   text-align: justify;
 }
 
-.card-front {
-  transform: rotateY(0deg); /* Set the initial state of the card */
+/* .card-front {
+  transform: rotateY(0deg); 
 }
 
 .card-back {
@@ -108,12 +119,12 @@
 }
 
 .card:hover .card-front {
-  transform: rotateY(180deg); /* Flip the card on hover */
+  transform: rotateY(180deg); 
 }
 
 .card:hover .card-back {
   transform: rotateY(0deg);
-}
+} */
 
 .about-info-data > div > h3 {
   font-weight: 800;
