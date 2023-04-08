@@ -136,6 +136,10 @@
   font-size: 2vw;
   margin: 0%;
 }
+
+.cdw-logo-about {
+    width: 45vw;
+  }
 @media screen and (max-width: 1400px) {
   .card-back > p {
     padding: 10px 50px 10px 40px;

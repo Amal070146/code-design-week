@@ -48,20 +48,19 @@
 .contact-phone > img {
   height: 35px;
 }
-.contact-email > div>p,
-.contact-phone > div>p{
-font-weight: 400;
-font-size: 1.2vw;
+.contact-email > div > p,
+.contact-phone > div > p {
+  font-weight: 400;
+  font-size: 1.2vw;
   font-family: "NeueMachinaRegular";
-
 }
-.line-contact{
+.line-contact {
   width: 100%;
   height: 1px;
-  background-color: #8B8B8B;
+  background-color: #8b8b8b;
 }
-.copy-right-wrapper{
-   padding: 25px auto 0px auto;
+.copy-right-wrapper {
+  padding: 25px auto 0px auto;
   align-items: center;
   justify-content: center;
   margin: 0%;
@@ -69,36 +68,56 @@ font-size: 1.2vw;
   width: 80vw;
   margin-bottom: 30px;
   font-family: "NeueMachinaRegular";
-
 }
-.copy-right-contact{
+.copy-right-contact {
   margin-top: 30px;
 
   display: flex;
-  color: #8B8B8B;
+  color: #8b8b8b;
   justify-content: space-between;
 }
-.copy-right-contact-right{
+.copy-right-contact-right {
   display: flex;
   gap: 30px;
 }
-@media screen and (max-width: 500px){
-  .contact-social>a>img{
+@media screen and (max-width: 1300px) {
+  .contact-social > a > img {
+    height: 5vw;
+  }
+  .contact-content-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .copy-right-contact > div > p {
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-social > a > img {
     height: 12vw;
   }
-  .contact-content-wrapper{
+  .contact-content-wrapper {
     flex-direction: column;
     gap: 20px;
     margin-bottom: 0px;
   }
-  .copy-right-contact{
+  .contact-email,
+  .contact-phone {
+    width: 400px;
+  }
+  .contact-content-wrapper > div > div > p {
+    font-size: 13px;
+    width: fit-content;
+  }
+  .copy-right-contact {
     margin-top: 10px;
     margin-bottom: -12px;
   }
-  .copy-right-contact>div>p{
+  .copy-right-contact > div > p {
     font-size: 2.3vw;
   }
-.copy-right-contact-right{
-  display: none;
-}
+  .copy-right-contact-right {
+    display: none;
+  }
 }
