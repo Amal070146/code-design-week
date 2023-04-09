@@ -106,18 +106,24 @@
 
 @media screen and (max-width: 767px) {
   .box {
-    width: 500px;
+    width: calc(100% / 3);
     height: calc(100% / 3);
+  }
+  .name-team > .name-team-member {
+    font-size: 21px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .box {
-    width: 500px;
+    width: calc(100% / 3);
     height: 100%;
   }
   .name-team > .name-team-member {
-    font-size: 30px;
+    font-size: 16px;
+  }
+  .name-team > .position-team-membere {
+    font-size: 13px;
   }
 }
 

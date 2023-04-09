@@ -2,8 +2,8 @@ import React from "react";
 import "./Events.css";
 import headEvent from "../../assets/team-head-img.svg";
 import { eventAdobe } from "../../assets";
-import Eventsingle from "../../components/events/Eventsingle";
-import Navbar from '../../components/navbar/Navbar'
+import Eventsingles from "./Eventsingles";
+import Navbar from "../../components/navbar/Navbar";
 
 const event = () => {
   const eventArray = [
@@ -114,7 +114,7 @@ const event = () => {
         <div className="events-content-wrapper">
           {eventArray.map(
             ({ description1, description2, title, image, number }, i) => (
-              <Eventsingle
+              <Eventsingles
                 description1={description1}
                 description2={description2}
                 image={image}

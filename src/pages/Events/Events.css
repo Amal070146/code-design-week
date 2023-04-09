@@ -1,6 +1,7 @@
 .events-wrapper {
-margin-top: 150px;
-  padding: 25px 100px 0px 100px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding: 25px 80px 0px 80px;
   align-items: center;
   justify-content: center;
   background: #171717;
@@ -10,18 +11,17 @@ margin-top: 150px;
 
 .events-header {
   display: flex;
-  height: 80px;
   margin: 0;
   right: 0;
   padding: 0px;
   font-family: "NeueMachinaUltrabold";
+  align-items: center;
 }
 
 .transition-div-e {
   position: relative;
   right: 0;
   width: 60vw;
-  height: 80px;
   animation: slide-in-e 5s forwards;
   gap: 10px;
 }
@@ -36,8 +36,8 @@ margin-top: 150px;
 }
 
 .events-header > img {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
 }
 
 .events-header > p {
@@ -45,7 +45,7 @@ margin-top: 150px;
   font-size: 140px;
   color: rgba(255, 255, 255, 0.5);
   padding: 0;
-  margin: -40px 10px 0px 0px;
+  margin: 0px 10px 0px 0px;
 }
 
 .events-content-wrapper {
@@ -58,132 +58,86 @@ margin-top: 150px;
   padding: 20px 40px;
   gap: 20px;
 }
-
-.events-content-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.events-content-routed {
+  height: fit-content;
   width: 100%;
-  margin-top: 35px;
-}
-
-.events-content-div-left {
-  width: 40%;
+  background-color: blue;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 0px 20px;
-  font-family: "NeueMachinaUltrabold";
+  align-items: center;
+  justify-content: space-between;
 }
-
-.number-event {
-  font-weight: 800;
-  font-size: 150px;
-  background: linear-gradient(
-    180deg,
-    #626262 27.36%,
-    rgba(40, 40, 40, 0) 89.89%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-}
-.number-event-active {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 117, 181, 0.5) 27.36%,
-    rgba(237, 68, 146, 0) 89.89%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-}
-.events-content-div-left > .heading-events {
-  margin-top: -50px;
-  font-weight: 800;
-  font-size: 45px;
-}
-
-.events-content-div-right {
+.events-content-routed > button {
+  width: 400px;
   display: flex;
-  width: 70%;
+}
+.events-content-routed > .events-button-one {
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
   align-items: center;
   justify-content: center;
-  padding: 30px 60px;
-  gap: 30px;
-  font-family: "NeueMachinaRegular";
 }
-.events-content-div-right > p {
-  font-weight: 400;
-  font-size: 26px;
-  width: 70%;
-  color: #6c6969;
-  margin-top: 15px;
-}
-.events-content-div-right > button {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-}
-
-.arrow-event {
-  width: 120px;
-}
-
-.line-event {
+.events-content-routed > div {
   display: flex;
-  align-items: start;
-  width: 95%;
-  height: 2px;
-  background-color: #6c6969;
-  margin-top: 100px;
 }
 
-/*popup*/
-
-.form-popup {
+.events-content-routed > .events-button-two {
   display: flex;
-  border: 3px solid transparent;
-  z-index: 9999;
-  font-family: "NeueMachinaRegular";
-}
-
-.form-container {
-  display: flex;
-  padding: 10px 60px 10px 30px;
+  align-self: flex-start;
+  justify-self: flex-start;
   align-items: center;
-  width: 80%;
-}
-.form-container > img {
-  width: 300px;
-  height: auto;
-}
-.form-container > div > p {
-  font-weight: 400;
-  font-size: 33px;
+  justify-content: center;
 }
 
-.form-container .btn {
-  color: rgb(255, 255, 255);
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
+.events-card {
+  width: 90%;
+  height: 300px;
+  perspective: 1500px;
+  position: relative;
+}
+
+.events-card-front {
   width: 100%;
-  background: transparent;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.6s 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.events-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.6s 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.form-container .btn:hover,
-.open-button:hover {
-  opacity: 1;
+.events-card-front {
+  transform: rotateY(0deg);
 }
+
+.events-card-back {
+  transform: rotateY(180deg);
+}
+
+.events-card:hover .events-card-front {
+  transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+.events-card:hover .events-card-back {
+  transform: rotateY(0deg);
+}
+
 @media screen and (max-width: 1650px) {
   .events-header > p {
     font-size: 130px;
-    margin: -40px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
   }
   .events-header > img {
     width: 100px;
@@ -197,12 +151,15 @@ margin-top: 150px;
       transform: translateX(0%);
     }
   }
+  .events-wrapper {
+    padding: 20px 72px 0px 72px;
+  }
 }
 
 @media screen and (max-width: 1400px) {
   .events-header > p {
     font-size: 120px;
-    margin: -40px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
   }
   .events-header > img {
     width: 100px;
@@ -216,12 +173,15 @@ margin-top: 150px;
       transform: translateX(0%);
     }
   }
+  .events-wrapper {
+    padding: 30px 70px 0px 70px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .events-header > p {
     font-size: 110px;
-    margin: -35px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
   }
   .events-header > img {
     width: 80px;
@@ -253,7 +213,7 @@ margin-top: 150px;
 @media screen and (max-width: 800px) {
   .events-header > p {
     font-size: 80px;
-    margin: -25px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
   }
   .events-header > img {
     width: 60px;
@@ -270,12 +230,15 @@ margin-top: 150px;
       transform: translateX(0%);
     }
   }
+  .events-wrapper {
+    padding: 10px 60px 0px 60px;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .events-header > p {
     font-size: 55px;
-    margin: -15px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
   }
   .events-header > img {
     width: 40px;
@@ -283,6 +246,9 @@ margin-top: 150px;
   }
   .transition-div-e {
     width: 90vw;
+  }
+  .events-wrapper {
+    padding: 0px 40px 0px 40px;
   }
   @keyframes slide-in-e {
     0% {

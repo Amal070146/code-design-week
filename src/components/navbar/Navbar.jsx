@@ -6,7 +6,7 @@ import menu from "../../assets/menu-logo.png";
 const Nav = () => {
   const [openmenu, setopenmenu] = useState(false);
   function openMenu() {
-    setopenmenu(true);
+    setopenmenu(!openmenu);
   }
   function closeMenu() {
     setopenmenu(false);
@@ -40,7 +40,7 @@ const Nav = () => {
               <a href="/#sponsors">SPONSORS</a>
               <a href="/#contacts">CONTACT</a>
             </div>
-            <button onClick={closeMenu}>X</button>
+            <button onClick={closeMenu}>(X)</button>
           </div>
         )}
       </div>
