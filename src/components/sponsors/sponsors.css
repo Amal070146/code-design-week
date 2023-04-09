@@ -32,7 +32,7 @@
   }
 }
 
-.sponsors-logo-wrapper{
+.sponsors-logo-wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -42,70 +42,128 @@
 
 .line {
   height: 2px;
-  background-color: #ED4492;
+  background-color: #ed4492;
 }
-.l-one{
+.l-one {
   width: 70%;
 }
-.l-two{
+.l-two {
   width: 50%;
-
 }
-.l-three{
+.l-three {
   width: 30%;
-
 }
 
-.div-sponsors-tire{
+.div-sponsors-tire {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.twinkle-sponsors{
+.twinkle-sponsors {
   display: flex;
   justify-content: right;
 }
 
-.company-sponsors-div{
+.company-sponsors-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
 }
 
-.company-sponsors-div>img{
+.company-sponsors-div > img {
   width: 17vw;
   height: 6vw;
 }
 
-.sponsors-text-div-wrapper{
+.sponsors-text-div-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: start;
   margin-top: 100px;
 }
 
-.sponsors-text-div{
+.sponsors-text-div {
   width: 85%;
 }
 
-.sponsors-text-one{
+.sponsors-text-one {
   font-size: 4vw;
   line-height: 0.9;
   width: 100%;
-  font-family: "NeueMachinaUltrabold";  
-
+  font-family: "NeueMachinaUltrabold";
 }
-.sponsors-text-two{
+.sponsors-text-two {
   margin-top: 20px;
   font-size: 1.4vw;
   font-family: "NeueMachinaRegular";
-
 }
 
-#arrow{
+#arrow {
   fill: aqua;
   transform: rotate(0deg);
   width: 130px;
+}
+
+@media screen and (max-width: 1650px) {
+  @keyframes slide-in-s {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(40%);
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  @keyframes slide-in-s {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(30%);
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  @keyframes slide-in-s {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(20%);
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  @keyframes slide-in-s {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .sponsors-wrapper>.event-wrapper>.event-header{
+    margin: 0%;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .sponsors-logo-wrapper{
+    margin-top: 10px;
+  }
+.sponsors-wrapper>.event-wrapper>.event-header>p{
+font-size: 50px;
+}
+.sponsors-wrapper>.event-wrapper>.event-header>img{
+  width: 40px;
+  height: 40px;
+}
 }

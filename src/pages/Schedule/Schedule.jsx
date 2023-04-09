@@ -122,7 +122,6 @@ const Schedule = () => {
           </div>
         </div>
       </div>
-      <Contacts />
       <CopyRight />
     </section>
   );

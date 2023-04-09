@@ -77,15 +77,15 @@
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 500px) {
   .schedule-wrapper {
-    margin-top: 70px;
+    margin: 70px 0px;
     padding: 25px 10px 0px 30px;
   }
   .schedule-content-wrapper {
     display: flex;
     flex-direction: column;
-    margin: -20px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
   }
   .schedule-content-div > h1 {
     font-size: 8vw;

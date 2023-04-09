@@ -1,9 +1,10 @@
 import React from "react";
 import "./events.css";
 import headEvent from "../../assets/events-head-img.svg";
-import { eventAdobe } from "../../assets";
+import eventAdobe from "../../assets/Events-image/adobe-logo.png";
 import Eventsingle from "./Eventsingle";
-
+import graphica from '../../assets/Events-image/GRAPHICA Logo.png'
+import Designathon from '../../assets/Events-image/designaton-logo.png'
 const Events = () => {
   const eventArray = [
     {
@@ -15,90 +16,19 @@ const Events = () => {
     },
     {
       number: `02`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
+      title: "GRAPHICA",
+      image: graphica,
+      description1: `Graphica opens you the wider possibilities of Graphic Design & UI/UX Designing using Canva, Adobe Photoshop & Figma.`,
       description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
     balaah. (1 logo + korch text) font size ithrem venam ith pole
     enthelum okke thatti vitta mathi ivde. aa event description pole.`,
     },
     {
       number: `03`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      number: `04`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      number: `05`,
       title: "DESIGNATHON.",
-      image: eventAdobe,
+      image: Designathon,
       description1: `DESIGNATHON by CODe is the flagship event of the CODe Design Week 2023, which is a national event conducted on May 27 & 28.`,
       description2: `Designathon, or design-hackathon, is an event where you're asked to design a solution for a given problem within the given 24hrs. No coding is involved.`,
-    },
-    {
-      number: `06`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      number: `07`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      number: `08`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      number: `09`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      number: `10`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design
-    softwares such as Ps, Ai, Id, Xd, Pr, Ae etc.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
     },
   ];
 

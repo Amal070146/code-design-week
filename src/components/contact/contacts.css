@@ -29,11 +29,13 @@
 .contact-content-wrapper {
   display: flex;
   margin: 0%;
-  width: 100%;
+  width: 85%;
   padding: 30px;
   margin-top: 70px;
   justify-content: space-between;
   margin-bottom: 30px;
+  color: white;
+  align-items: center;
 }
 
 .contact-email,
@@ -109,18 +111,29 @@
   .contacts-wrapper{
     margin-top: -50px;
   }
+
+    .contact-social{
+      display: flex;
+      justify-content: center;
+    }
   .contact-social > a > img {
-    height: 12vw;
+    padding: 0%;
+    margin: 0%;
+    height: 9vw;
   }
   .contact-content-wrapper {
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     margin-bottom: 0px;
     margin-top: -40px;
   }
   .contact-email,
   .contact-phone {
     width: 400px;
+    padding: 0px auto;
+    display: flex;
+      justify-content: center;
+
   }
   .contact-content-wrapper > div > div > p {
     font-size: 13px;
