@@ -4,7 +4,7 @@ import play from "../../assets/header-play-img.svg";
 import loc from "../../assets/location-logo.svg";
 import cal from "../../assets/calender-logo.svg";
 import he from "../../assets/header-image.svg";
-import arrow from "../../assets/header-arrow-img.svg";
+import arrow from "../../assets/apply-devfolio.png";
 import Nametag from "./namebar";
 import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
@@ -19,14 +19,14 @@ const Header = () => {
             <div className="dots-image">
               <img src={dots} alt="" />
             </div>
-            <div
+            <div className="code-design-week-heading"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 marginBottom: "-20px",
               }}
             >
-              <div style={{ display: "flex", marginBottom: "-60px" ,gap:'2.5vw'}}>
+              <div style={{ display: "flex", marginBottom: "-60px" ,gap:'2.5vw',alignItems:'center'}}>
                 <p className="font-style">CODE</p>
                 <div className="text-image-wrap">
                   <div className="text-image">

@@ -4,6 +4,8 @@ import headEvent from "../../assets/team-head-img.svg";
 import eventAdobe from "../../assets/Events-image/event-1.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
+import CopyRight from "../../components/copyright/CopyRight";
+
 
 const event = () => {
   const eventArray = [
@@ -118,6 +120,7 @@ const event = () => {
           )}
         </div>
       </div>
+      <CopyRight />
     </section>
   );
 };

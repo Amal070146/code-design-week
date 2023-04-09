@@ -1,7 +1,6 @@
 import Navbar from "../../components/navbar/Navbar";
 import headEvent from "../../assets/team-head-img.svg";
 import "./schedule.css";
-import Contacts from "../../components/contact/Contacts";
 import CopyRight from "../../components/copyright/CopyRight";
 
 const Schedule = () => {
