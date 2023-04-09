@@ -181,49 +181,49 @@ margin-top: 150px;
   opacity: 1;
 }
 @media screen and (max-width: 1650px) {
-  .event-header > p {
+  .events-header > p {
     font-size: 130px;
     margin: -40px 10px 0px 0px;
   }
-  .event-header > img {
+  .events-header > img {
     width: 100px;
     height: 95px;
   }
   @keyframes slide-in-e {
     0% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     100% {
-      transform: translateX(62%);
+      transform: translateX(0%);
     }
   }
 }
 
 @media screen and (max-width: 1400px) {
-  .event-header > p {
+  .events-header > p {
     font-size: 120px;
     margin: -40px 10px 0px 0px;
   }
-  .event-header > img {
+  .events-header > img {
     width: 100px;
     height: 85px;
   }
   @keyframes slide-in-e {
     0% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     100% {
-      transform: translateX(55%);
+      transform: translateX(0%);
     }
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .event-header > p {
+  .events-header > p {
     font-size: 110px;
     margin: -35px 10px 0px 0px;
   }
-  .event-header > img {
+  .events-header > img {
     width: 80px;
     height: 80px;
   }
@@ -232,10 +232,10 @@ margin-top: 150px;
   }
   @keyframes slide-in-e {
     0% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     100% {
-      transform: translateX(40%);
+      transform: translateX(0%);
     }
   }
 }
@@ -243,19 +243,19 @@ margin-top: 150px;
 @media screen and (max-width: 1000px) {
   @keyframes slide-in-e {
     0% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     100% {
-      transform: translateX(25%);
+      transform: translateX(0%);
     }
   }
 }
 @media screen and (max-width: 800px) {
-  .event-header > p {
+  .events-header > p {
     font-size: 80px;
     margin: -25px 10px 0px 0px;
   }
-  .event-header > img {
+  .events-header > img {
     width: 60px;
     height: 60px;
   }
@@ -264,20 +264,20 @@ margin-top: 150px;
   }
   @keyframes slide-in-e {
     0% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     100% {
-      transform: translateX(25%);
+      transform: translateX(0%);
     }
   }
 }
 
 @media screen and (max-width: 500px) {
-  .event-header > p {
+  .events-header > p {
     font-size: 55px;
     margin: -15px 10px 0px 0px;
   }
-  .event-header > img {
+  .events-header > img {
     width: 40px;
     height: 50px;
   }
@@ -286,10 +286,10 @@ margin-top: 150px;
   }
   @keyframes slide-in-e {
     0% {
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     100% {
-      transform: translateX(15%);
+      transform: translateX(0%);
     }
   }
 }
