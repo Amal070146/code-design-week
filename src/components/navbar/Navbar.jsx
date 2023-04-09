@@ -15,16 +15,16 @@ const Nav = () => {
     <>
       <div className="nav-bar-wrapper navbar">
         <div className="header-nav-img">
-          <a href="#header">
+          <a href="/">
             <img src={logo} alt="" />
           </a>
         </div>
         <div className="nav-links">
-          <a href="#about">ABOUT US</a>
-          <a href="#events">EVENTS</a>
-          <a href="#team">OUR TEAM</a>
-          <a href="#sponsors">SPONSORS</a>
-          <a href="#contacts">CONTACT</a>
+          <a href="/#about">ABOUT US</a>
+          <a href="/events">EVENTS</a>
+          <a href="/schedule">SCHEDULE</a>
+          <a href="/#sponsors">SPONSORS</a>
+          <a href="/#contacts">CONTACT</a>
         </div>
         <div className="nav-menu-short">
           <button onClick={openMenu}>
@@ -34,11 +34,11 @@ const Nav = () => {
         {openmenu && (
           <div className="menu-div">
             <div className="nav-links-menu">
-              <a href="#about">ABOUT US</a>
-              <a href="#events">EVENTS</a>
-              <a href="#team">OUR TEAM</a>
-              <a href="#sponsors">SPONSORS</a>
-              <a href="#contacts">CONTACT</a>
+              <a href="/#about">ABOUT US</a>
+              <a href="/events">EVENTS</a>
+              <a href="/schedule">SCHEDULE</a>
+              <a href="/#sponsors">SPONSORS</a>
+              <a href="/#contacts">CONTACT</a>
             </div>
             <button onClick={closeMenu}>X</button>
           </div>
