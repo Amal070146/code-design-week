@@ -28,8 +28,12 @@ const sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
             <div className="company-sponsors-div">
-              <img src={devfolio} alt="" />
-              <img src={polygon} alt="" />
+              <a href="https://devfolio.co/">
+                <img src={devfolio} alt="DEVFOLIO LOGO" />
+              </a>
+              <a href="https://polygon.technology/">
+                <img src={polygon} alt="POLYGON LOGO" />
+              </a>
             </div>
             <div className="line l-one"></div>
           </div>
@@ -39,9 +43,15 @@ const sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
             <div className="company-sponsors-div">
-              <img src={replict} alt="" />
-              <img src={solana} alt="" />
-              <img src={filecoin} alt="" />
+              <a href="https://replit.com">
+                <img src={replict} alt="REPLIT LOGO" />
+              </a>
+              <a href="https://solana.com">
+                <img src={solana} alt="SOLANA LOGO" />
+              </a>
+              <a href="https://filecoin.io">
+                <img src={filecoin} alt="FILECOIN LOGO" />
+              </a>
             </div>
             <div className="line l-two"></div>
           </div>
@@ -50,7 +60,9 @@ const sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
             <div className="company-sponsors-div">
-              <img src={tinkerhub} alt="" />
+              <a href="https://www.tinkerhub.org/">
+                <img src={tinkerhub} alt="TinkerHub" />
+              </a>
             </div>
             <div className="line l-three"></div>
           </div>
@@ -68,12 +80,7 @@ const sponsors = () => {
           </div>
           <div className="arrow-sponsor">
             <a href="#contact">
-              
-                <img 
-                  src={arrow}
-                  alt=""
-                />
-              
+              <img src={arrow} alt="" />
             </a>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
 import designtocode from '../../assets/Events-image/designtocode.png'
-
+import findthedesign from '../../assets/Events-image/findthedesign.png'
 const event = () => {
   const eventArray = [
     {
@@ -27,7 +27,7 @@ const event = () => {
       forms: `http://bit.ly/cdwfindthedesign`,
       title: "FIND THE DESIGN",
       date: "23 MAY | 03:00 PM",
-      image: eventAdobe,
+      image: findthedesign,
       description: ` You will be provided a set of folders with numerous posters. Find the displayed poster accurately in 3 minutes. The fastest one to find the poster within the time limit will be recognized as the winner.`,
     },
     {

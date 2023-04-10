@@ -73,8 +73,9 @@
   gap: 5%;
 }
 
-.company-sponsors-div > img {
+.company-sponsors-div >a > img {
   width: 18vw;
+  cursor: pointer;
 }
 
 .sponsors-text-div-wrapper {
