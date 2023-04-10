@@ -2,10 +2,12 @@ import React from "react";
 import "./sponsors.css";
 import headEvent from "../../assets/events-head-img.svg";
 import twinkle from "../../assets/twinkle-star.svg";
-import tinkerhub from "../../assets/tinkerhub.svg";
-import neurahire from "../../assets/neurahire.svg";
-import ggnation from "../../assets/ggnation.svg";
-import iedc from "../../assets/iedc.svg";
+import tinkerhub from "../../assets/sponsors/tinkerhub.png";
+import solana from "../../assets/sponsors/Solana.png";
+import filecoin from "../../assets/sponsors/filecoin.png";
+import devfolio from "../../assets/sponsors/devfolio.png";
+import polygon from "../../assets/sponsors/polygon.png";
+import replict from "../../assets/sponsors/Replit.png";
 import arrow from "../../assets/sponsors-arrow.svg";
 
 const sponsors = () => {
@@ -26,10 +28,8 @@ const sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
             <div className="company-sponsors-div">
-              <img src={tinkerhub} alt="" />
-              <img src={ggnation} alt="" />
-              <img src={iedc} alt="" />
-              <img src={neurahire} alt="" />
+              <img src={devfolio} alt="" />
+              <img src={polygon} alt="" />
             </div>
             <div className="line l-one"></div>
           </div>
@@ -39,10 +39,9 @@ const sponsors = () => {
               <img src={twinkle} alt="" />
             </div>
             <div className="company-sponsors-div">
-              <img src={tinkerhub} alt="" />
-              <img src={ggnation} alt="" />
-              <img src={iedc} alt="" />
-              <img src={neurahire} alt="" />
+              <img src={replict} alt="" />
+              <img src={solana} alt="" />
+              <img src={filecoin} alt="" />
             </div>
             <div className="line l-two"></div>
           </div>
@@ -52,9 +51,6 @@ const sponsors = () => {
             </div>
             <div className="company-sponsors-div">
               <img src={tinkerhub} alt="" />
-              <img src={ggnation} alt="" />
-              <img src={iedc} alt="" />
-              <img src={neurahire} alt="" />
             </div>
             <div className="line l-three"></div>
           </div>
@@ -70,14 +66,14 @@ const sponsors = () => {
               family
             </p>
           </div>
-          <div>
+          <div className="arrow-sponsor">
             <a href="#contact">
-              <object data={arrow} type="image/jpeg" id="arrow">
-                <img
+              
+                <img 
                   src={arrow}
-                  alt="A beautiful landscape with mountains and a lake"
+                  alt=""
                 />
-              </object>
+              
             </a>
           </div>
         </div>

@@ -7,24 +7,26 @@ import phone from "../../assets/phone-logo.png";
 
 const CopyRight = () => {
   return (
-    <>
+    <div className="copyright-wrapper">
       <div className="contact-content-wrapper">
-        <div className="contact-email">
-          <img src={email} alt="" />
-          <div>
-            <p>codedesignweek@gmail.com</p>
-            <p>code@cce.edu.in</p>
+        <div className="contact-email-phone">
+          <div className="contact-email">
+            <img src={email} alt="" />
+            <div>
+              <p>codedesignweek@gmail.com</p>
+              <p>code@cce.edu.in</p>
+            </div>
           </div>
-        </div>
-        <div className="contact-phone">
-          <img src={phone} alt="" />
-          <div>
-            <p>+91 94007 43624</p>
-            <p>+91 79940 43754</p>
+          <div className="contact-phone">
+            <img src={phone} alt="" />
+            <div>
+              <p>+91 94007 43624</p>
+              <p>+91 79940 43754</p>
+            </div>
           </div>
         </div>
         <div className="contact-social">
-          <a href="#header">
+          <a href="/">
             <img src={cdw} alt="" />
           </a>
           <a href="https://www.instagram.com/codedesignweek/">
@@ -46,7 +48,7 @@ const CopyRight = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

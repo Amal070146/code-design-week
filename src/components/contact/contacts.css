@@ -29,13 +29,17 @@
 .contact-content-wrapper {
   display: flex;
   margin: 0%;
-  width: 85%;
-  padding: 30px;
+  padding: 0%;
   margin-top: 70px;
   justify-content: space-between;
   margin-bottom: 30px;
   color: white;
   align-items: center;
+  width: 100%;
+}
+.contact-email-phone {
+  display: flex;
+  gap: 9vw;
 }
 
 .contact-email,
@@ -43,12 +47,14 @@
 .contact-social {
   display: flex;
   margin: 0%;
-  width: 30%;
+  padding: 0%;
   gap: 15px;
 }
 .contact-email > img,
 .contact-phone > img {
   height: 35px;
+  margin: 0%;
+  padding: 0%;
 }
 .contact-email > div > p,
 .contact-phone > div > p {
@@ -94,46 +100,92 @@
     font-size: 1.3vw;
   }
 }
+@media screen and (max-width: 1100px) {
+  .contact-email-phone {
+    display: flex;
+    gap: 7.5vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact-email-phone {
+    display: flex;
+    gap: 6vw;
+  }
+}
+@media screen and (max-width: 776px) {
+  .copyright-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-content-wrapper {
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .contact-email-phone {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .contact-phone > div > p,
+  .contact-email > div > p {
+    font-size: 16px;
+  }
+  .contact-social > a > img {
+    height: 54.4px;
+  }
+}
 @media screen and (max-width: 600px) {
- .contacts-wrapper>.transition-div-c{
+  .contacts-wrapper > .transition-div-c {
     gap: 0px;
   }
-  .contacts-wrapper>.transition-div-c>p{
+  .contacts-wrapper > .transition-div-c > p {
     font-size: 75px;
   }
-  .contacts-wrapper>.transition-div-c>img{
+  .contacts-wrapper > .transition-div-c > img {
     width: 60px;
     height: 60px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .contacts-wrapper{
+  .contacts-wrapper {
     margin-top: -50px;
   }
+  .contact-email-phone {
+    gap: 20px;
+    
+  }
+  .contact-email-phone{
+    width: 70%;
+  }
 
-    .contact-social{
-      display: flex;
-      justify-content: center;
-    }
+  .contact-social {
+    display: flex;
+    justify-content: center;
+  }
   .contact-social > a > img {
     padding: 0%;
     margin: 0%;
-    height: 9vw;
+    height: 45px;
   }
   .contact-content-wrapper {
     flex-direction: column;
     gap: 25px;
-    margin-bottom: 0px;
-    margin-top: -40px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
   }
   .contact-email,
   .contact-phone {
     width: 400px;
     padding: 0px auto;
     display: flex;
-      justify-content: center;
-
   }
   .contact-content-wrapper > div > div > p {
     font-size: 13px;
@@ -149,13 +201,13 @@
   .copy-right-contact-right {
     display: none;
   }
-  .contacts-wrapper>.transition-div-c{
+  .contacts-wrapper > .transition-div-c {
     gap: 0px;
   }
-  .contacts-wrapper>.transition-div-c>p{
+  .contacts-wrapper > .transition-div-c > p {
     font-size: 50px;
   }
-  .contacts-wrapper>.transition-div-c>img{
+  .contacts-wrapper > .transition-div-c > img {
     width: 40px;
     height: 40px;
   }
