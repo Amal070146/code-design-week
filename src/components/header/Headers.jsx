@@ -10,6 +10,16 @@ import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
 
 const Header = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const [enableoverlay, setEnableOverlay] = useState(false);
   return (
     <section id="header">
@@ -19,14 +29,22 @@ const Header = () => {
             <div className="dots-image">
               <img src={dots} alt="" />
             </div>
-            <div className="code-design-week-heading"
+            <div
+              className="code-design-week-heading"
               style={{
                 display: "flex",
                 flexDirection: "column",
                 marginBottom: "-20px",
               }}
             >
-              <div style={{ display: "flex", marginBottom: "-60px" ,gap:'2.5vw',alignItems:'center'}}>
+              <div
+                style={{
+                  display: "flex",
+                  marginBottom: "-60px",
+                  gap: "2.5vw",
+                  alignItems: "center",
+                }}
+              >
                 <p className="font-style">CODE</p>
                 <div className="text-image-wrap">
                   <div className="text-image">
@@ -55,7 +73,10 @@ const Header = () => {
               <h3>22 - 28 MAY 2023</h3>
             </div>
           </div>
-          <div className="design-arrow" style={{ background: `url(${he})`,backgroundRepeat:'no-repeat' }}>
+          <div
+            className="design-arrow"
+            style={{ background: `url(${he})`, backgroundRepeat: "no-repeat" }}
+          >
             {enableoverlay && (
               <div className="heroOverlay">
                 <div>
@@ -65,6 +86,14 @@ const Header = () => {
                   <span style={{ fontFamily: "NeueMachinaRegular" }}>
                     By CODe
                   </span>
+                </div>
+                <div
+                  className="apply-button"
+                  data-hackathon-slug="String"
+                  data-button-theme="dark"
+                  style={{height:'44px',width:'312px'}}
+                >
+                  
                 </div>
               </div>
             )}

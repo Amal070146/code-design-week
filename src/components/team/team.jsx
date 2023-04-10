@@ -113,8 +113,8 @@ const team = () => {
               WE <span className="text-color">CREATE</span> AND DESIGN.
             </p>
             <p className="cd-left-team-two">
-              Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie.
+              Design is everywhere. A good design is something that has a
+              pleasant impact on one's life.
             </p>
           </div>
           <div className="cd-right-team">

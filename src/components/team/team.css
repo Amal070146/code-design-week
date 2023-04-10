@@ -41,12 +41,13 @@
   margin: 0%;
   margin-top: 140px;
   height: fit-content;
-  gap: 30px;
+  gap: 20px;
+
 }
 
 .box {
   position: relative;
-  width: calc(90% / 3);
+  width: calc(95% / 3);
   height: calc(100% / 3);
   background-color: #333;
   color: #fff;
@@ -59,8 +60,7 @@
   width: 100%;
   height: 100%;
   margin: 0%;
-  filter: grayscale(100%);
-  transition: filter 0.5s all;
+  transition: filter 0.6s all;
 }
 
 .box:hover {
@@ -103,10 +103,28 @@
   font-size: 22px;
   margin-top: -10px;
 }
+@media screen and (max-width: 1000px) {
+  .container-team{
+    gap: 15px;
+  }
+  .box {
+    width: calc(95% / 3);
+    height: calc(100% / 3);
+  }
+  .name-team > .name-team-member {
+    font-size: 21px;
+  }
+}
 
 @media screen and (max-width: 767px) {
+  .team-wrapper>.event-header{
+    margin-top: 60px;
+  }
+  .container-team{
+    gap: 10px;
+  }
   .box {
-    width: calc(100% / 3);
+    width: calc(95% / 3);
     height: calc(100% / 3);
   }
   .name-team > .name-team-member {
@@ -115,8 +133,14 @@
 }
 
 @media screen and (max-width: 500px) {
+   .team-wrapper>.event-header{
+    margin-top: 20px;
+  }
+  .container-team{
+    gap: 7px;
+  }
   .box {
-    width: calc(100% / 3);
+    width: calc(97% / 2);
     height: 100%;
   }
   .name-team > .name-team-member {
@@ -251,13 +275,14 @@ align-items: center;
 @media screen and (max-width: 600px) {
   .transition-div-t {
     width: 90vw;
+    gap: 8px;
   }
   .transition-div-t > p {
-    font-size: 70px;
+    font-size: 62px;
   }
   .transition-div-t > img {
-    width: 50px;
-    height: 55px;
+    width: 45px;
+    height: 53px;
   }
   .container-team {
     margin-top: 50px;
@@ -275,7 +300,7 @@ align-items: center;
 @media screen and (max-width: 500px) {
   .transition-div-t {
     width: 90vw;
-    gap: 10px;
+    gap: 5px;
   }
   .transition-div-t > p {
     font-size: 50px;
@@ -298,5 +323,17 @@ align-items: center;
   .cd-left-team>.cd-left-team-two{
     font-size: 14px;
     text-align: center;
+  }
+   .team-wrapper>.event-header{
+    margin-top: 10px;
+  }
+
+  
+   .transition-div-t > p {
+    font-size: 47px;
+  }
+  .transition-div-t > img {
+    width: 40px;
+    height: 50px;
   }
 }
