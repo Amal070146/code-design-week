@@ -83,7 +83,7 @@ const team = () => {
             <img src={jasrin} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
-                <p className="name-team-member">Muhammad Jasrin</p>
+                <p className="name-team-member">Mohammed Jasrin</p>
                 <p className="position-team-membere">Content Lead</p>
               </div>
             </div>

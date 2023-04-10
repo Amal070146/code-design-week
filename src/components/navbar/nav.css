@@ -42,34 +42,60 @@
   position: absolute;
   right: 16px;
   top: 25px;
-  padding: 10px;
-  height: fit-content;
-  width: fit-content;
-  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+  height: 95vh;
+  width: 93vw;
+  background-color: rgba(0, 0, 0, 0.65);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: "NeueMachinaRegular";
 
+  gap: 15vw;
+
 }
-.menu-div>button{
+.menu-div>div> button{
   height: 25px;
-  color: rgb(148, 144, 144);
   background: transparent;
+  border: none;
+  /* filter: grayscale(100%); */
+}
+.menu-div>div>img{
+  width: 60vw;
 }
 .nav-links-menu {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  gap: 5px;
+  gap: 9vw;
+  align-items: center;
 }
 .nav-links-menu > a {
   text-decoration: none;
-  color: white;
+  background: linear-gradient(128.92deg, #8E0042 0%, #E30069 57.77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+font-size: 24px;
+  font-family: "NeueMachinaUltrabold";  
+
 }
+.menu-div>div>p{
+  font-size: 12px;
+  background: linear-gradient(128.92deg, #8E0042 0%, #E30069 57.77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+}
+
 
 @media screen and (max-width: 1040px) {
   .nav-links {
@@ -86,7 +112,26 @@
   .nav-bar-wrapper {
     height: 100px;
   }
+  .menu-div{
+    display: none;
+  }
 }
+@media screen and (max-width:1000px){
+  .menu-div{
+     display: flex;
+  flex-direction: column;
+    gap: 3vw;
+  }
+  .nav-links-menu {
+    gap: 4vw;
+  }
+}
+@media screen and (max-width:800px){
+  .menu-div{
+    gap: 7vw;
+  }
+}
+
 
 @media screen and (max-width: 500px) {
   .nav-menu-short {
@@ -99,5 +144,11 @@
   }
   .nav-bar-wrapper {
     height: 80px;
+  }
+  .menu-div{
+    gap: 15vw;
+  }
+  .nav-links-menu {
+    gap: 9vw;
   }
 }

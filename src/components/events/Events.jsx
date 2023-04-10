@@ -5,6 +5,7 @@ import eventAdobe from "../../assets/Events-image/adobe-logo.png";
 import Eventsingle from "./Eventsingle";
 import graphica from '../../assets/Events-image/GRAPHICA Logo.png'
 import Designathon from '../../assets/Events-image/designaton-logo.png'
+import arrow from '../../assets/Events-image/event-view-arrow.png'
 const Events = () => {
   const eventArray = [
     {
@@ -51,6 +52,12 @@ const Events = () => {
                 title={title}
               />
             ))}
+        </div>
+        <div className="events-view-button">
+          <a href="/events">
+            <h3>EXPLORE MORE EVENTS</h3>
+            <img src={arrow} alt="" />
+          </a>
         </div>
       </div>
     </section>

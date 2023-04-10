@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/cdw-logo.svg";
 import "./nav.css";
 import menu from "../../assets/menu-logo.png";
+import closebutton from "../../assets/closebutton.png";
 
 const Nav = () => {
   const [openmenu, setopenmenu] = useState(false);
@@ -33,6 +34,14 @@ const Nav = () => {
         </div>
         {openmenu && (
           <div className="menu-div">
+            <div>
+              <button onClick={closeMenu}>
+                <img src={closebutton} alt="" />
+              </button>
+            </div>
+            <div>
+              <img src={logo} alt="" />
+            </div>
             <div className="nav-links-menu">
               <a href="/#about">ABOUT US</a>
               <a href="/events">EVENTS</a>
@@ -40,7 +49,9 @@ const Nav = () => {
               <a href="/#sponsors">SPONSORS</a>
               <a href="/#contacts">CONTACT</a>
             </div>
-            <button onClick={closeMenu}>(X)</button>
+            <div>
+              <p>Copyright © 2023 Community Of Developers.</p>
+            </div>
           </div>
         )}
       </div>

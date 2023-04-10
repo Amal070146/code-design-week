@@ -89,12 +89,10 @@ const Header = () => {
                 </div>
                 <div
                   className="apply-button"
-                  data-hackathon-slug="String"
+                  data-hackathon-slug="designathon"
                   data-button-theme="dark"
-                  style={{height:'44px',width:'312px'}}
-                >
-                  
-                </div>
+                  style={{ height: "44px", width: "312px" }}
+                ></div>
               </div>
             )}
             <button
@@ -105,7 +103,7 @@ const Header = () => {
                 className=""
                 src={arrow}
                 alt=""
-                style={{ rotate: enableoverlay ? "180deg" : "" }}
+                style={{ rotate: enableoverlay ? "80deg" : "" }}
               />
             </button>
           </div>
