@@ -20,9 +20,7 @@ const Events = () => {
       title: "GRAPHICA",
       image: graphica,
       description1: `Graphica opens you the wider possibilities of Graphic Design & UI/UX Designing using Canva, Adobe Photoshop & Figma.`,
-      description2: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
+      description2: ` Graphica is taking you to a whole new world of Design. It is a series of hands-on workshops using softwares such as Canva, Photoshop & Figma. Building from the base till the extreme along with mentoring support.`,
     },
     {
       number: `03`,

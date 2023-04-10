@@ -3,7 +3,7 @@ import "./header.css";
 import play from "../../assets/header-play-img.svg";
 import loc from "../../assets/location-logo.svg";
 import cal from "../../assets/calender-logo.svg";
-import he from "../../assets/header-image.svg";
+import he from "../../assets/header-image.png";
 import arrow from "../../assets/apply-devfolio.png";
 import Nametag from "./namebar";
 import dots from "../../assets/dots-header.svg";

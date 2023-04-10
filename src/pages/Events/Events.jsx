@@ -5,34 +5,30 @@ import eventAdobe from "../../assets/Events-image/event-1.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
-
+import designtocode from '../../assets/Events-image/designtocode.png'
 
 const event = () => {
   const eventArray = [
     {
-      forms: `https://www.beachhack.in/`,
+      forms: `http://bit.ly/cdwmascot`,
       title: "MASCOT DESIGN CHALLENGE",
       image: eventAdobe,
-      date: "TILL APR 30 | 11:59AM",
-      description: ` Adobe by Code is a series of talk sessions, introducing you into the Adobe creative suite which focuses on design. The sessions are of Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Xd, Adobe Premiere Pro & Adobe After Effects`,
+      date: "TILL APR 30",
+      description: `Design a creative mascot for the CODe Design Week, give it an apt name. You can use any medium of your choice from traditional hand-drawn sketches to digital illustrations!! or you could even use AI generators like DALL-E or Mid journey for designing one for you!`,
     },
     {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      date: "TILL APR 30 | 11:59AM",
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
+      forms: `http://bit.ly/cdwdesigntocode`,
+      title: "DESIGN TO CODE",
+      image: designtocode,
+      date: "23 MAY | 03:00 PM",
+      description: `Are you a programmer? This event is for you. Develop a website with the given UI Design. The first one to develop the cleanest website wins! There are no language restrictions.`,
     },
     {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      date: "TILL APR 30 | 11:59AM",
+      forms: `http://bit.ly/cdwfindthedesign`,
+      title: "FIND THE DESIGN",
+      date: "23 MAY | 03:00 PM",
       image: eventAdobe,
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
+      description: ` You will be provided a set of folders with numerous posters. Find the displayed poster accurately in 3 minutes. The fastest one to find the poster within the time limit will be recognized as the winner.`,
     },
     {
       forms: `https://www.beachhack.in/`,
@@ -107,8 +103,10 @@ const event = () => {
           <img src={headEvent} alt="" />
         </div>
         <div className="events-content-wrapper">
-          {eventArray.map(
-            ({ description, title, image, forms,date }, i) => (
+          {eventArray
+            .slice(0, 3)
+
+            .map(({ description, title, image, forms, date }, i) => (
               <Eventsingles
                 description={description}
                 image={image}
@@ -116,8 +114,7 @@ const event = () => {
                 title={title}
                 date={date}
               />
-            )
-          )}
+            ))}
         </div>
       </div>
       <CopyRight />

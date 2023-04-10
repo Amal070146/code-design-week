@@ -5,11 +5,9 @@ const namebar = () => {
     <div className="nametag-wrapper">
       <div class="scroll-container">
         <p class="scroll-content">
-          DSIGN WEEK 2023 DSIGN WEEK 2023 DSIGN WEEK 2023 DSIGN WEEK 2023 DSIGN
-          WEEK 2023 DSIGN WEEK 2023 DSIGN WEEK 2023 DSIGN WEEK 2023 DSIGN WEEK
-          2023 DSIGN WEEK 2023 DSIGN WEEK 2023 DSIGN WEEK 2023 DSIGN WEEK
-          2023 
-  
+          DESIGN WEEK 2023 DESIGN WEEK 2023 DESIGN WEEK 2023 DESIGN WEEK 2023
+          DESIGN WEEK 2023 DESIGN WEEK 2023 DESIGN WEEK 2023 DESIGN WEEK 2023
+          DESIGN WEEK 2023 DESIGN WEEK 2023 DESIGN WEEK 2023 DESIGN WEEK 2023
         </p>
       </div>
     </div>
