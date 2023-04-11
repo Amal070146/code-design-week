@@ -17,31 +17,15 @@ import schedulecover from "../../assets/schedule-cover.png";
 import downarrowblack from "../../assets/down-arrow-black-pink.png";
 import downarrowwhite from "../../assets/down-arrow.png";
 import knowmoretext from "../../assets/know-more-text.png";
-const Events = () => {
-  const eventArray = [
-    {
-      number: `01`,
-      title: "ADOBE BY CODE",
-      image: eventAdobe,
-      description1: `Get into the world of Adobe creative suite. Explore Adobe design softwares such as Ps, Ai, Id, Xd, Pr, Ae and so on.`,
-      description2: ` Adobe by Code is a series of talk sessions, introducing you into the Adobe creative suite which focuses on design. The sessions are of Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Xd, Adobe Premiere Pro & Adobe After Effects`,
-    },
-    {
-      number: `02`,
-      title: "GRAPHICA",
-      image: graphica,
-      description1: `Graphica opens you the wider possibilities of Graphic Design & UI/UX Designing using Canva, Adobe Photoshop & Figma.`,
-      description2: ` Graphica is taking you to a whole new world of Design. It is a series of hands-on workshops using softwares such as Canva, Photoshop & Figma. Building from the base till the extreme along with mentoring support.`,
-    },
-    {
-      number: `03`,
-      title: "DESIGNATHON.",
-      image: Designathon,
-      description1: `DESIGNATHON by CODe is the flagship event of the CODe Design Week 2023, which is a national event conducted on May 27 & 28.`,
-      description2: `Designathon, or design-hackathon, is an event where you're asked to design a solution for a given problem within the given 24hrs. No coding is involved.`,
-    },
-  ];
+import talksession from "../../assets/talksession.svg";
+import expo from "../../assets/expo.svg";
+import handsonworkshop from "../../assets/handsonworkshop.svg";
+import games from "../../assets/games.svg";
+import quizes from "../../assets/quizes.svg";
 
+import codelogo from "../../assets/code-logo.png";
+import ccelogo from "../../assets/christ-logo.png";
+const Events = () => {
   return (
     <section id="events">
       {/* <div className="event-wrapper">
@@ -148,6 +132,49 @@ const Events = () => {
               <img className="foreground-image" src={knowmoretext} alt="" />
             </div>
           </a>
+        </div>
+      </div>
+      <div className="cd-team-wrapper">
+        <div className="cd-left-team">
+          <p className="cd-left-team-one">
+            WE <span className="text-color">CREATE</span> AND DESIGN.
+          </p>
+          <p className="cd-left-team-two">
+            Design is everywhere. A good design is something that has a pleasant
+            impact on one's life.
+          </p>
+        </div>
+        <div className="cd-right-team">
+          <a className="right-cd-div">
+            <img src={talksession} alt="" />
+            <p>TALK SESSIONS</p>
+          </a>
+          <a className="right-cd-div">
+            <img src={expo} alt="" />
+            <p>EXPO</p>
+          </a>
+          <a className="right-cd-div">
+            <img src={handsonworkshop} alt="" />
+            <p>HANDS-ON WORKSHOPS</p>
+          </a>
+          <a className="right-cd-div">
+            <img src={games} alt="" />
+            <p>GAMES</p>
+          </a>
+          <a className="right-cd-div">
+            <img src={quizes} alt="" />
+            <p>QUIZES</p>
+          </a>
+        </div>
+      </div>
+      <div className="support-org-wrapper">
+        <div className="logo-wrapper-support">
+          <img className="codelogo" src={codelogo} alt="" />
+          <img className="ccelogo" src={ccelogo} alt="" />
+        </div>
+        <div>
+          <p className="text-colors">SUPPORTING</p>
+          <p>ORGANIZATIONS</p>
         </div>
       </div>
     </section>

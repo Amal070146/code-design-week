@@ -93,7 +93,7 @@
   position: relative;
   height: 60vh;
   width: 85vw;
-  max-width: 85vw;
+  max-width: 100vw;
   border-radius: 150px 150px 0px 0px;
 }
 .heroOverlay {

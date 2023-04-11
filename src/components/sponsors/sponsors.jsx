@@ -13,13 +13,11 @@ import arrow from "../../assets/sponsors-arrow.svg";
 const sponsors = () => {
   return (
     <section id="sponsors">
-      <div className="sponsors-wrapper">
-        <div className="event-wrapper">
-          <div className="event-header transition-div-s">
-            <img src={headEvent} alt="" />
-            <p>SPONSORS</p>
-          </div>
+      <div className="contacts-wrapper">
+        <div className="heading-team">
+          <p>SPONSORS</p>
         </div>
+
         <div className="sponsors-logo-wrapper">
           <div className="div-sponsors-tire">
             <div className="twinkle-sponsors">
@@ -78,11 +76,11 @@ const sponsors = () => {
               family
             </p>
           </div>
-          <div className="arrow-sponsor">
+          {/* <div className="arrow-sponsor">
             <a href="#contact">
               <img src={arrow} alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

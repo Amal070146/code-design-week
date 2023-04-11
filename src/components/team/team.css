@@ -4,25 +4,16 @@
   justify-content: center;
   background: #171717;
   width: 85vw;
-}
-
-.event-header {
-  display: flex;
-  height: 100px;
-  margin: 0;
   margin-top: 100px;
-  right: 0;
-  padding: 0px;
-  gap: 20px;
 }
 
-.transition-div-t {
-  position: relative;
-  left: 0;
-  width: 70vw;
-  height: 100px;
+.team-wrapper > .heading-team {
+  font-size: 3vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "NeueMachinaUltrabold";
 }
-
 
 .container-team {
   display: flex;
@@ -30,10 +21,9 @@
   justify-content: center;
   align-items: center;
   margin: 0%;
-  margin-top: 140px;
+  margin-top: 40px;
   height: fit-content;
   gap: 20px;
-
 }
 
 .box {
@@ -96,8 +86,9 @@
   margin-top: -10px;
 }
 @media screen and (max-width: 1000px) {
-  .container-team{
+  .container-team {
     gap: 15px;
+    margin-top: 0px;
   }
   .box {
     width: calc(95% / 3);
@@ -106,13 +97,19 @@
   .name-team > .name-team-member {
     font-size: 21px;
   }
+  .team-wrapper > .heading-team {
+    font-size: 4vw;
+  }
+  .team-wrapper{
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .team-wrapper>.event-header{
+  .team-wrapper > .event-header {
     margin-top: 60px;
   }
-  .container-team{
+  .container-team {
     gap: 10px;
   }
   .box {
@@ -125,10 +122,10 @@
 }
 
 @media screen and (max-width: 500px) {
-   .team-wrapper>.event-header{
+  .team-wrapper > .event-header {
     margin-top: 20px;
   }
-  .container-team{
+  .container-team {
     gap: 7px;
   }
   .box {
@@ -203,7 +200,7 @@
   .container-team {
     margin-top: 100px;
   }
-  .cd-right-team{
+  .cd-right-team {
     width: 35%;
   }
 }
@@ -212,31 +209,30 @@
   .transition-div-t {
     width: 80vw;
   }
-  .cd-right-team{
+  .cd-right-team {
     width: 40%;
   }
 }
-@media screen and (max-width: 1000px){
-.cd-team-wrapper{
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-  margin-top: 35px;
-}
-.cd-left-team{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-align-items: center;
+@media screen and (max-width: 1000px) {
+  .cd-team-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
     justify-content: center;
-
-}
-.cd-right-team{
+    margin-top: 35px;
+  }
+  .cd-left-team {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cd-right-team {
     width: 100%;
     justify-content: center;
   }
-  .cd-left-team>.cd-left-team-two{
+  .cd-left-team > .cd-left-team-two {
     font-size: 17px;
     text-align: center;
     margin-top: -0.1px;
@@ -276,10 +272,10 @@ align-items: center;
   .container-team {
     margin-top: 50px;
   }
-  .cd-left-team>.cd-left-team-one{
+  .cd-left-team > .cd-left-team-one {
     font-size: 30px;
   }
-  .cd-left-team>.cd-left-team-two{
+  .cd-left-team > .cd-left-team-two {
     font-size: 15px;
     text-align: center;
     margin-top: -0.3px;
@@ -301,24 +297,23 @@ align-items: center;
   .container-team {
     margin-top: 30px;
   }
-  .cd-left-team>.cd-left-team-one{
+  .cd-left-team > .cd-left-team-one {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 420px){
-.cd-left-team>.cd-left-team-one{
+@media screen and (max-width: 420px) {
+  .cd-left-team > .cd-left-team-one {
     font-size: 22px;
   }
-  .cd-left-team>.cd-left-team-two{
+  .cd-left-team > .cd-left-team-two {
     font-size: 14px;
     text-align: center;
   }
-   .team-wrapper>.event-header{
+  .team-wrapper > .event-header {
     margin-top: 10px;
   }
 
-  
-   .transition-div-t > p {
+  .transition-div-t > p {
     font-size: 47px;
   }
   .transition-div-t > img {

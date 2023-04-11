@@ -29,9 +29,9 @@ const About = () => {
           </div>
           <div className="display-screen-content">
             <p>
-              <b>CODe Design Week (CDW ‘23)</b> is the first ever design week conducted
+             <b> CODe Design Week (CDW ‘23)</b> is the first ever design week conducted
               in engineering colleges. This is a week completely dedicated to
-              design where students from all over kerala disrupt, imagine,
+              design where students from all over Kerala disrupt, imagine,
               ideate, innovate, and design for a better tomorrow. Our goal is to
               hand-pick the budding designers, help them in exploring the
               possibilities, opportunities & finding the passion in design.

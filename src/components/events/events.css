@@ -1,3 +1,7 @@
+#events {
+  width: 85vw;
+}
+
 .event-wrapper {
   padding: 25px auto 0px auto;
   justify-content: center;
@@ -267,8 +271,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: "NeueMachinaRegular";  
-
+  font-family: "NeueMachinaRegular";
 }
 a {
   text-decoration: none;
@@ -373,11 +376,6 @@ a {
   width: 31vw;
 }
 
-
-
-.schedule-bg-wrapper {
-}
-
 .schedule-container-wrapper {
   display: flex;
   padding: 2.7%;
@@ -387,40 +385,37 @@ a {
 .schedule-container-wrapper > img {
   height: 11vw;
 }
-.schedule-container-text{
+.schedule-container-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: "NeueMachinaRegular";  
-
+  font-family: "NeueMachinaRegular";
 }
-.schedule-view-event{
+.schedule-view-event {
   font-size: 2vw;
   color: black;
-  font-family: "NeueMachinaRegular";  
-
+  font-family: "NeueMachinaRegular";
 }
-.schedule-card-name{
+.schedule-card-name {
   margin-top: -0.8vw;
   color: white;
   font-size: 2.5vw;
-  font-family: "NeueMachinaUltrabold";  
-
+  font-family: "NeueMachinaUltrabold";
 }
-.barcode-wrapper-schedule{
+.barcode-wrapper-schedule {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.barcode-wrapper-schedule>p{
+.barcode-wrapper-schedule > p {
   color: black;
   font-size: 0.9vw;
 }
-.barcode-wrapper-schedule>div{
+.barcode-wrapper-schedule > div {
   display: flex;
   justify-content: space-between;
 }
-.schedule-line-bg{
+.schedule-line-bg {
   height: 1px;
   width: 100%;
   background-color: black;
@@ -432,56 +427,103 @@ a {
     width: 85vw;
   }
   .schedule-container-wrapper {
-  padding: 2%;
-  gap: 8px;
-  width: 85vw;
-}
+    padding: 2%;
+    gap: 8px;
+    width: 85vw;
+  }
   .schedule-container-wrapper > img {
-  height: 32vw;
-}
+    height: 32vw;
+  }
 
-.schedule-view-event{
-  font-size: 4.5vw;
-  color: black;
-}
-.schedule-card-name{
-  margin-top: -0.8vw;
-  color: white;
-  font-size: 5.5vw;
-
-}
-.barcode-wrapper-schedule{
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-.barcode-wrapper-schedule>p{
-  color: black;
-  font-size: 2vw;
-}
-.arrow-w-schedule{
-  height: 7vw;
-}
+  .schedule-view-event {
+    font-size: 4.5vw;
+    color: black;
+  }
+  .schedule-card-name {
+    margin-top: -0.8vw;
+    color: white;
+    font-size: 5.5vw;
+  }
+  .barcode-wrapper-schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .barcode-wrapper-schedule > p {
+    color: black;
+    font-size: 2vw;
+  }
+  .arrow-w-schedule {
+    height: 7vw;
+  }
 }
 .know-schedule-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.know-more-wrapper{
+.know-more-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.know-more-wrapper>.foreground-image{
+.know-more-wrapper > .foreground-image {
   width: 20vw;
   top: 20%;
   left: 20%;
 }
 @media screen and (max-width: 500px) {
-  .know-more-wrapper>.foreground-image{
-  width: 50vw;
-  top: 25%;
-  left: 20%;
+  .know-more-wrapper > .foreground-image {
+    width: 50vw;
+    top: 25%;
+    left: 20%;
+  }
+}
+
+.support-org-wrapper{
+  margin-top: 50px;
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-wrapper-support{
+  display: flex;
+  gap: 6.5vw;
+}
+.support-org-wrapper>div>img{
+  height: 6.8vw;
+}
+.support-org-wrapper>div>p{
+  font-size: 4.3vw;
+  text-align: right;
+  font-family: "NeueMachinaUltrabold";  
+line-height: 0.8;
+color: white;
+}
+.support-org-wrapper>div>.text-colors{
+  font-size: 4.7vw;
+
+  background: linear-gradient(128.92deg, #8E0042 0%, #E30069 57.77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+}
+
+@media screen and (max-width: 500px){
+.support-org-wrapper>div>p{
+  font-size: 4.3vw;
+  text-align: right;
+  font-family: "NeueMachinaUltrabold";  
+line-height: 0.9;
+color: white;
+}
+.support-org-wrapper>div>img{
+  height: 9vw;
+}
+.logo-wrapper-support{
+  display: flex;
+  gap: 3vw;
 }
 }

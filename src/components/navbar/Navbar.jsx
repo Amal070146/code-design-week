@@ -21,10 +21,10 @@ const Nav = () => {
           </a>
         </div>
         <div className="nav-links">
-          <a href="/#about">ABOUT US</a>
           <a href="/events">EVENTS</a>
           <a href="/schedule">SCHEDULE</a>
-          <a href="/#sponsors">SPONSORS</a>
+          <a href="/designathon">DESIGNATHON</a>
+          <a href="/#about">ABOUT US</a>
           <a href="/#contacts">CONTACT</a>
         </div>
         <div className="nav-menu-short">
@@ -43,10 +43,10 @@ const Nav = () => {
               <img src={logo} alt="" />
             </div>
             <div className="nav-links-menu">
-              <a href="/#about">ABOUT US</a>
               <a href="/events">EVENTS</a>
               <a href="/schedule">SCHEDULE</a>
-              <a href="/#sponsors">SPONSORS</a>
+              <a href="/designathon">DESIGNATHON</a>
+              <a href="/#about">ABOUT US</a>
               <a href="/#contacts">CONTACT</a>
             </div>
             <div>

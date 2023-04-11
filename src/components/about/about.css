@@ -57,8 +57,10 @@
   z-index: 1;
 }
 .display-screen-content{
-  font-size: 1.9vw;
+  font-size: 1.55vw;
   text-align: justify;
+  font-family: "NeueMachinaRegular";
+
 }
 
 .about-info-data{
