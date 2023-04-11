@@ -6,3 +6,21 @@
   flex-direction: column;
   align-items: center;
 }
+.styles-test{
+  position: sticky;
+  top: -1;
+  height: 100vh;
+}
+
+.spiral-container{
+  position: relative;
+}
+
+.spiral-innercontainer{
+  position: absolute;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
