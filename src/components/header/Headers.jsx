@@ -25,7 +25,16 @@ const Header = () => {
   return (
     <section id="header">
       <div className="header-wrapper">
-        <div style={{ display: "flex", flexDirection: "column", gap: "40px" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: "40px",
+            alignItems: "center",
+            justifyContent: "center",
+            width:'85vw'
+          }}
+        >
           <div className="header-head">
             <div className="dots-image">
               <img src={dots} alt="" />

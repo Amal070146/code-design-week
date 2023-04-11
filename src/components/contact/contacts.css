@@ -14,17 +14,10 @@
   left: 0;
   width: 70vw;
   height: 100px;
-  animation: slide-in-c 5s forwards;
+
 }
 
-@keyframes slide-in-c {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
+
 
 .contact-content-wrapper {
   display: flex;

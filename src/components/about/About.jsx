@@ -1,16 +1,16 @@
 import React,{useState} from "react";
 import "./about.css";
-import strip from "../../assets/dual-color-strip.svg";
-import arrow from '../../assets/about-arrow.png'
 import logo from "../../assets/cdw-logo.svg";
+import displayscreen from '../../assets/about-tab-display.svg';
+
 
 
 const About = () => {
-  const [rotatecard, setrotatecard] = useState(false);
-  function rotateCard(){
-    console.log(!rotatecard);
-    setrotatecard(!rotatecard)
-  }
+  // const [rotatecard, setrotatecard] = useState(false);
+  // function rotateCard(){
+  //   console.log(!rotatecard);
+  //   setrotatecard(!rotatecard)
+  // }
 
   return (
     <section id="about">
@@ -22,9 +22,30 @@ const About = () => {
             <span className="text-color">.</span>
           </p>
         </div>
-    
+        <div className="about-disply-content-video">
+          <div className="display-screen-wrapper">
+            <img className="displayscreen" src={displayscreen} alt="" />
+            <img className="logo-about" src={logo} alt="" />
+          </div>
+          <div className="display-screen-content">
+            <p>
+              <b>CODe Design Week (CDW ‘23)</b> is the first ever design week conducted
+              in engineering colleges. This is a week completely dedicated to
+              design where students from all over kerala disrupt, imagine,
+              ideate, innovate, and design for a better tomorrow. Our goal is to
+              hand-pick the budding designers, help them in exploring the
+              possibilities, opportunities & finding the passion in design.
+              Students can learn and interact through workshops, panel
+              discussions, keynote speeches, expos and exhibitions, and many
+              more organized as a part of the CODe Design Week (CDW ‘23) where
+              they can listen, and discuss with the industry experts on the
+              future of design.
+            </p>
+          </div>
+        </div>
+
         <div className="about-info">
-          <div className="card">
+          {/* <div className="card">
             <div
               // style={{ rotate: rotatecard ? "180deg" : "0deg" }}
               className={
@@ -62,7 +83,7 @@ const About = () => {
                 </p>
               </div>
             )}
-          </div>
+          </div> */}
           <div className="about-info-data">
             <div>
               <h3>07</h3>

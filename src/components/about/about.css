@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-  width: 92vw;
+  width: 100vw;
 }
 
 .about-wrapper-heads,
@@ -13,12 +13,12 @@
   font-family: "NeueMachinaUltrabold";
 }
 .about-wrapper-heads {
-  width: 76vw;
+  width: 85vw;
 }
 .text-color-main {
   color: white;
   font-weight: 800;
-  font-size: 5vw;
+  font-size: 5.6vw;
   line-height: 0.85;
 }
 
@@ -26,10 +26,53 @@
   color: #e30069;
 }
 
+.about-disply-content-video{
+  width: 85vw;
+  padding: 0%;
+  margin: 0%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 45px;
+}
 
+.about-disply-content-video>.display-screen-wrapper{
+   padding: 0%;
+  margin: 0%;
+    position: relative;
 
+}
 
+.displayscreen{
+  width: 35vw;
 
+}
+.logo-about{
+  position: absolute;
+   top: 45%;
+  left: 20%;
+  width: 20vw;
+  z-index: 1;
+}
+.display-screen-content{
+  font-size: 1.9vw;
+  text-align: justify;
+}
+
+.about-info-data{
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+.about-info-data>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .about-info {
   display: flex;
   color: white;
@@ -192,6 +235,18 @@
    .about-info-data > div > p{
     font-size: 2.2vw;
    }
+    .about-disply-content-video{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .display-screen-wrapper>.displayscreen{
+    width: 80vw;
+  }  .display-screen-wrapper>.logo-about{
+    width: 50vw;
+  }
+  .display-screen-content{
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 600px) {
   .card-back > p {
@@ -204,10 +259,22 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .card-back > p {
     padding: 0px 10px 5px 10px;
     font-size: 10px;
+  }
+  .about-disply-content-video{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .display-screen-wrapper>.displayscreen{
+    width: 80vw;
+  }  .display-screen-wrapper>.logo-about{
+    width: 50vw;
+  }
+  .display-screen-content{
+    font-size: 17px;
   }
   .about-info {
     gap: 40px;

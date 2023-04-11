@@ -21,17 +21,8 @@
   left: 0;
   width: 70vw;
   height: 100px;
-  animation: slide-in-t 5s forwards;
 }
 
-@keyframes slide-in-t {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
 
 .container-team {
   display: flex;
@@ -268,9 +259,6 @@ align-items: center;
   }
 }
 @media screen and (max-width: 800px) {
-  .transition-div-t {
-    width: 90vw;
-  }
 }
 
 @media screen and (max-width: 600px) {
