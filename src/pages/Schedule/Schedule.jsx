@@ -10,7 +10,7 @@ const Schedule = () => {
       <div className="schedule-wrapper">
         <div className="events-header transition-div-e">
           <p className="schedule-head-tag-name">SCHEDULE</p>
-          <img className="schedule-head-img" src={headEvent} alt="" />
+
         </div>
         <div className="schedule-content-wrapper">
           <div className="schedule-content-div">
