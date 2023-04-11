@@ -1,5 +1,6 @@
 import React from "react";
 import "./Events.css";
+import Contacts from '../../components/contact/Contacts'
 import headEvent from "../../assets/team-head-img.svg";
 import eventAdobe from "../../assets/Events-image/event-1.png";
 import Eventsingles from "./Eventsingles";
@@ -95,12 +96,11 @@ const event = () => {
   ];
 
   return (
-    <section className="body-wrapper" id="events">
+    <section className="body-wrapper">
       <Navbar />
-      <div className="events-wrapper">
-        <div className="events-header transition-div-e">
+      <div className="events-wrapper-main">
+        <div className="heading-team">
           <p>EVENTS</p>
-          <img src={headEvent} alt="" />
         </div>
         <div className="events-content-wrapper">
           {eventArray
@@ -116,7 +116,11 @@ const event = () => {
               />
             ))}
         </div>
+        <div>
+          coming soon
+        </div>
       </div>
+      <Contacts />
       <CopyRight />
     </section>
   );
