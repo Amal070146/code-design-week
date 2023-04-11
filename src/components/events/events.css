@@ -4,7 +4,7 @@
   justify-content: center;
   background: #171717;
   color: white;
-  width: 80vw;
+  width: 90vw;
 }
 .event-wrapper>.event-header{
   margin: 0%;
@@ -204,7 +204,7 @@ padding: 0%;
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(62%);
+    transform: translateX(45%);
   }
 }
 }

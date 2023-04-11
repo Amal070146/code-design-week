@@ -4,7 +4,7 @@
   justify-content: center;
   background: #171717;
   color: white;
-  width: 80vw;
+  width: 85vw;
 }
 
 .transition-div-s {
@@ -57,7 +57,7 @@
 .div-sponsors-tire {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
 }
 
 .twinkle-sponsors {
@@ -71,6 +71,7 @@
   display: flex;
   align-items: center;
   gap: 5%;
+  margin-top: -35px;
 }
 
 .company-sponsors-div >a > img {
@@ -197,7 +198,7 @@
     margin-top: 50px;
   }
     .sponsors-wrapper{
-    margin-top: -65px;
+    margin-top: -100px;
   }
   .sponsors-logo-wrapper {
     margin-top: 15px;

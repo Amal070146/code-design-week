@@ -89,11 +89,7 @@ font-size: 24px;
 }
 .menu-div>div>p{
   font-size: 12px;
-  background: linear-gradient(128.92deg, #8E0042 0%, #E30069 57.77%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-color: transparent;
+color: white;
 }
 
 
