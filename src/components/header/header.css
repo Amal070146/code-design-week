@@ -363,3 +363,20 @@ padding: 10px 25px;
     height: 15px;
    }
 }
+
+
+.marqueuesinglecomponent{
+  height:60px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.marqueuesinglecomponent>span{
+  color: white;
+  font-size: 2.5vw;
+  font-family: "NeueMachinaUltrabold";
+}
+.marqueuesinglecomponent>img{
+  height: 2.5vw;
+}

@@ -8,6 +8,7 @@ import arrow from "../../assets/apply-devfolio.png";
 import Nametag from "./namebar";
 import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
+import Marqueuecomponent from "./Marqueuecomponent";
 
 const Header = () => {
   React.useEffect(() => {
@@ -109,7 +110,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Nametag />
+      <Marqueuecomponent />
     </section>
   );
 };
