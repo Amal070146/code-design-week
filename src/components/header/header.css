@@ -7,9 +7,11 @@
   padding: 25px auto 0px auto;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
 .header-head {
+
   color: white;
   font-weight: 800;
   font-size: 8vw;
@@ -19,6 +21,9 @@
   padding-top: 130px;
   font-family: "NeueMachinaUltrabold";
   width: fit-content;
+}
+.code-design-week-heading{
+  width: 85vw;
 }
 .font-style {
   margin: 0px;
@@ -311,6 +316,18 @@ padding: 10px 25px;
     height: 17px;
    }
 }
+@media screen and (max-width: 600px) {
+  .text-image {
+    display: none;
+  }
+  .font-style,
+  .font-styles {
+    font-size: 11.2vw;
+  }
+  .text-image-wrap>.play{
+    height: 15vw;
+  }
+}
 @media screen and (max-width: 500px) {
   .text-image {
     display: none;
@@ -321,7 +338,7 @@ padding: 10px 25px;
   }
   .font-style,
   .font-styles {
-    font-size: 12vw;
+    font-size: 11vw;
   }
   .loc-cal > div > h3 {
     font-size: 12px;
@@ -379,4 +396,15 @@ padding: 10px 25px;
 }
 .marqueuesinglecomponent>img{
   height: 2.5vw;
+}
+@media screen and (max-width: 500px){
+  .marqueuesinglecomponent{
+    gap: 5px;
+  }
+.marqueuesinglecomponent>img{
+  height: 7.5vw;
+}
+.marqueuesinglecomponent>span{
+ font-size: 35px;
+}
 }

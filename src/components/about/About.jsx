@@ -22,20 +22,7 @@ const About = () => {
             <span className="text-color">.</span>
           </p>
         </div>
-        <div className="about-description">
-          <div>
-            <img src={strip} alt="" />
-          </div>
-          <div>
-            <p>
-              Computer Science is not just coding, or programming. It is about
-              how we use such tools, and what we find out when we do. Its our
-              goal to find the designer within you. If you love design, you want
-              to pursue your career in design, CODe will help you build up your
-              DESIGN skills.
-            </p>
-          </div>
-        </div>
+    
         <div className="about-info">
           <div className="card">
             <div

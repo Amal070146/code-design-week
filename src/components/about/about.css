@@ -26,25 +26,9 @@
   color: #e30069;
 }
 
-.about-description > div > img {
-  height: 4.5vw;
-}
 
-.about-description {
-  display: flex;
-  color: white;
-  font-size: 30px;
-  justify-content: center;
-  align-items: start;
-  width: 60vw;
-  gap: 20px;
-  margin: 50px;
-  font-family: "MoriGothic-Semibold";
-}
-.about-description > div > p {
-  line-height: 0.95;
-  font-size: 1.31vw;
-}
+
+
 
 .about-info {
   display: flex;
@@ -173,19 +157,6 @@
     font-size: 2.2vw;
   }
 
-  .about-description > div > img {
-    height: 6vw;
-  }
-
-  .about-description {
-    width: 65vw;
-    margin: 50px;
-    margin-top: 20px;
-  }
-  .about-description > div > p {
-    line-height: 0.96;
-    font-size: 1.51vw;
-  }
 }
 @media screen and (max-width: 880px) {
   .about-info {
@@ -214,18 +185,6 @@
 @media screen and (max-width: 700px) {
   .cdw-logo-about {
     width: 45vw;
-  }
-  .about-description > div > img {
-    height: 7.5vw;
-  }
-
-  .about-description {
-    width: 68vw;
-    margin-bottom: 25px;
-  }
-  .about-description > div > p {
-    line-height: 0.97;
-    font-size: 1.91vw;
   }
   .about-info-data > div >h3{
     font-size: 7vw;
@@ -266,17 +225,5 @@
   .about-wrapper-heads {
     width: 80vw;
     margin-top: -60px;
-  }
-  .about-description > div > img {
-    height: 12vw;
-  }
-
-  .about-description {
-    width: 72vw;
-    margin-bottom: 25px;
-  }
-  .about-description > div > p {
-    line-height: 1;
-    font-size: 2.3vw;
   }
 }
