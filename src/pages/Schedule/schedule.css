@@ -9,11 +9,13 @@
   width: 100vw;
 }
 
-.schedule-head-img {
-  width: 110px;
-  height: 110px;
+.schedule-wrapper>.heading-team{
+   font-size: 3vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "NeueMachinaUltrabold";
 }
-
 .schedule-head-tag-name {
   font-weight: 800;
   font-size: 140px;
