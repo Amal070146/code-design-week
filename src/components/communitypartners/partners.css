@@ -56,7 +56,7 @@
 
   padding: 7% 10%;
 }
-.designathon-card-conten {
+.designathon-card-content {
   display: flex;
   flex-direction: column;
 }
@@ -90,6 +90,8 @@ line-height: 0.95;
   width: 23vw;
   height: 3.5vw;
   font-size: 2.5vw;
+  font-family: "NeueMachinaRegular";
+
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
   -webkit-background-clip: text;

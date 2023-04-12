@@ -1,23 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
+import "./designathon.css";
 import Contacts from "../../components/contact/Contacts";
-import headEvent from "../../assets/team-head-img.svg";
-import eventAdobe from "../../assets/Events-image/event-1.png";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
-import designtocode from "../../assets/Events-image/designtocode.png";
-import findthedesign from "../../assets/Events-image/findthedesign.png";
-const designathon = () => {
- 
-
+import header_video from "../../assets/designathon/Designathon bg video.mp4";
+const Designathon = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
-    <section className="body-wrapper">
+    <section
+      className="body-wrapper"
+      style={{
+        background: "black",
+        height: "100vh",
+        overflow: "scroll",
+        overflowX: "hidden",
+      }}
+    >
       <Navbar />
-      <div className="events-wrapper-main">
-        <div className="heading-team" style={{marginBottom:'50PX'}}>
-          <p>DESIGNATHON</p>
+      <div className="designathon-wrapper-main">
+        <div className="home-designaton">
+          <div className="home-designaton-left">
+            <div className="designathon-header-content">
+              <p>FOCUS. INTERACT. CREATE.</p>
+              <p>DESIGNATHON</p>
+              <p className="by-code">by CODe</p>
+            </div>
+            <div className="designathon-header-dates">
+              <div>
+                <h2>27-28</h2>
+                <p>MAY 2023</p>
+              </div>
+              <div>
+                <h2>24</h2>
+                <p>HOURS</p>
+              </div>
+              <div>
+                <h2>25K+</h2>
+                <p>PRIZEPOOL</p>
+              </div>
+            </div>
+            <div
+              className="apply-button"
+              data-hackathon-slug="designathon"
+              data-button-theme="dark"
+              style={{ height: "2.4vw", width: "17vw" }}
+            ></div>
+          </div>
+          <div className="designathon-person-video">
+            <video loop autoPlay>
+              <source src={header_video} type="video/mp4" />
+            </video>
+          </div>
         </div>
-        
-        <div>coming soon</div>
       </div>
       <Contacts />
       <CopyRight />
@@ -25,4 +68,4 @@ const designathon = () => {
   );
 };
 
-export default designathon;
+export default Designathon;
