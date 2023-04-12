@@ -9,22 +9,20 @@ import devfolio from "../../assets/sponsors/devfolio.png";
 import polygon from "../../assets/sponsors/polygon.png";
 import replict from "../../assets/sponsors/Replit.png";
 import arrow from "../../assets/sponsors-arrow.svg";
-
+import whitecard from "../../assets/white-cut-rect.png";
+import uparrow from "../../assets/pink-up-arrow.png";
 const sponsors = () => {
   return (
     <section id="sponsors">
       <div className="contacts-wrapper">
         <div className="heading-team">
-          <p>SPONSORS</p>
+          <p>
+            OUR <span className="text-color">SPONSORS</span>
+          </p>
         </div>
 
         <div className="sponsors-logo-wrapper">
           <div className="div-sponsors-tire">
-            <div className="twinkle-sponsors">
-              <img src={twinkle} alt="" />
-              <img src={twinkle} alt="" />
-              <img src={twinkle} alt="" />
-            </div>
             <div className="company-sponsors-div">
               <a href="https://devfolio.co/">
                 <img src={devfolio} alt="DEVFOLIO LOGO" />
@@ -33,13 +31,14 @@ const sponsors = () => {
                 <img src={polygon} alt="POLYGON LOGO" />
               </a>
             </div>
-            <div className="line l-one"></div>
-          </div>
-          <div className="div-sponsors-tire">
             <div className="twinkle-sponsors">
               <img src={twinkle} alt="" />
               <img src={twinkle} alt="" />
+              <img src={twinkle} alt="" />
             </div>
+            <div className="line l-one"></div>
+          </div>
+          <div className="div-sponsors-tire">
             <div className="company-sponsors-div">
               <a href="https://replit.com">
                 <img src={replict} alt="REPLIT LOGO" />
@@ -51,18 +50,10 @@ const sponsors = () => {
                 <img src={filecoin} alt="FILECOIN LOGO" />
               </a>
             </div>
-            <div className="line l-two"></div>
-          </div>
-          <div className="div-sponsors-tire">
             <div className="twinkle-sponsors">
               <img src={twinkle} alt="" />
+              <img src={twinkle} alt="" />
             </div>
-            <div className="company-sponsors-div">
-              <a href="https://www.tinkerhub.org/">
-                <img src={tinkerhub} alt="TinkerHub" />
-              </a>
-            </div>
-            <div className="line l-three"></div>
           </div>
         </div>
         <div className="sponsors-text-div-wrapper">
@@ -71,16 +62,16 @@ const sponsors = () => {
               <span className="text-color">INTERESTED IN SUPPORT</span>ING THIS
               VENTURE ?
             </p>
-            <p className="sponsors-text-two">
-              View our sponsorship guide. We’ll be happy having you in our
-              family
-            </p>
           </div>
-          {/* <div className="arrow-sponsor">
-            <a href="#contact">
-              <img src={arrow} alt="" />
-            </a>
-          </div> */}
+          <a href="/">
+            <div className="sponsor-card image-container">
+              <img src={whitecard} alt="" />
+              <div className="foreground-image">
+                <p>VIEW SPONSORSHIP GUIDE</p>
+                <img src={uparrow} alt="" />
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>

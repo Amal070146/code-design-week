@@ -3,6 +3,7 @@ import "./designathon.css";
 import Contacts from "../../components/contact/Contacts";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
+import Sponsors from '../../components/sponsors/sponsors'
 import header_video from "../../assets/designathon/Designathon bg video.mp4";
 const Designathon = () => {
   React.useEffect(() => {
@@ -62,6 +63,7 @@ const Designathon = () => {
           </div>
         </div>
       </div>
+      <Sponsors />
       <Contacts />
       <CopyRight />
     </section>

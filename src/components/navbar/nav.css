@@ -5,16 +5,17 @@
   width: 100vw;
   align-items: center;
   padding: 15px 0px;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
+  background-image: url('../../assets/nav-bar-bg.png');
   z-index: 9999;
-  height: 120px;
+  height: 100px;
 }
 
 .nav-links > a {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "NeueMachinaRegular";
 }
 
@@ -26,7 +27,7 @@
 }
 
 .header-nav-img > a > img {
-  width: 300px;
+  width: 220px;
   padding-left: 60px;
   margin: 0%;
 }
@@ -66,7 +67,7 @@
   border: none;
   /* filter: grayscale(100%); */
 }
-.menu-div>div>img{
+.menu-div>div>a>img{
   width: 60vw;
 }
 .nav-links-menu {
@@ -102,7 +103,7 @@ color: white;
     padding-right: 30px;
   }
   .header-nav-img > a > img {
-    width: 270px;
+    width: 210px;
     padding-left: 30px;
   }
   .nav-bar-wrapper {
@@ -121,6 +122,10 @@ color: white;
   .nav-links-menu {
     gap: 4vw;
   }
+  .header-nav-img > a > img {
+    width: 180px;
+    padding-left: 15px;
+  }
 }
 @media screen and (max-width:800px){
   .menu-div{
@@ -135,7 +140,7 @@ color: white;
     padding-right: 15px;
   }
   .header-nav-img > a > img {
-    width: 200px;
+    width: 150px;
     padding-left: 15px;
   }
   .nav-bar-wrapper {

@@ -173,6 +173,7 @@
     padding: 0%;
     margin: 0%;
     height: 45px;
+    height: 9vw;
   }
   .contact-content-wrapper {
     flex-direction: column;

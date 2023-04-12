@@ -1,5 +1,5 @@
 .partners-wrapper-main {
-  margin-top: 10vw;
+  margin-top: 7vw;
   margin-bottom: 0px;
   padding: 25px auto 0px auto;
   display: flex;
@@ -11,6 +11,7 @@
   width: 85vw;
 }
 .partners-wrapper-main > .heading-team {
+  margin-top: 7vw;
   font-size: 3vw;
   color: white;
   display: flex;
@@ -38,7 +39,6 @@
 }
 
 .designathon-card-wrapper {
-  margin-top: 5vw;
   width: 100vw;
   height: 37vw;
 }
@@ -81,14 +81,14 @@ line-height: 0.95;
 }
 .participation-card > img {
   width: 23vw;
-  height: 3.5vw;
+  height: 5.3vw;
 }
 .participation-card > div {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 23vw;
-  height: 3.5vw;
+  height: 5.3vw;
   font-size: 2.5vw;
   font-family: "NeueMachinaRegular";
 
@@ -114,9 +114,10 @@ line-height: 0.95;
   }
   .partners-logo-wrapper > a > img {
     height: 7vw;
+    
   }
   .participation-card > div {
-    width: 28vw;
+    width: 30vw;
     height: 7vw;
     font-size: 3.5vw;
   }
@@ -125,7 +126,7 @@ line-height: 0.95;
   padding: 6% 10%;
 }
   .participation-card > img {
-    width: 28vw;
+    width: 30vw;
     height: 7vw;
   }
   .participation-card > div > img {

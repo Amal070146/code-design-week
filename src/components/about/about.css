@@ -30,7 +30,8 @@
   width: 85vw;
   padding: 0%;
   margin: 0%;
-  margin-top: 50px;
+  margin-top: 5.6vw;
+  margin-bottom: 5.6vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +65,7 @@
 }
 
 .about-info-data{
-  margin: 10px;
+  margin: 0px;
   display: flex;
   justify-content: space-between;
   width: 80vw;
@@ -84,6 +85,7 @@
   justify-content: space-between;
   width: 75vw;
   height: fit-content;
+  margin-bottom: 5.6vw;
 }
 .card-back {
   font-family: "NeueMachinaRegular";

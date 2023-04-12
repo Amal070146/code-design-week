@@ -40,7 +40,7 @@ const Nav = () => {
               </button>
             </div>
             <div>
-              <img src={logo} alt="" />
+              <a href="/"><img src={logo} alt="" /></a>
             </div>
             <div className="nav-links-menu">
               <a href="/events">EVENTS</a>
