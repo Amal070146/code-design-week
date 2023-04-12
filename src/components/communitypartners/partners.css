@@ -18,7 +18,7 @@
   font-family: "NeueMachinaUltrabold";
 }
 .partners-logo-wrapper {
-    margin-top: 2vw;
+  margin-top: 2vw;
   /* width: 70vw; */
   display: flex;
   align-items: center;
@@ -36,14 +36,97 @@
 .partners-logo-wrapper > a > img:hover {
   filter: grayscale(0%);
 }
-@media screen and (max-width: 500px) {
-    .partners-wrapper-main > .heading-team{
-        font-size: 4.5vw;
-    }
-    .partners-logo-wrapper {
-        margin-top: 4vw;
-    }
-.partners-logo-wrapper > a > img {
-  height: 7vw;
+
+.designathon-card-wrapper {
+  margin-top: 5vw;
+  width: 100vw;
+  height: 37vw;
 }
+.designathon-card-wrapper > img {
+  width: 100vw;
+  height: 37vw;
+}
+.designathon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 37vw;
+
+  padding: 7% 10%;
+}
+.designathon-card-conten {
+  display: flex;
+  flex-direction: column;
+}
+.designathon-card-content > :nth-child(1) {
+  font-size: 4.5vw;
+  font-weight: 300;
+  font-family: "NeueMachinaRegular";
+line-height: 0.95;
+}
+.designathon-card-content > :nth-child(2) {
+  font-size: 7.85vw;
+  font-family: "NeueMachinaUltrabold";  
+line-height: 0.95;
+
+}
+.designathon-card-content > .by-code {
+  font-size: 2.5vw;
+  margin-left: 50.5vw;
+  font-family: "NeueMachinaRegular";
+line-height: 0.95;
+
+}
+.participation-card > img {
+  width: 23vw;
+  height: 3.5vw;
+}
+.participation-card > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23vw;
+  height: 3.5vw;
+  font-size: 2.5vw;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  gap: 0.5vw;
+}
+
+.participation-card > div > img {
+  width: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+  .partners-wrapper-main > .heading-team {
+    font-size: 4.5vw;
+  }
+  .partners-logo-wrapper {
+    margin-top: 4vw;
+  }
+  .partners-logo-wrapper > a > img {
+    height: 7vw;
+  }
+  .participation-card > div {
+    width: 28vw;
+    height: 7vw;
+    font-size: 3.5vw;
+  }
+  .designathon-card {
+
+  padding: 6% 10%;
+}
+  .participation-card > img {
+    width: 28vw;
+    height: 7vw;
+  }
+  .participation-card > div > img {
+    width: 3vw;
+  }
 }
