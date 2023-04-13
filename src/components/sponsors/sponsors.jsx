@@ -63,7 +63,7 @@ const sponsors = () => {
               VENTURE ?
             </p>
           </div>
-          <a href="/">
+          <a href="/" className="">
             <div className="sponsor-card image-container">
               <img src={whitecard} alt="" />
               <div className="foreground-image">

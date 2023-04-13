@@ -46,9 +46,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 6vw;
   justify-content: center;
-  gap: 2vw;
+  gap: 2.3vw;
+  background: linear-gradient(
+    rgba(23, 23, 23, 0.5) 0%,
+    rgba(23, 23, 23, 0) 100.53%
+  );
+  background-blend-mode: screen, normal;
+  backdrop-filter: blur(21px);
+  padding: 4vw 0vw 4vw 0vw;
+  width: 100vw;
+  margin-left: -7.5vw;
 }
 
 .sponsors-text-div {
@@ -59,17 +68,13 @@
   font-size: 3.4vw;
   line-height: 0.9;
   width: 100%;
+  text-align: center;
   font-family: "NeueMachinaUltrabold";
 }
 .sponsors-text-two {
   margin-top: 20px;
   font-size: 1.6vw;
   font-family: "NeueMachinaRegular";
-}
-
-.sponsors-text-div-wrapper > div > a > img {
-  transform: rotate(0deg);
-  width: 10vw;
 }
 
 .sponsor-card {

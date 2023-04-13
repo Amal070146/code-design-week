@@ -1,13 +1,16 @@
 import React from "react";
 import "./Events.css";
-import Contacts from '../../components/contact/Contacts'
+import Contacts from "../../components/contact/Contacts";
 import headEvent from "../../assets/team-head-img.svg";
 import eventAdobe from "../../assets/Events-image/event-1.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
-import designtocode from '../../assets/Events-image/designtocode.png'
-import findthedesign from '../../assets/Events-image/findthedesign.png'
+import designtocode from "../../assets/Events-image/designtocode.png";
+import findthedesign from "../../assets/Events-image/findthedesign.png";
+import whitecard from "../../assets/white-cut-rect.png";
+
+
 const event = () => {
   const eventArray = [
     {
@@ -102,6 +105,9 @@ const event = () => {
         <div className="heading-team">
           <p>EVENTS</p>
         </div>
+        <div className="events-header-card-wrapper">
+            <div className="card-background"></div>
+        </div>
         <div className="events-content-wrapper">
           {eventArray
             .slice(0, 3)
@@ -116,9 +122,7 @@ const event = () => {
               />
             ))}
         </div>
-        <div>
-          coming soon
-        </div>
+        <div>coming soon</div>
       </div>
       <Contacts />
       <CopyRight />
