@@ -43,8 +43,12 @@ const CopyRight = () => {
             </p>
           </div>
           <div className="copy-right-contact-right">
-            <p>Terms of Use</p>
-            <p>Privacy Policy</p>
+            <a href="" style={{ color: "#8b8b8b" }}>
+              Code of Conduct
+            </a>
+            <a href="" style={{ color: "#8b8b8b" }}>
+              Privacy Policy
+            </a>
           </div>
         </div>
       </div>

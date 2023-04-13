@@ -9,7 +9,8 @@ import Nametag from "./namebar";
 import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
 import Marqueuecomponent from "./Marqueuecomponent";
-
+import gif from "../../assets/home-page/home-page.gif";
+import togglePlays from "../../assets/home-page/Maroon 5 - Girls Like You.mp3";
 const Header = () => {
   React.useEffect(() => {
     const script = document.createElement("script");
@@ -22,6 +23,17 @@ const Header = () => {
     };
   }, []);
   const [enableoverlay, setEnableOverlay] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const togglePlay = () => {
+    setIsPlaying(!isPlaying);
+    const audio = document.getElementById('audio');
+    if (isPlaying) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+  };
   return (
     <section id="header">
       <div className="header-wrapper">
@@ -32,7 +44,7 @@ const Header = () => {
             gap: "40px",
             alignItems: "center",
             justifyContent: "center",
-            width:'85vw'
+            width: "85vw",
           }}
         >
           <div className="header-head">
@@ -61,7 +73,14 @@ const Header = () => {
                     <img src={twinkle} alt="" />
                     <img src={twinkle} alt="" />
                   </div>
-                  <img className="play" src={play} alt="" />
+                  <audio className="play" id="audio" src={togglePlays} />
+                  <button onClick={togglePlay}>
+                    {isPlaying ? (
+                      <img className="play" src={play} alt="" />
+                    ) : (
+                      <img className="play" src={play} alt="" />
+                    )}
+                  </button>
                 </div>
               </div>
               <div className="text-image-wrap">
@@ -83,7 +102,7 @@ const Header = () => {
               <h3>22 - 28 MAY 2023</h3>
             </div>
           </div>
-          <div
+          {/* <div
             className="design-arrow"
             style={{ background: `url(${he})`, backgroundRepeat: "no-repeat" }}
           >
@@ -116,6 +135,9 @@ const Header = () => {
                 style={{ rotate: enableoverlay ? "80deg" : "" }}
               />
             </button>
+          </div> */}
+          <div className="design-arrow">
+            <img src={he} alt="" />
           </div>
         </div>
       </div>

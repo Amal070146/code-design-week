@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   padding-top: 1%;
-  background: linear-gradient(180deg, #000000 19.04%, rgba(0, 0, 0, 0) 100%);
 }
 .home-designaton-left {
   display: flex;
@@ -19,7 +18,6 @@
   justify-content: space-between;
   width: 50vw;
   padding: 8% 0% 8% 6vw;
-  background-color: #000000;
 }
 .designathon-header-content {
   display: flex;
@@ -70,6 +68,10 @@
   width: 50vw;
   height: auto;
   justify-self: right;
+}.designathon-person-video > img {
+  width: 50vw;
+  height: auto;
+  justify-self: right;
 }
 @media screen and (max-width: 1000px) {
   .designathon-wrapper-main {
@@ -92,6 +94,10 @@
     align-items: center;
   }
   .designathon-person-video > video {
+    width: 90vw;
+    height: auto;
+    justify-self: right;
+  } .designathon-person-video > img {
     width: 90vw;
     height: auto;
     justify-self: right;

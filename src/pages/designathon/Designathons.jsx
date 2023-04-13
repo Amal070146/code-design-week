@@ -4,9 +4,10 @@ import Contacts from "../../components/contact/Contacts";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
 import Sponsors from "../../components/sponsors/sponsors";
-import header_video from "../../assets/designathon/Designathon bg video.mp4";
+// import header_video from "../../assets/designathon/Designathon bg video.mp4";
 import theme_bg from "../../assets/designathon/designathon-theme-bg.png";
 import Timeline from "./timeline";
+import human_gif from '../../assets/designathon/Designathon bg video 1.gif'
 
 const Designathon = () => {
   React.useEffect(() => {
@@ -133,9 +134,10 @@ const Designathon = () => {
                 ></div>
               </div>
               <div className="designathon-person-video">
-                <video loop autoPlay>
+                {/* <video loop autoPlay>
                   <source src={header_video} type="video/mp4" />
-                </video>
+                </video> */}
+                <img src={human_gif} alt="" />
               </div>
             </div>
             <div className="designathon-theme image-container">

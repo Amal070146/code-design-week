@@ -32,7 +32,7 @@
             f.fillRect( 0, 0, f.canvas.width, f.canvas.height );
             f.globalCompositeOperation = "lighter";
             // f.strokeStyle = "hsla(" + Math.round( l.update() ) + ",90%,50%,0.25)";
-            f.strokeStyle = "rgb(142 0 66)";
+            f.strokeStyle = "rgb(118 0 55)";
             f.lineWidth = 1;
             for ( var t, e = 0; e < E.trails; e++ ) {
                 t = w[ e ];
