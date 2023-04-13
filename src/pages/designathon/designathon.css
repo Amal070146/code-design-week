@@ -85,4 +85,107 @@
   .designathon-wrapper-main {
     margin-top: 17.7vw;
   }
+  .home-designaton {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.designathon-person-video > video {
+  width: 90vw;
+  height: auto;
+  justify-self: right;
+}
+.home-designaton-left {
+  justify-content: space-between;
+  width: 85vw;
+  padding: 8% 0% 8% 0vw;
+}
+.designathon-header-dates > div > h2 {
+  font-size: 5.5vw;
+
+
+}
+.designathon-header-dates > div > p {
+  font-size: 3.2vw;
+
+}
+.designathon-header-content{
+  margin-bottom: 1.5vw;
+}
+.designathon-header-content > :nth-child(1) {
+  font-size: 6.2vw;
+  font-weight: 300;
+  font-family: "NeueMachinaRegular";
+  line-height: 0.95;
+}
+.designathon-header-content > :nth-child(2) {
+  font-size: 10.8vw;
+  font-family: "NeueMachinaUltrabold";
+  line-height: 0.95;
+}
+.designathon-header-content > .by-code {
+  font-size: 4vw;
+  margin-left: 66.9vw;
+  line-height: 0.95;
+}
+
+}
+
+
+.designathon-theme{
+  margin-top: 4vw;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.designathon-theme>img{
+  width: 85vw;
+
+}
+.designathon-theme-content{
+top: 30%;
+left: 11%;
+  font-family: "NeueMachinaUltrabold";  
+
+}
+.designathon-theme-content>p{
+  font-size: 2.7vw;
+}
+.designathon-theme-content>h3{
+  font-size: 5vw;
+
+}
+
+.designathon-prize-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding:3vw 7.3vw;
+  font-family: "NeueMachinaUltrabold";  
+
+}
+
+.designathon-prize-wrapper>div>h3{
+  color: white;
+  font-size: 3.1vw;
+}.designathon-prize-wrapper>div>h2{
+  font-size: 6.2vw;
+  background: linear-gradient(180deg, #F7C301 0%, rgba(247, 195, 1, 0.5) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+}.designathon-prize-wrapper>:nth-child(2)>h2{
+  font-size: 6.2vw;
+  background: linear-gradient(180deg, #2F76FF 0%, rgba(33, 108, 255, 0.5) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
 }

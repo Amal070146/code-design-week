@@ -27,7 +27,6 @@
 
 .twinkle-sponsors {
   display: flex;
-  justify-self: right;
 }
 .twinkle-sponsors > img {
   width: 3.5vw;

@@ -3,8 +3,9 @@ import "./designathon.css";
 import Contacts from "../../components/contact/Contacts";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
-import Sponsors from '../../components/sponsors/sponsors'
+import Sponsors from "../../components/sponsors/sponsors";
 import header_video from "../../assets/designathon/Designathon bg video.mp4";
+import theme_bg from "../../assets/designathon/designathon-theme-bg.png";
 const Designathon = () => {
   React.useEffect(() => {
     const script = document.createElement("script");
@@ -60,6 +61,23 @@ const Designathon = () => {
             <video loop autoPlay>
               <source src={header_video} type="video/mp4" />
             </video>
+          </div>
+        </div>
+        <div className="designathon-theme image-container">
+          <img src={theme_bg} alt="" />
+          <div className="designathon-theme-content foreground-image">
+            <p>THEME:</p>
+            <h3>SUSTAINABLE DEVELOPMENT</h3>
+          </div>
+        </div>
+        <div className="designathon-prize-wrapper">
+          <div>
+            <h3>TITLE WINNER</h3>
+            <h2 >10,000 INR</h2>
+          </div>
+          <div>
+            <h3>RUNNERS UP</h3>
+            <h2>5,000 INR</h2>
           </div>
         </div>
       </div>
