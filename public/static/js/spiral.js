@@ -22,7 +22,7 @@
 
     function a() {
         w = [];
-        for ( var t = 0; t < E.trails; t++ ) w.push( new n({ spring: .45 + .025 * (t / E.trails) }) );
+        for ( var t = 0; t < E.trails; t++ ) w.push( new n({ spring: .46 + .025 * (t / E.trails) }) );
     }
 
     function o() {
@@ -31,7 +31,7 @@
             f.fillStyle = "rgba(0,0,0,1)";
             f.fillRect( 0, 0, f.canvas.width, f.canvas.height );
             f.globalCompositeOperation = "lighter";
-            // f.strokeStyle = "hsla(" + Math.round( l.update() ) + ",90%,50%,0.25)";
+            f.strokeStyle = "hsla(" + Math.round( l.update() ) + "100%,90%,100%,1)";
             f.strokeStyle = "rgb(118 0 55)";
             f.lineWidth = 1;
             for ( var t, e = 0; e < E.trails; e++ ) {
@@ -51,7 +51,7 @@
 
     function r() {
         if ( !f.running ) {
-            f.running = !0;
+            f.running = 10;
             o();
         }
     }
@@ -82,10 +82,10 @@
     var f, l, v, g, y, x = {}, w = [], E = {};
 
     E.friction = .5;
-    E.trails = 20;
-    E.size = 50;
+    E.trails = 60;
+    E.size = 53;
     E.dampening = .25;
-    E.tension = .98;
+    E.tension = 0.97;
 
     e.prototype = function () {
         var t = 0;
