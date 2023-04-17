@@ -43,10 +43,14 @@ const CopyRight = () => {
             </p>
           </div>
           <div className="copy-right-contact-right">
-            <a href="https://devfolio.co/code-of-conduct" style={{ color: "#8b8b8b" }}>
+            <a
+              href="https://devfolio.co/code-of-conduct"
+              target="_blank"
+              style={{ color: "#8b8b8b" }}
+            >
               Code of Conduct
             </a>
-            <a href="" style={{ color: "#8b8b8b" }}>
+            <a href="" target="_blank" style={{ color: "#8b8b8b" }}>
               Privacy Policy
             </a>
           </div>
