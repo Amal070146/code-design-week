@@ -21,11 +21,11 @@ const Nav = () => {
           </a>
         </div>
         <div className="nav-links">
+          <a href="/">HOME</a>
           <a href="/events">EVENTS</a>
           <a href="/schedule">SCHEDULE</a>
           <a href="/designathon">DESIGNATHON</a>
           <a href="/#about">ABOUT US</a>
-          <a href="/#contacts">CONTACT</a>
         </div>
         <div className="nav-menu-short">
           <button onClick={openMenu}>
@@ -39,10 +39,9 @@ const Nav = () => {
                 <img src={closebutton} alt="" />
               </button>
             </div>
-            <div>
-              <a href="/"><img src={logo} alt="" /></a>
-            </div>
+
             <div className="nav-links-menu">
+              <a href="/">HOME</a>
               <a href="/events">EVENTS</a>
               <a href="/schedule">SCHEDULE</a>
               <a href="/designathon">DESIGNATHON</a>

@@ -114,7 +114,7 @@ const Designathon = () => {
                 </div>
                 <div className="designathon-header-dates">
                   <div>
-                    <h2>27-28</h2>
+                    <h2>XX-XX</h2>
                     <p>MAY 2023</p>
                   </div>
                   <div>
@@ -144,17 +144,17 @@ const Designathon = () => {
               <img src={theme_bg} alt="" />
               <div className="designathon-theme-content foreground-image">
                 <p>THEME:</p>
-                <h3>SUSTAINABLE DEVELOPMENT</h3>
+                <h3>**COMING SOON**</h3>
               </div>
             </div>
             <div className="designathon-prize-wrapper">
               <div>
                 <h3>TITLE WINNER</h3>
-                <h2>10,000 INR</h2>
+                <h2>XX,000 INR</h2>
               </div>
               <div>
                 <h3>RUNNERS UP</h3>
-                <h2>5,000 INR</h2>
+                <h2>YY,000 INR</h2>
               </div>
             </div>
             <div className="timeline-designathon-wrapper-main">

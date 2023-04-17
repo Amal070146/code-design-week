@@ -13,6 +13,7 @@
   gap: 10px;
   margin-top: 50px;
   width: 100%;
+  gap: 2VW;
 }
 
 .div-sponsors-tire {
@@ -23,6 +24,7 @@
   padding: 0%;
   margin: 0%;
   width: 85vw;
+
 }
 
 .twinkle-sponsors {
@@ -49,16 +51,11 @@
   margin-top: 6vw;
   justify-content: center;
   gap: 2.3vw;
-  background: linear-gradient(
-    rgba(23, 23, 23, 0.5) 0%,
-    rgba(23, 23, 23, 0) 100.53%
-  );
-  background-blend-mode: screen, normal;
-  backdrop-filter: blur(21px);
   padding: 4vw 0vw 4vw 0vw;
   width: 100vw;
   margin-left: -7.5vw;
 }
+
 
 .sponsors-text-div {
   width: 100%;
@@ -80,22 +77,26 @@
 .sponsor-card {
   font-size: 2vw;
   padding: 0%;
+  font-family: "NeueMachinaRegular";
+  font-size: 1.3VW;
+
 }
 .sponsor-card > img {
-  height: 5vw;
+  height: 4vw;
   padding: 0%;
-  width: 35vw;
+  width: 24vw;
 }
 .sponsor-card > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 5vw;
-  width: 35vw;
+  height: 4vw;
+  width: 24vw;
   color: black;
+  gap: 1VW;
 }
 .sponsor-card > div > img {
-  height: 2vw;
+  height: 1.3vw;
 }
 
 @media screen and (max-width: 1650px) {
@@ -132,6 +133,24 @@
   .sponsors-wrapper {
     margin-top: -35px;
   }
+  .sponsor-card {
+  font-size: 1.6VW;
+
+}
+.sponsor-card > img {
+  height: 4vw;
+  padding: 0%;
+  width: 30vw;
+}
+.sponsor-card > div {
+
+  height: 4vw;
+  width: 30vw;
+  gap: 1VW;
+}
+.sponsor-card > div > img {
+  height: 1.3vw;
+}
 }
 @media screen and (max-width: 700px) {
 }
@@ -159,6 +178,24 @@
   .sponsors-logo-wrapper {
     margin-top: 15px;
   }
+    .sponsor-card {
+  font-size: 2VW;
+
+}
+.sponsor-card > img {
+  height: 5vw;
+  padding: 0%;
+  width: 35vw;
+}
+.sponsor-card > div {
+
+  height: 5vw;
+  width: 35vw;
+  gap: 1VW;
+}
+.sponsor-card > div > img {
+  height: 2vw;
+}
 }
 
 @media screen and (max-width: 430px) {
