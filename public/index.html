@@ -39,7 +39,17 @@
       align-items: center;
       justify-content: center;
       z-index: 9999;
+      left: 0;
 
+    }
+
+    #overlay::-webkit-scrollbar {
+      display: none;
+    }
+
+    #overlay>img {
+      width: 200px;
+      aspect-ratio: 1/1;
     }
   </style>
   <script>
@@ -53,7 +63,7 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="overlay">
-    <img src="./favicon.png" alt="Loading" />
+    <img src="./cdw-logo.svg" alt="Loading" />
     Loading...
   </div>
   <div id="root"></div>
