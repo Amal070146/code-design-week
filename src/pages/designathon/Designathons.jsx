@@ -8,7 +8,8 @@ import Sponsors from "../../components/sponsors/sponsors";
 import theme_bg from "../../assets/designathon/designathon-theme-bg.png";
 import Timeline from "./timeline";
 // import human_gif from "../../assets/designathon/Designathon bg video 1.gif";
-import FAQ from './faq-main'
+import FAQ from "./FAQ-m";
+import Map from "./Mapcomponent";
 
 const Designathon = () => {
   React.useEffect(() => {
@@ -167,6 +168,7 @@ const Designathon = () => {
           </div>
           <Sponsors />
           <FAQ />
+          <Map />
           <Contacts />
           <CopyRight />
         </div>

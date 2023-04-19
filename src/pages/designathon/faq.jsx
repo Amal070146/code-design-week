@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./faq.css";
 import arrow from "../../assets/designathon/white-down-arrow-faq.png";
 import arrowblack from "../../assets/designathon/uparrow-black-faq.png";
 
-const Faq1 = ({heading,dots,para}) => {
- 
+const FAQ = ({ heading, dots, para }) => {
   const [openpopup, setopenpopup] = useState(false);
   function openPopup() {
     setopenpopup(!openpopup);
@@ -33,9 +32,7 @@ const Faq1 = ({heading,dots,para}) => {
       </div>
       {openpopup && (
         <div className="pop-up-faq">
-          <p>
-            {para}
-          </p>
+          <p>{para}</p>
           <a onClick={openPopup}>
             <img src={arrowblack} alt="" />
           </a>
@@ -45,4 +42,4 @@ const Faq1 = ({heading,dots,para}) => {
   );
 };
 
-export default Faq1;
+export default FAQ;
