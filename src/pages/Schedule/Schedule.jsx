@@ -2,14 +2,14 @@ import Navbar from "../../components/navbar/Navbar";
 import headEvent from "../../assets/team-head-img.svg";
 import "./schedule.css";
 import CopyRight from "../../components/copyright/CopyRight";
-
+import Scheduless from "./scheduletry";
 const Schedule = () => {
   return (
     <section className="body-wrapper" id="schedule">
       <Navbar />
       <div className="schedule-wrapper">
         <div className="heading-team">
-          <p>EVENTS <span className="text-color">SCHEDULE</span></p>
+          <p>SCHEDULE</p>
         </div>
         <div className="schedule-content-wrapper">
           <div className="schedule-content-div">
@@ -68,9 +68,18 @@ const Schedule = () => {
                 <p>GRAPHICA - Figma</p>
               </div>
               <div className="schedule-content-div-t">
-              <h4> <span className="text-color"><b> ALL DAY</b></span></h4>
+                <h4>
+                  {" "}
+                  <span className="text-color">
+                    <b> ALL DAY</b>
+                  </span>
+                </h4>
 
-                <p><span className="text-color"><b>DESIGN EXPO</b></span></p>
+                <p>
+                  <span className="text-color">
+                    <b>DESIGN EXPO</b>
+                  </span>
+                </p>
               </div>
             </div>
           </div>
@@ -100,8 +109,16 @@ const Schedule = () => {
                 <p>DESIGNATHON Inauguration</p>
               </div>
               <div className="schedule-content-div-t">
-                <h4><span className="text-color"><b>04 : 30 PM</b></span></h4>
-                <p><span className="text-color"><b>DESIGNATHON commences</b></span></p>
+                <h4>
+                  <span className="text-color">
+                    <b>04 : 30 PM</b>
+                  </span>
+                </h4>
+                <p>
+                  <span className="text-color">
+                    <b>DESIGNATHON commences</b>
+                  </span>
+                </p>
               </div>
             </div>
           </div>
@@ -120,6 +137,8 @@ const Schedule = () => {
           </div>
         </div>
       </div>
+      <Scheduless />
+
       <CopyRight />
     </section>
   );

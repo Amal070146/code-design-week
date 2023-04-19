@@ -105,9 +105,7 @@ const event = () => {
         <div className="heading-team">
           <p>EVENTS</p>
         </div>
-        <div className="events-header-card-wrapper">
-            <div className="card-background"></div>
-        </div>
+        
         <div className="events-content-wrapper">
           {eventArray
             .slice(0, 3)
