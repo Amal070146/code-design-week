@@ -38,16 +38,16 @@ const partners = () => {
         {/* <a href="">
           <img src={gtech} alt="" />
         </a> */}
-        <a href="">
+        <a >
           <img src={tinkerhub} alt="" />
         </a>
-        <a href="">
+        <a >
           <img src={iedc} alt="" />
         </a>
-        <a href="">
+        <a >
           <img src={ieee} alt="" />
         </a>
-        <a href="">
+        <a>
           <img src={csi} alt="" />
         </a>
       </div>

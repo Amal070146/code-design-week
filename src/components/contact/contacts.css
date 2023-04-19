@@ -21,7 +21,7 @@
   display: flex;
   margin: 0%;
   padding: 0%;
-  margin-top: 70px;
+  margin-top: 0vw;
   justify-content: space-between;
   margin-bottom: 30px;
   color: white;
@@ -78,13 +78,13 @@
 .copy-right-contact-right {
   display: flex;
   gap: 30px;
+  font-size: 1vw;
 }
 @media screen and (max-width: 1300px) {
   .contact-social > a > img {
     height: 5vw;
   }
   .contact-content-wrapper {
-    margin-top: 10px;
     margin-bottom: 10px;
   }
   .copy-right-contact > div > p {

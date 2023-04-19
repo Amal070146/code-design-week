@@ -126,7 +126,7 @@ const Events = () => {
               </div>
             </div>
           </a>
-          <a href="">
+          <a href="https://bit.ly/cdwpitch" target="_blank">
             <div className="know-more-wrapper image-container">
               <img src={know_more} alt="" />
               <img className="foreground-image" src={knowmoretext} alt="" />
@@ -140,8 +140,8 @@ const Events = () => {
             WE <span className="text-color">CREATE</span> AND DESIGN.
           </p>
           <p className="cd-left-team-two">
-            Design is everywhere. A good design is something that has a pleasant
-            impact on one's life.
+            If you love design, you want to pursue your career in design, CODe
+            will help you build up your DESIGN skills.
           </p>
         </div>
         <div className="cd-right-team">

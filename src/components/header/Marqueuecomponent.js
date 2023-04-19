@@ -5,7 +5,7 @@ import './header.css'
 
 const Marqueuecomponent = () => {
   return (
-    <div style={{ width: "100vw", padding: "10px" ,backgroundColor:'black',marginTop:'-10px'}}>
+    <div style={{ width: "100vw", padding: "10px" ,backgroundColor:'black',marginTop:'-4px'}}>
       <Marquee style={{ width: "100vw" }} gradient={false}>
         <Marqueuesingle />
         <Marqueuesingle />

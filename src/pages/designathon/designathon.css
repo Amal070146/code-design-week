@@ -17,31 +17,33 @@
   flex-direction: column;
   justify-content: space-between;
   width: 50vw;
-  padding: 8% 0% 8% 6vw;
+  padding: 8% 0% 8% 7vw;
+  align-items: center;
 }
 .designathon-header-content {
   display: flex;
   flex-direction: column;
 }
 .designathon-header-content > :nth-child(1) {
-  font-size: 3.2vw;
+  font-size: 3vw;
   font-weight: 300;
   font-family: "NeueMachinaRegular";
   line-height: 0.95;
 }
 .designathon-header-content > :nth-child(2) {
-  font-size: 5.59vw;
+  font-size: 5.26vw;
   font-family: "NeueMachinaUltrabold";
   line-height: 0.95;
 }
 .designathon-header-content > .by-code {
-  font-size: 3vw;
-  margin-left: 30.9vw;
+  font-size: 2.5vw;
+  margin-left: 30.2vw;
   font-family: "NeueMachinaRegular";
   line-height: 0.95;
 }
 .designathon-header-dates {
   display: flex;
+  width: 41vw;
   justify-content: space-between;
 }
 
@@ -68,10 +70,29 @@
   width: 50vw;
   height: auto;
   justify-self: right;
-}.designathon-person-video > img {
+}
+.designathon-person-video > img {
   width: 50vw;
   height: auto;
   justify-self: right;
+}
+.space-creator {
+  display: none;
+}
+@media screen and (max-width: 1130px) {
+  .home-designaton-left > :nth-child(3) {
+    position: fixed;
+    bottom: 6%;
+    left: 35%;
+    z-index: 9999;
+  }
+  .designathon-header-dates>div>h2{
+    font-size: 3.5vw;
+  }
+ .designathon-header-dates>div>p{
+    font-size: 2.2vw;
+  }
+
 }
 @media screen and (max-width: 1000px) {
   .designathon-wrapper-main {
@@ -81,6 +102,19 @@
 @media screen and (max-width: 730px) {
   .designathon-wrapper-main {
     margin-top: 14.7vw;
+  }
+  .home-designaton-left > :nth-child(3) {
+    position: fixed;
+    bottom: 6%;
+    left: 30%;
+    z-index: 9999;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .home-designaton-left > :nth-child(3) {
+    bottom: 6%;
+    left: 25%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -97,7 +131,11 @@
     width: 90vw;
     height: auto;
     justify-self: right;
-  } .designathon-person-video > img {
+  }
+  .designathon-header-dates {
+    width: 85vw;
+  }
+  .designathon-person-video > img {
     width: 90vw;
     height: auto;
     justify-self: right;
@@ -132,6 +170,28 @@
     margin-left: 66.9vw;
     line-height: 0.95;
   }
+  .home-designaton-left > :nth-child(3) {
+    bottom: 6%;
+    left: 20%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-designaton-left > :nth-child(3) {
+    bottom: 6%;
+    left: 17%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .home-designaton-left > :nth-child(3) {
+    bottom: 6%;
+    left: 13%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home-designaton-left > :nth-child(3) {
+    bottom: 6%;
+    left: 10%;
+  }
 }
 
 .designathon-theme {
@@ -147,7 +207,7 @@
 }
 .designathon-theme-content {
   top: 30%;
-  left: 11%;
+  left: 15%;
   font-family: "NeueMachinaUltrabold";
 }
 .designathon-theme-content > p {
@@ -180,7 +240,7 @@
 }
 .designathon-prize-wrapper > :nth-child(2) > h2 {
   font-size: 6.2vw;
-  background: linear-gradient(180deg, #2f76ff 0%, rgba(33, 108, 255, 0.5) 100%);
+  background: linear-gradient(180deg, #565656 0%, rgba(255, 255, 255, 0.7) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

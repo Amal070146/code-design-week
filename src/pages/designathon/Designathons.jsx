@@ -116,7 +116,7 @@ const Designathon = () => {
                 </div>
                 <div className="designathon-header-dates">
                   <div>
-                    <h2>XX-XX</h2>
+                    <h2>27-28</h2>
                     <p>MAY 2023</p>
                   </div>
                   <div>
@@ -128,12 +128,14 @@ const Designathon = () => {
                     <p>PRIZEPOOL</p>
                   </div>
                 </div>
-                <div
-                  className="apply-button"
-                  data-hackathon-slug="designathon"
-                  data-button-theme="dark"
-                  style={{ height: "2.4vw", width: "17vw" }}
-                ></div>
+                <div style={{ height: "1vw", width: "12vw" }}>
+                  <div
+                    className="apply-button"
+                    data-hackathon-slug="designathon"
+                    data-button-theme="dark-inverted"
+                    style={{ height: "2vw", width: "17vw" }}
+                  ></div>
+                </div>
               </div>
               <div className="designathon-person-video">
                 {/* <video loop autoPlay>
@@ -155,11 +157,11 @@ const Designathon = () => {
             <div className="designathon-prize-wrapper">
               <div>
                 <h3>TITLE WINNER</h3>
-                <h2>XX,000 INR</h2>
+                <h2>10,000 INR</h2>
               </div>
               <div>
                 <h3>RUNNERS UP</h3>
-                <h2>YY,000 INR</h2>
+                <h2>5,000 INR</h2>
               </div>
             </div>
             <div className="timeline-designathon-wrapper-main">

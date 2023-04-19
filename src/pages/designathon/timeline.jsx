@@ -6,12 +6,15 @@ const timeline = () => {
     <div className="timeline-wrapper">
       <h1>TIMELINE</h1>
       <div className="timelinetimelineWrapper">
-        <TimelineSingle isLeft={true} date={"2023-04-11"} />
-        <TimelineSingle isLeft={false} date={"2023-04-12"} />
-        <TimelineSingle isLeft={true} date={"2023-04-13"} />
-        <TimelineSingle isLeft={false} date={"2023-04-14"} />
-        <TimelineSingle isLeft={true} date={"2023-04-15"} />
-        <TimelineSingle isLeft={false} date={"2023-04-20"} />
+        <TimelineSingle isLeft={true} date={"2023-04-18"} />
+        <TimelineSingle isLeft={false} date={"2023-05-18"} />
+        <TimelineSingle isLeft={true} date={"2023-05-20"} />
+        <TimelineSingle isLeft={false} date={"2023-05-25"} />
+        <TimelineSingle isLeft={true} date={"2023-05-22"} />
+        <TimelineSingle isLeft={false} date={"2023-05-27"} />
+        {/* <TimelineSingle isLeft={false} date={"2023-05-27"} />
+        <TimelineSingle isLeft={false} date={"2023-05-28"} />
+        <TimelineSingle isLeft={false} date={"2023-05-28"} /> */}
       </div>
     </div>
   );
