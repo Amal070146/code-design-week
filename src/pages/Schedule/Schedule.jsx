@@ -7,7 +7,7 @@ const Schedule = () => {
   return (
     <section className="body-wrapper" id="schedule">
       <Navbar />
-      <div className="schedule-wrapper">
+      {/* <div className="schedule-wrapper">
         <div className="heading-team">
           <p>SCHEDULE</p>
         </div>
@@ -136,7 +136,7 @@ const Schedule = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Scheduless />
 
       <CopyRight />

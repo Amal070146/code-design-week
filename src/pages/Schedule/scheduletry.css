@@ -2,13 +2,16 @@
   display: flex;
   flex-direction: column;
   width: 80vw;
+  align-items: center;
+  gap: 4vw;
+  padding: 10% 0%;
 }
 
 .schedule-single-card {
   height: fit-content;
   width: 45vw;
 }
-.schedule-single-card>img {
+.schedule-single-card > img {
   height: fit-content;
   width: 45vw;
 }
@@ -27,7 +30,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-family: "NeueMachinaUltrabold";  
+  font-family: "NeueMachinaUltrabold";
 
   font-size: 2vw;
 }
@@ -52,5 +55,105 @@
   font-size: 1.3vw;
   justify-self: left;
   font-family: "NeueMachinaRegular";
+}
+.schedule-single-card-content > :nth-child(3) > div>:nth-child(1){
+    width: 200px;
+}
+@media screen and (max-width: 1200px) {
+  .schedule-single-card {
+    width: 480px;
+  }
+  .schedule-single-card > img {
+    width: 480px;
+  }
 
+  .schedule-single-card-content {
+    width: 97%;
+    top: 2.5%;
+    padding: 5% 5% 5% 7%;
+    gap: 0.9vw;
+  }
+  .schedule-wrapper>.heading-team{
+   font-size: 40px;
+}
+
+  .schedule-single-card-content > :nth-child(1) {
+    font-size: 26px;
+  }
+  .schedule-single-card-content > :nth-child(1) > img {
+    width: 185px;
+  }
+  .schedule-single-card-content > :nth-child(2) {
+    height: 2px;
+  }
+  .schedule-single-card-content > :nth-child(3) {
+    gap: 1vw;
+  }
+  .schedule-single-card-content > :nth-child(3) > div {
+    gap: 25px;
+    font-size: 16px;
+  }
+  .schedule-single-card-content > :nth-child(3) > div>:nth-child(1){
+    width: 140px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .schedule-single-card {
+    width: 400px;
+  }
+  .schedule-days-card-wrapper {
+    width: 100vw;
+   margin-bottom: -10vw;
+  }
+   .schedule-single-card-content > :nth-child(3) > div>:nth-child(1){
+    width: 150px;
+}
+}
+@media screen and (max-width: 500px) {
+  .schedule-single-card {
+    width: 420px;
+  }
+  .schedule-single-card > img {
+    width: 420px;
+  }
+    .schedule-single-card-content {
+    width: 97%;
+    top: 1%;
+  
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .schedule-single-card {
+    width: 380px;
+  }
+  .schedule-single-card > img {
+    width: 380px;
+  }
+
+  .schedule-single-card-content {
+    width: 97%;
+    top: 1%;
+    padding: 5% 5% 5% 7%;
+    gap: 0.9vw;
+  }
+
+  .schedule-single-card-content > :nth-child(1) {
+    font-size: 22px;
+  }
+  .schedule-single-card-content > :nth-child(1) > img {
+    width: 135px;
+  }
+  .schedule-single-card-content > :nth-child(2) {
+    height: 2px;
+  }
+  .schedule-single-card-content > :nth-child(3) {
+    gap: 1vw;
+  }
+  .schedule-single-card-content > :nth-child(3) > div {
+    gap: 25px;
+    font-size: 16px;
+  }
 }

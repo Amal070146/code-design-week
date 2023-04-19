@@ -1,7 +1,7 @@
 .schedule-wrapper {
   margin-top: 120px;
   margin-bottom: 0px;
-  padding: 25px 80px 0px 80px;
+  padding: 25px 10vw 0px 10vw;
   align-items: center;
   justify-content: center;
   background: #171717;
@@ -9,8 +9,8 @@
   width: 100vw;
 }
 
-.schedule-wrapper>.heading-team{
-   font-size: 3vw;
+.schedule-wrapper > .heading-team {
+  font-size: 3vw;
   color: white;
   display: flex;
   justify-content: center;
@@ -37,18 +37,16 @@
 }
 .schedule-content-div > h1 {
   font-size: 5.7vw;
-  font-family: "NeueMachinaUltrabold";  
-
+  font-family: "NeueMachinaUltrabold";
 }
 .schedule-content-div-t {
   display: flex;
   gap: 50px;
   font-family: "NeueMachinaRegular";
-
 }
-.schedule-content-div-t>h4{
-    width: 16vw;
-    font-weight: 500;
+.schedule-content-div-t > h4 {
+  width: 16vw;
+  font-weight: 500;
 }
 
 .schedule-content-div-ta {
@@ -59,10 +57,12 @@
   font-size: 1.8vw;
   width: 100%;
 }
+
 @media screen and (max-width: 1000px) {
   .schedule-wrapper {
     margin-top: 100px;
-    padding: 25px 100px 0px 100px;
+    /* padding: 25px 100px 0px 100px; */
+    /* padding: 25px 2vw 0px 2.5vw;  */
   }
   .schedule-content-wrapper {
     display: flex;
@@ -78,11 +78,17 @@
     gap: 5px;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .schedule-wrapper {
+    margin-top: 100px;
+    /* padding: 25px 100px 0px 100px; */
+    padding: 25px 2vw 0px 2vw; 
+  }
+}
 @media screen and (max-width: 500px) {
   .schedule-wrapper {
     margin: 70px 0px;
-    padding: 25px 10px 0px 30px;
+    padding: 25px 0px 0px 0vw;
   }
   .schedule-content-wrapper {
     display: flex;
@@ -97,10 +103,10 @@
     font-size: 2.7vw;
     justify-content: left;
   }
-  .schedule-content-div-t>h4{
+  .schedule-content-div-t > h4 {
     width: 20vw;
     font-weight: 500;
-}
+  }
 }
 @media screen and (max-width: 420px) {
   .events-header > .schedule-head-img {
