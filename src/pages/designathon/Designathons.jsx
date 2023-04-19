@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./designathon.css";
 import Contacts from "../../components/contact/Contacts";
 import Navbar from "../../components/navbar/Navbar";
@@ -7,7 +7,8 @@ import Sponsors from "../../components/sponsors/sponsors";
 // import header_video from "../../assets/designathon/Designathon bg video.mp4";
 import theme_bg from "../../assets/designathon/designathon-theme-bg.png";
 import Timeline from "./timeline";
-import human_gif from "../../assets/designathon/Designathon bg video 1.gif";
+// import human_gif from "../../assets/designathon/Designathon bg video 1.gif";
+import FAQ from './faq-main'
 
 const Designathon = () => {
   React.useEffect(() => {
@@ -165,6 +166,7 @@ const Designathon = () => {
             </div>
           </div>
           <Sponsors />
+          <FAQ />
           <Contacts />
           <CopyRight />
         </div>

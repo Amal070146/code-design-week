@@ -11,7 +11,7 @@ const timeline = () => {
         <TimelineSingle isLeft={true} date={"2023-04-13"} />
         <TimelineSingle isLeft={false} date={"2023-04-14"} />
         <TimelineSingle isLeft={true} date={"2023-04-15"} />
-        <TimelineSingle isLeft={false} date={"2023-04-16"} />
+        <TimelineSingle isLeft={false} date={"2023-04-20"} />
       </div>
     </div>
   );
