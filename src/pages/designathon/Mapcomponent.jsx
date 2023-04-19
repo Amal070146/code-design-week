@@ -30,13 +30,13 @@ function Mapcompoenet() {
         Christ College Road, Irinjalakuda, Kerala 680125
       </span>
       <iframe
-        src="https://www.google.com/maps/@10.3787202,76.2313719,13.84z/data=!4m6!3m5!1s0x3ba7f65a7d7bc725:0x22dc855ba6cace68!8m2!3d10.357801!4d76.2127088!16s%2Fm%2F03c5zsv?hl=en"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.800873339364!2d76.21013387490174!3d10.3578009897667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f65a7d7bc725%3A0x22dc855ba6cace68!2sChrist%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1681916495985!5m2!1sen!2sin"
         style={{
           border: "0",
           width: "100%",
           maxWidth: "80vw",
           height: "20vw",
-          borderRadius: "15px",
+          borderRadius: "12px",
         }}
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
