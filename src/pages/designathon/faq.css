@@ -40,10 +40,10 @@
   color: black;
 }
 .faq-container > div > a > img {
-  width: 2.4vw;
+  width: 2vw;
 }
 .pop-up-faq > a > img {
-  width: 2.4vw;
+  width: 2vw;
 }
 
 @media screen and (max-width: 500px) {

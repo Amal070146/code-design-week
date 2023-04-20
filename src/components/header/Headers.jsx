@@ -4,12 +4,9 @@ import play from "../../assets/header-play-img.svg";
 import loc from "../../assets/location-logo.svg";
 import cal from "../../assets/calender-logo.svg";
 import he from "../../assets/header-image.png";
-import arrow from "../../assets/apply-devfolio.png";
-import Nametag from "./namebar";
 import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
 import Marqueuecomponent from "./Marqueuecomponent";
-import gif from "../../assets/home-page/home-page.gif";
 import togglePlays from "../../assets/home-page/Maroon 5 - Girls Like You.mp3";
 const Header = () => {
   React.useEffect(() => {

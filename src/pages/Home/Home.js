@@ -25,7 +25,6 @@ const Home = () => {
     <div className="body-wrapper">
       <Navbar />
       <Headernew />
-      <Header />
       <About />
       <Events />
       <Partners />
