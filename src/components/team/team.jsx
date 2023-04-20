@@ -1,5 +1,7 @@
 import React from "react";
 import "./team.css";
+import remya from "../../assets/team/remya.png";
+
 import enric from "../../assets/team/enric.png";
 import amalcp from "../../assets/team/amalcp.png";
 import ajay from "../../assets/team/ajayvishnu.png";
@@ -9,7 +11,7 @@ import jaivin from "../../assets/team/jaivin.png";
 import jasrin from "../../assets/team/jasrin.png";
 import theresa from "../../assets/team/theresa.png";
 import varsha from "../../assets/team/varsha.png";
-
+import codelogo from "../../assets/code-logo.png";
 
 const team = () => {
   return (
@@ -18,13 +20,26 @@ const team = () => {
         <div className="heading-team">
           <p>OUR TEAM</p>
         </div>
+        <div className="remya-section">
+          <div class="box">
+            <img src={remya} alt="" />
+            <div class="name-tag-team" style={{ background: "none" }}></div>
+          </div>
+          <div className="remya-section-content">
+            <img src={codelogo} alt="" />
+            <h2>Dr. Remya K Sasi</h2>
+            <p>HOD, Department of CSE</p>
+            <p>Faculty-in-Charge,</p>
+            <p>Community Of Developers (CODe)</p>
+          </div>
+        </div>
         <div class="container-team">
           <div class="box">
             <img src={enric} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
                 <p className="name-team-member">Enric S Neelamkavil</p>{" "}
-                <p className="position-team-membere">President, CODe</p>
+                <p className="position-team-membere">Design Week Lead</p>
               </div>
             </div>
           </div>
@@ -42,7 +57,7 @@ const team = () => {
             <div class="name-tag-team">
               <div class="name-team">
                 <p className="name-team-member">Ajay Vishnu E</p>{" "}
-                <p className="position-team-membere">Event Head</p>
+                <p className="position-team-membere">Event Lead</p>
               </div>
             </div>
           </div>
@@ -51,7 +66,7 @@ const team = () => {
             <div class="name-tag-team">
               <div class="name-team">
                 <p className="name-team-member">Noah Johny</p>{" "}
-                <p className="position-team-membere">Graphic Designer</p>
+                <p className="position-team-membere">Design Lead</p>
               </div>
             </div>
           </div>
@@ -101,7 +116,6 @@ const team = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </section>
   );

@@ -211,7 +211,9 @@
   .loc-cal {
     flex-direction: column;
   }
-
+.music-player{
+  align-self: center;
+}
   .header-head > .dots-image {
     display: none;
   }

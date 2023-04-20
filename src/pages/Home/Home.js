@@ -6,7 +6,6 @@ import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Headers";
 import Headernew from "../../components/header/Header-new";
 import Partners from '../../components/communitypartners/Partner'
-import Team from "../../components/team/team";
 import Sponsors from "../../components/sponsors/sponsors";
 import "./Home.css";
 import React from "react";
@@ -28,7 +27,6 @@ const Home = () => {
       <About />
       <Events />
       <Partners />
-      <Team />
       <Contacts />
       <CopyRight />
     </div>

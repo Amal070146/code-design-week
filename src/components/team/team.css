@@ -4,7 +4,8 @@
   justify-content: center;
   background: #171717;
   width: 85vw;
-  margin-top: 100px;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
 }
 
 .team-wrapper > .heading-team {
@@ -23,13 +24,39 @@
   margin: 0%;
   margin-top: 40px;
   height: fit-content;
-  gap: 20px;
+  gap: 60px;
+}
+.remya-section{
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.remya-section-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+  font-family: "MoriGothic-Semibold";
+
+}
+.remya-section-content>img{
+  width: 10vw;
+}.remya-section-content>p{
+    font-size: 1.4vw;
+
+}
+.remya-section-content>h2{
+  color: #E30069;
+  font-size: 2vw;
+  font-family: "NeueMachinaUltrabold";  
+
 }
 
 .box {
   position: relative;
-  width: calc(95% / 3);
-  height: calc(95% / 3);
+  width: calc(68% / 3);
+  height: calc(65% / 3);
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -79,10 +106,10 @@
   margin-bottom: 20px;
 }
 .name-team > .name-team-member {
-  font-size: 35px;
+  font-size: 25px;
 }
 .position-team-member {
-  font-size: 22px;
+  font-size: 20px;
   margin-top: -10px;
 }
 @media screen and (max-width: 1000px) {
@@ -198,7 +225,7 @@
 
 @media screen and (max-width: 1400px) {
   .container-team {
-    margin-top: 100px;
+    margin-top: 60px;
   }
   .cd-right-team {
     width: 35%;
@@ -214,6 +241,9 @@
   }
 }
 @media screen and (max-width: 1000px) {
+   .container-team {
+    margin-top: 20px;
+  }
   .cd-team-wrapper {
     flex-direction: column;
     gap: 20px;
@@ -240,6 +270,9 @@
 }
 
 @media screen and (max-width: 900px) {
+   .container-team {
+    margin-top: 10px;
+  }
   .transition-div-t {
     width: 90vw;
   }
@@ -250,9 +283,17 @@
     width: 65px;
     height: 65px;
   }
-  .container-team {
-    margin-top: 80px;
-  }
+  .remya-section-content>img{
+  width: 13vw;
+}.remya-section-content>p{
+    font-size: 1.8vw;
+
+}
+.remya-section-content>h2{
+  font-size: 3vw;
+
+}
+  
 }
 @media screen and (max-width: 800px) {
 }
@@ -270,7 +311,7 @@
     height: 53px;
   }
   .container-team {
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .cd-left-team > .cd-left-team-one {
     font-size: 30px;
@@ -306,6 +347,16 @@
   .right-cd-div>img{
     width: 24px;
   }
+    .remya-section-content>img{
+  width: 15vw;
+}.remya-section-content>p{
+    font-size: 2.2vw;
+
+}
+.remya-section-content>h2{
+  font-size: 3.7vw;
+
+}
 
 }
 @media screen and (max-width: 420px) {

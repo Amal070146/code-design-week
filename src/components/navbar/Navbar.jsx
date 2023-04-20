@@ -25,7 +25,7 @@ const Nav = () => {
           <a href="/events">EVENTS</a>
           <a href="/schedule">SCHEDULE</a>
           <a href="/designathon">DESIGNATHON</a>
-          <a href="/#about">ABOUT US</a>
+          <a href="/aboutus">ABOUT US</a>
         </div>
         <div className="nav-menu-short">
           <button onClick={openMenu}>
@@ -45,7 +45,7 @@ const Nav = () => {
               <a href="/events">EVENTS</a>
               <a href="/schedule">SCHEDULE</a>
               <a href="/designathon">DESIGNATHON</a>
-              <a href="/#about">ABOUT US</a>
+              <a href="/aboutus">ABOUT US</a>
               <a href="/#contacts">CONTACT</a>
             </div>
             <div>
