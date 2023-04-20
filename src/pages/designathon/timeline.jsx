@@ -6,21 +6,57 @@ const timeline = () => {
     <div className="timeline-wrapper">
       <h1>TIMELINE</h1>
       <div className="timelinetimelineWrapper">
-        <TimelineSingle isLeft={true} date={"2023-04-18"}  />
-        <TimelineSingle isLeft={false} date={"2023-05-18"} />
-        <TimelineSingle isLeft={true} date={"2023-05-20"} />
-        <TimelineSingle isLeft={false} date={"2023-05-25"} />
-        <TimelineSingle isLeft={true} date={"2023-05-22"} />
-        <TimelineSingle isLeft={false} date={"2023-05-27"} />
-        <TimelineSingle isLeft={true} date={"2023-05-27"} />
-        <TimelineSingle isLeft={false} date={"2023-05-28"} />
-        <TimelineSingle isLeft={true} date={"2023-05-28"} />
+        <TimelineSingle
+          isLeft={true}
+          date={"2023-04-18"}
+          title={"REGISTRATION STARTS"}
+        />
+        <TimelineSingle
+          isLeft={false}
+          date={"2023-05-18"}
+          title={"REGISTRATION ENDS"}
+        />
+        <TimelineSingle
+          isLeft={true}
+          date={"2023-05-20"}
+          title={"SUBMISSION OF IDEAS"}
+        />
+        <TimelineSingle
+          isLeft={false}
+          date={"2023-05-25"}
+          title={"SHORTLISTED TEAMS ARE ANNOUNCED"}
+        />
+        <TimelineSingle
+          isLeft={true}
+          date={"2023-05-22"}
+          title={"CODe DESIGN WEEK BEGINS"}
+        />
+        <TimelineSingle
+          isLeft={false}
+          date={"2023-05-27"}
+          title={"INAUGURATION OF DESIGNATHON"}
+        />
+        <TimelineSingle
+          isLeft={true}
+          date={"2023-05-27"}
+          title={"DESIGNATHON BEGINS"}
+        />
+        <TimelineSingle
+          isLeft={false}
+          date={"2023-05-28"}
+          title={"DESIGNATHON ENDS"}
+        />
+        <TimelineSingle
+          isLeft={true}
+          date={"2023-05-28"}
+          title={"VALEDECTORY CEREMONY OF CDW ‘23"}
+        />
       </div>
     </div>
   );
 };
 
-const TimelineSingle = ({ isLeft, date }) => {
+const TimelineSingle = ({ isLeft, date ,title}) => {
   const [isCompleted, setIsCompleted] = useState(false);
   useEffect(() => {
     console.log(date);
@@ -57,7 +93,7 @@ const TimelineSingle = ({ isLeft, date }) => {
           </div>
         )}
         <span>{date}</span>
-        <h2>THIS IS A TITLE</h2>
+        <h2>{title}</h2>
       </div>
       <div></div>
     </div>

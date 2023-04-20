@@ -4,6 +4,7 @@ import CopyRight from "../../components/copyright/CopyRight";
 import Events from "../../components/events/Events";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Headers";
+import Headernew from "../../components/header/Header-new";
 import Partners from '../../components/communitypartners/Partner'
 import Team from "../../components/team/team";
 import Sponsors from "../../components/sponsors/sponsors";
@@ -23,12 +24,12 @@ const Home = () => {
   return (
     <div className="body-wrapper">
       <Navbar />
+      <Headernew />
       <Header />
       <About />
       <Events />
       <Partners />
       <Team />
-      {/* <Sponsors /> */}
       <Contacts />
       <CopyRight />
     </div>
