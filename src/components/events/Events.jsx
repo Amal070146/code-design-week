@@ -1,11 +1,5 @@
 import React from "react";
 import "./events.css";
-import headEvent from "../../assets/events-head-img.svg";
-import eventAdobe from "../../assets/Events-image/adobe-logo.png";
-import Eventsingle from "./Eventsingle";
-import graphica from "../../assets/Events-image/GRAPHICA Logo.png";
-import Designathon from "../../assets/Events-image/designaton-logo.png";
-import arrow from "../../assets/Events-image/event-view-arrow.png";
 
 import expore_events from "../../assets/explore-events-bg.png";
 import schedule_bg from "../../assets/schedule-bg-rec.png";

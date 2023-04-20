@@ -1,39 +1,28 @@
 import { useState } from "react";
-
+import bg_event from "../../assets/Events-image/event-card-bg.png";
+import bg_event_r from "../../assets/Events-image/event-card-bg-r.png";
 import "./Events.css";
-import arrow from '../../assets/Events-image/event-arrow-button.png'
-const Eventsingles = ({ forms, title, description, image,date }) => {
-
-
+import arrow from "../../assets/Events-image/arrow.png";
+const Eventsingles = ({
+  forms,
+  title,
+  description,
+  image,
+  date,
+  time,
+  venue,
+}) => {
   return (
-    // <div
-    //   className="events-content-routed"
-    //   style={{
-    //     backgroundImage: `url(${image})`,
-    //     width: "100%",
-    //     height: "",
-    //   }}
-    //   id="element"
-    // >
-    //   <button className="events-button-one">{date}</button>
-
-    //   <div class="events-card">
-    //     <div class="events-card-front">
-    //       <h2>{title}</h2>
-    //     </div>
-    //     <div class="events-card-back">
-    //       <h2>{description}</h2>
-    //     </div>
-    //   </div>
-
-    //   <button className="events-button-two">
-    //     <a href={forms}>
-    //       Attend the Event <img src={arrow} />
-    //     </a>
-    //   </button>
-    // </div>
-    <div>
-      
+    <div className="event-single-card image-container">
+      <img src={bg_event} />
+      <div className="event-single-card-content foreground-image">
+        <img src={image} />
+        <h1>{title}</h1>
+        <p>{date}</p>
+        <p>{time}</p>
+        <p>{venue}</p>
+        <button></button>
+      </div>
     </div>
   );
 };

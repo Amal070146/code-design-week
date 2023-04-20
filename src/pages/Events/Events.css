@@ -6,7 +6,7 @@
   justify-content: center;
   background: #171717;
   color: white;
-  width: 85vw;
+  width: 90vw;
 }
 
 .events-wrapper-main > .heading-team {
@@ -23,26 +23,21 @@
   font-size: 7.9vw;
   color: #3c3c3c;
 }
-
-.events-header-card-wrapper {
-  width: 100vw;
+.events-single-content-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-.events-header-card-wrapper > .card-background {
-  height: 100px;
-  width: 85vw;
-
-  background-color: rgba(255, 0, 0, 0.7);
-  --edge-size: 0.5em;
-  clip-path: polygon(
-    0 0,
-    calc(100% - var(--edge-size)) 0,
-    calc(100% - var(--edge-size)) calc(0%),
-    calc(100% - var(--edge-size)) calc(0%),
-    calc(100% - 3px) calc(var(--edge-size)),
-    calc(100% - 0.5px) calc(var(--edge-size)),
-    calc(100%) calc(var(--edge-size)),
-    100% 100%,
-    calc(var(--edge-size)) 100%,
-    0 calc(100% - var(--edge-size))
-  );
+.event-single-card>img{
+width: 390px;
+}
+.event-single-card-content{
+  width: 390px;
+}
+.event-single-card-content>img{
+  width: 200px;
+}.event-single-card-content>h1{
+  font-size: 39px;
+}.event-single-card-content>p{
+  font-size: 25px;
 }
