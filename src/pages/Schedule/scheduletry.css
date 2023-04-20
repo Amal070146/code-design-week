@@ -2,11 +2,52 @@
   display: flex;
   flex-direction: column;
   width: 80vw;
-  align-items: center;
+  /* align-items: center; */
   gap: 4vw;
   padding: 10% 0%;
 }
+.schedule-days-card-wrapper > div:nth-child(odd) {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 100px;
+}
 
+.schedule-days-card-wrapper > div:nth-child(even) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.schedule-days-card-wrapper > div:nth-child(even) >div>.schedule-single-card-content>:nth-child(1){
+display: flex;
+flex-direction: row-reverse;
+
+}
+.schedule-days-card-wrapper > div:nth-child(odd) > div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  flex: 0.5;
+  height: 200px;
+  transform: translate(-100px, 100px);
+  border-top: 2px dashed white;
+  border-right: 2px dashed white;
+}
+.schedule-days-card-wrapper > div:nth-child(even) > div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  flex: 0.5;
+  height: 200px;
+  transform: translate(100px, 100px);
+  /* border-style: dashed; */
+  border-top: 2px dashed white;
+  border-left: 2px dashed white;
+}
+.schedule-days-card-wrapper > div:last-child>div:nth-child(1) {
+  /* display: none; */
+  border: none;
+}
 .schedule-single-card {
   height: fit-content;
   width: 45vw;
@@ -46,7 +87,7 @@
 .schedule-single-card-content > :nth-child(3) {
   display: flex;
   flex-direction: column;
-  gap: 1vw;
+  gap: 0.5vw;
 }
 .schedule-single-card-content > :nth-child(3) > div {
   display: flex;
@@ -56,15 +97,18 @@
   justify-self: left;
   font-family: "NeueMachinaRegular";
 }
-.schedule-single-card-content > :nth-child(3) > div>:nth-child(1){
-    width: 200px;
+.schedule-single-card-content > :nth-child(3) > div > :nth-child(1) {
+  min-width: 150px;
 }
 @media screen and (max-width: 1200px) {
   .schedule-single-card {
     width: 480px;
+    height: 240px;
   }
   .schedule-single-card > img {
     width: 480px;
+    height: 240px;
+
   }
 
   .schedule-single-card-content {
@@ -73,9 +117,9 @@
     padding: 5% 5% 5% 7%;
     gap: 0.9vw;
   }
-  .schedule-wrapper>.heading-team{
-   font-size: 40px;
-}
+  .schedule-wrapper > .heading-team {
+    font-size: 40px;
+  }
 
   .schedule-single-card-content > :nth-child(1) {
     font-size: 26px;
@@ -93,22 +137,43 @@
     gap: 25px;
     font-size: 16px;
   }
-  .schedule-single-card-content > :nth-child(3) > div>:nth-child(1){
-    width: 140px;
-}
+  .schedule-single-card-content > :nth-child(3) > div > :nth-child(1) {
+    min-width: 100px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .schedule-single-card {
     width: 400px;
+    height: 200px;
+  }
+   .schedule-single-card > img {
+    width: 400px;
+    height: 200px;
+
   }
   .schedule-days-card-wrapper {
     width: 100vw;
-   margin-bottom: -10vw;
+    
+    margin-bottom: -10vw;
   }
-   .schedule-single-card-content > :nth-child(3) > div>:nth-child(1){
-    width: 150px;
+ 
+  .schedule-days-card-wrapper > div:nth-child(odd) > div:nth-child(1) {
+
+  border-top: none;
+  border-right: none;
 }
+.schedule-days-card-wrapper > div:nth-child(even) > div:nth-child(1) {
+
+  border-top: none;
+  border-left: none;
+}
+.schedule-days-card-wrapper>div>:nth-child(1){
+  display: none;
+}
+ .schedule-single-card-content > :nth-child(3) > div > :nth-child(1) {
+    min-width: 92px;
+  }
 }
 @media screen and (max-width: 500px) {
   .schedule-single-card {
@@ -117,12 +182,10 @@
   .schedule-single-card > img {
     width: 420px;
   }
-    .schedule-single-card-content {
+  .schedule-single-card-content {
     width: 97%;
     top: 1%;
-  
   }
-
 }
 
 @media screen and (max-width: 420px) {
