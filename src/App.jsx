@@ -5,6 +5,7 @@ import Schedule from "./pages/Schedule/Schedule";
 import Events from "./pages/Events/Events";
 import Designathon from './pages/designathon/Designathons'
 import About from './pages/aboutus/About'
+import Privacy from './pages/privacy-policy/privacypolicy'
 function App() {
   const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ function App() {
     {
       path: "/aboutus",
       element: <About />,
+    },
+    {
+      path: "/privacy",
+      element: <Privacy />,
     },
   ]);
   return <RouterProvider router={router} />;

@@ -50,7 +50,7 @@ const CopyRight = () => {
             >
               Code of Conduct
             </a>
-            <a href="" target="_blank" style={{ color: "#8b8b8b" }}>
+            <a href="/privacy" style={{ color: "#8b8b8b" }}>
               Privacy Policy
             </a>
           </div>

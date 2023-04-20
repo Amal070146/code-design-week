@@ -23,21 +23,58 @@
   font-size: 7.9vw;
   color: #3c3c3c;
 }
-.events-single-content-wrapper{
+.events-single-content-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-top: 5vw;
 }
-.event-single-card>img{
-width: 390px;
-}
-.event-single-card-content{
+.event-single-card > img {
   width: 390px;
+  height: 600px;
+
 }
-.event-single-card-content>img{
+.event-single-card-content {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  text-align: center;
+  height: 600px;
+}
+.event-single-card-content > img {
   width: 200px;
-}.event-single-card-content>h1{
+}
+.event-single-card-content > h1 {
   font-size: 39px;
-}.event-single-card-content>p{
+  color: white;
+}
+.event-single-card-content > p {
   font-size: 25px;
+  color: white;
+  font-family: "NeueMachinaRegular";
+
+}
+.event-single-card-content > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  justify-self: end;
+}
+.event-single-card-content > button>img{
+  width: 200px;
+  height: 40px;
+}
+.event-single-card-content > button>div{
+  display: flex;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "NeueMachinaRegular";
+
+  font-size: 20px;
 }

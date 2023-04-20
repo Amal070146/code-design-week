@@ -13,7 +13,7 @@ const event = () => {
       forms: `http://bit.ly/cdwmascot`,
       title: "MASCOT DESIGN CHALLENGE",
       image: eventAdobe,
-      date: "TILL APR 30",
+      date: "28 APR 2023",
       time: "12:00PM",
       venue: "ONLINE",
       description: `Design a creative mascot for the CODe Design Week, give it an apt name. You can use any medium of your choice from traditional hand-drawn sketches to digital illustrations!! or you could even use AI generators like DALL-E or Mid journey for designing one for you!`,
@@ -22,7 +22,7 @@ const event = () => {
       forms: `http://bit.ly/cdwdesigntocode`,
       title: "DESIGN TO CODE",
       image: eventAdobe,
-      date: "23 MAY | 03:00 PM",
+      date: "28 APR 2023",
       time: "12:00PM",
       venue: "ONLINE",
       description: `Are you a programmer? This event is for you. Develop a website with the given UI Design. The first one to develop the cleanest website wins! There are no language restrictions.`,
@@ -30,7 +30,7 @@ const event = () => {
     {
       forms: `http://bit.ly/cdwfindthedesign`,
       title: "FIND THE DESIGN",
-      date: "23 MAY | 03:00 PM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -39,7 +39,7 @@ const event = () => {
     {
       forms: `https://www.beachhack.in/`,
       title: "ADOBE BY CODE",
-      date: "TILL APR 30 | 11:59AM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -50,7 +50,7 @@ const event = () => {
     {
       forms: `https://www.beachhack.in/`,
       title: "DESIGNATHON.",
-      date: "TILL APR 30 | 11:59AM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -59,7 +59,7 @@ const event = () => {
     {
       forms: `https://www.beachhack.in/`,
       title: "ADOBE BY CODE",
-      date: "TILL APR 30 | 11:59AM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -70,7 +70,7 @@ const event = () => {
     {
       forms: `https://www.beachhack.in/`,
       title: "ADOBE BY CODE",
-      date: "TILL APR 30 | 11:59AM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -81,7 +81,7 @@ const event = () => {
     {
       forms: `https://www.beachhack.in/`,
       title: "ADOBE BY CODE",
-      date: "TILL APR 30 | 11:59AM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -92,7 +92,7 @@ const event = () => {
     {
       forms: `https://www.beachhack.in/`,
       title: "ADOBE BY CODE",
-      date: "TILL APR 30 | 11:59AM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -103,7 +103,7 @@ const event = () => {
     {
       forms: `https://www.beachhack.in/`,
       title: "ADOBE BY CODE",
-      date: "TILL APR 30 | 11:59AM",
+      date: "28 APR 2023",
       image: eventAdobe,
       time: "12:00PM",
       venue: "ONLINE",
@@ -117,15 +117,13 @@ const event = () => {
     <section className="body-wrapper">
       <Navbar />
       <div className="events-wrapper-main">
-        <div className="heading-team">
-          <p>EVENTS</p>
+        <div className="aboutus-header">
+          <h1>EVENTS</h1>
         </div>
-        
-        <div className="events-single-content-wrapper">
-          {eventArray
-           
 
-            .map(({ description, title, image, forms, date,time,venue }, i) => (
+        <div className="events-single-content-wrapper">
+          {eventArray.map(
+            ({ description, title, image, forms, date, time, venue }, i) => (
               <Eventsingles
                 description={description}
                 image={image}
@@ -135,7 +133,8 @@ const event = () => {
                 time={time}
                 venue={venue}
               />
-            ))}
+            )
+          )}
         </div>
       </div>
       <Contacts />
