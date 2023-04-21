@@ -99,46 +99,13 @@ const Header = () => {
               <h3>22 - 28 MAY 2023</h3>
             </div>
           </div>
-          {/* <div
-            className="design-arrow"
-            style={{ background: `url(${he})`, backgroundRepeat: "no-repeat" }}
-          >
-            {enableoverlay && (
-              <div className="heroOverlay">
-                <div>
-                  <h1 style={{ fontFamily: "NeueMachinaUltrabold" }}>
-                    DESIGNATHON
-                  </h1>
-                  <span style={{ fontFamily: "NeueMachinaRegular" }}>
-                    By CODe
-                  </span>
-                </div>
-                <div
-                  className="apply-button"
-                  data-hackathon-slug="designathon"
-                  data-button-theme="dark"
-                  style={{ height: "44px", width: "312px" }}
-                ></div>
-              </div>
-            )}
-            <button
-              className="image-button"
-              onClick={() => setEnableOverlay(!enableoverlay)}
-            >
-              <img
-                className=""
-                src={arrow}
-                alt=""
-                style={{ rotate: enableoverlay ? "80deg" : "" }}
-              />
-            </button>
-          </div> */}
+
           <div className="design-arrow">
             <img src={he} alt="" />
           </div>
         </div>
+        <Marqueuecomponent />
       </div>
-      <Marqueuecomponent />
     </section>
   );
 };

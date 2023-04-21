@@ -31,9 +31,11 @@ const Eventsingles = ({
           <div className="event-single-card-content foreground-image">
             <img src={image} />
             <h1>{title}</h1>
-            <p style={{ color: "#E30069" }}>{date}</p>
-            <p>{time}</p>
-            <p>{venue}</p>
+            <div>
+              <p style={{ color: "#E30069" }}>{date}</p>
+              <p>{time}</p>
+              <p>{venue}</p>
+            </div>
             <button className="image-container" onClick={rotateCard}>
               <img src={button_bg} />
               <div className="foreground-image">

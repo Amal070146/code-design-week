@@ -20,13 +20,12 @@
   display: flex;
   justify-content: center;
   font-family: "NeueMachinaUltrabold";
-  font-size: 7.9vw;
   color: #3c3c3c;
 }
 .events-single-content-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   margin-top: 5vw;
 }
 .event-single-card > img {
@@ -49,8 +48,14 @@
 .event-single-card-content > h1 {
   font-size: 39px;
   color: white;
+  line-height: 1;
 }
-.event-single-card-content > p {
+.event-single-card-content>div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.event-single-card-content>div > p {
   font-size: 25px;
   color: white;
   font-family: "NeueMachinaRegular";
@@ -144,7 +149,7 @@
 .event-single-card-content > h1 {
   font-size: 32px;
 }
-.event-single-card-content > p {
+.event-single-card-content>div > p {
   font-size: 21px;
 
 }
