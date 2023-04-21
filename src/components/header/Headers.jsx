@@ -7,7 +7,7 @@ import he from "../../assets/header-image.png";
 import dots from "../../assets/dots-header.svg";
 import twinkle from "../../assets/twinkle-star.svg";
 import Marqueuecomponent from "./Marqueuecomponent";
-import togglePlays from "../../assets/home-page/Maroon 5 - Girls Like You.mp3";
+import togglePlays from "../../assets/home-page/Elegy.mp3";
 const Header = () => {
   React.useEffect(() => {
     const script = document.createElement("script");

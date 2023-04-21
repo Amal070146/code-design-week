@@ -101,9 +101,18 @@ const TimelineSingle = ({ isLeft, date ,title,days}) => {
             <div></div>
           </div>
         )}
-        <span style={{display:"none"}}>{date}</span>
+        <span style={{ display: "none" }}>{date}</span>
         <span>{days}</span>
-        <h2>{title}</h2>
+        <h2
+          style={{
+            color: isCompleted ? "#E30069" : "white",
+            fontStyle: isCompleted
+              ? "NeueMachinaUltraBold"
+              : "NeueMachinaUltraBold",
+          }}
+        >
+          {title}
+        </h2>
       </div>
       <div></div>
     </div>

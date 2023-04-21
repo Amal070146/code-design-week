@@ -35,12 +35,12 @@ const partners = () => {
         <p>COMMUNITY PARTNERS</p>
       </div>
       <div className="partners-logo-wrapper">
-        {/* <a href="">
-          <img src={gtech} alt="" />
-        </a> */}
         <a >
-          <img src={tinkerhub} alt="" />
+          <img src={gtech} alt="" />
         </a>
+        {/* <a >
+          <img src={tinkerhub} alt="" />
+        </a> */}
         <a >
           <img src={iedc} alt="" />
         </a>

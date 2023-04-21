@@ -9,7 +9,7 @@ import play from "../../assets/home-page/play-button.png";
 import pause from "../../assets/home-page/pause-button.png";
 import music_gif from "../../assets/home-page/music-gif.png";
 import Marqueuecomponent from "./Marqueuecomponent";
-import togglePlays from "../../assets/home-page/Maroon 5 - Girls Like You.mp3";
+import togglePlays from "../../assets/home-page/Elegy.mp3";
 
 const Headernew = () => {
   React.useEffect(() => {
