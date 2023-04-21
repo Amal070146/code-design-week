@@ -122,3 +122,80 @@
   background: none;
   background-image: url("../../assets/Events-image/button-bg.png");
 }
+
+@media screen and (max-width: 600px){
+.events-single-content-wrapper {
+  gap: 10px;
+  margin-top: 5vw;
+}
+.event-single-card > img {
+  width: 350px;
+  height: 560px;
+}
+.event-single-card-content {
+ width: 350px;
+  height: 560px;
+
+  padding: 20px 10px;
+}
+.event-single-card-content > img {
+  width: 200px;
+}
+.event-single-card-content > h1 {
+  font-size: 32px;
+}
+.event-single-card-content > p {
+  font-size: 21px;
+
+}
+
+.event-single-card-content > button > img {
+  width: 200px;
+  height: 40px;
+}
+.event-single-card-content > button > div,
+.event-single-card-content-r > a {
+  width: 200px;
+  height: 40px;
+  
+  gap: 10px;
+
+  font-size: 20px;
+}
+
+.event-single-card-r > .event-single-card-content-r {
+  width: 350px;
+  height: 500px;
+  margin-top: 35px;
+}
+.event-single-card-r > div > img {
+   width: 350px;
+  height: 560px;
+}
+.event-single-card-r > div > a > img {
+  width: 50px;
+}
+.event-single-card-content-r {
+  padding: 20px 20px;
+}
+.event-single-card-content-r > :nth-child(1) {
+  width: 150px;
+  height: auto;
+}
+.event-single-card-content-r > :nth-child(2) {
+  width: 250px;
+  height: auto;
+}
+.event-single-card-content-r > p {
+  font-size: 15px;
+}
+
+.event-single-card-content-r > div > img {
+  height: 40px;
+}
+.event-single-card-content-r > a {
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+}
+}

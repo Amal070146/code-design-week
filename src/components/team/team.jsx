@@ -6,7 +6,7 @@ import enric from "../../assets/team/enric.png";
 import amalcp from "../../assets/team/amalcp.png";
 import ajay from "../../assets/team/ajayvishnu.png";
 import noah from "../../assets/team/Noah .png";
-import pranav from "../../assets/team/pranav.svg";
+import pranav from "../../assets/team/pranav.png";
 import jaivin from "../../assets/team/jaivin.png";
 import jasrin from "../../assets/team/jasrin.png";
 import theresa from "../../assets/team/theresa.png";
@@ -80,6 +80,15 @@ const team = () => {
             </div>
           </div>
           <div class="box">
+            <img src={theresa} alt="" />
+            <div class="name-tag-team">
+              <div class="name-team">
+                <p className="name-team-member">Theresa T S</p>{" "}
+                <p className="position-team-membere">Outreach Lead</p>
+              </div>
+            </div>
+          </div>
+          <div class="box">
             <img src={varsha} alt="" />
             <div class="name-tag-team">
               <div class="name-team">
@@ -97,15 +106,7 @@ const team = () => {
               </div>
             </div>
           </div>
-          <div class="box">
-            <img src={theresa} alt="" />
-            <div class="name-tag-team">
-              <div class="name-team">
-                <p className="name-team-member">Theresa T S</p>{" "}
-                <p className="position-team-membere">Outreach Lead</p>
-              </div>
-            </div>
-          </div>
+
           <div class="box">
             <img src={jaivin} alt="" />
             <div class="name-tag-team">
