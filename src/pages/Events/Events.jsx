@@ -1,12 +1,14 @@
 import React from "react";
 import "./Events.css";
 import Contacts from "../../components/contact/Contacts";
-import eventAdobe from "../../assets/Events-image/event-1.png";
+import eventAdobe from "../../assets/Events-image/event-p1.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
-
-
+import e_card from "../../assets/Events-image/e-card-main.png";
+import des from '../../assets/Events-image/bg-designaton.png'
+import arrow_event from "../../assets/Events-image/event-view-arrow.png";
+import qr from "../../assets/Events-image/qr.png";
 const event = () => {
   const eventArray = [
     {
@@ -120,7 +122,36 @@ const event = () => {
         <div className="aboutus-header">
           <h1>EVENTS</h1>
         </div>
-
+        <div className="event-card-main-des image-container">
+          <img src={e_card} alt="" />
+          <div className="e-card-content image-container foreground-image">
+            <img src={des} alt="" />
+            <div className="e-card-content-head foreground-image">
+              <p>FOCUS. INTERACT. CREATE.</p>
+              <h1>DESIGNATHON</h1>
+              <p>by CODe</p>
+            </div>
+            <div className="e-card-content-p">
+              <div className="e-card-content-p-n1">
+                <p>
+                  Designathon, or design-hackathon, is an event where you're
+                  asked to design a solution for a given problem within the
+                  given 24 hours. No coding is involved. DESIGNATHON by CODe is
+                  the flagship event of the CODe Design Week 2023, which is a
+                  national event conducted on May 27 & 28.
+                </p>
+              </div>
+              <div className="e-card-content-p-n2">
+                <h3>27-28</h3>
+                <h4>MAY 2023</h4>
+              </div>
+              <div className="e-card-content-p-n3">
+                <img src={qr} alt="" />
+                <img src={arrow_event} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="events-single-content-wrapper">
           {eventArray.map(
             ({ description, title, image, forms, date, time, venue }, i) => (

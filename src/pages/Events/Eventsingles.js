@@ -2,6 +2,7 @@ import { useState } from "react";
 import bg_event from "../../assets/Events-image/event-card-bg.png";
 import bg_event_r from "../../assets/Events-image/event-card-bg-r.png";
 import "./Events.css";
+import p1 from '../../assets/Events-image/detail-p1.png'
 import button_bg from "../../assets/Events-image/button-bg.png";
 import arrow from "../../assets/Events-image/arrow.png";
 import logo from "../../assets/cdw-logo.svg";
@@ -15,14 +16,14 @@ const Eventsingles = ({
   time,
   venue,
 }) => {
-  const [rotatecard, setrotatecard] = useState(false);
-  function rotateCard() {
-    console.log(!rotatecard);
-    setrotatecard(!rotatecard);
-  }
+  // const [rotatecard, setrotatecard] = useState(false);
+  // function rotateCard() {
+  //   console.log(!rotatecard);
+  //   setrotatecard(!rotatecard);
+  // }
   return (
     <>
-      {rotateCard && (
+      {/* {rotateCard && (
         <div
           className="event-single-card image-container"
           style={{ display: rotatecard ? "none" : "" }}
@@ -78,7 +79,25 @@ const Eventsingles = ({
             </a>
           </div>
         </div>
-      )}
+      )} */}
+      <div className="single-event-card-desk">
+        <div>
+          <img src={image} />
+          <div className="popup-card">
+            <img src={p1} />
+          </div>
+        </div>
+      </div>
+      <div className="single-event-card-new">
+        <div>
+          <div className="ev-card-front">
+            <img src={image} />
+          </div>
+          <div className="ev-card-back">
+            <img src={p1} />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
