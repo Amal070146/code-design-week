@@ -136,3 +136,51 @@
     font-size: 13px;
   }
 }
+
+.websiteteam {
+  display: flex;
+  color: white;
+  font-family: "NeueMachinaUltrabold";
+  align-items: center;
+  padding: 50px 0px 0px 50px;
+  background-color: black;
+  margin-bottom: 50px;
+  width: 100vw;
+  justify-content: space-between;
+}
+.websiteteam-content {
+  display: flex;
+  flex-direction: column;
+  right: 0%;
+  gap: 20px;
+}
+.websiteteam-content > h1 {
+  font-size: 3vw;
+}
+.websiteteam-content > div > :nth-child(1) {
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.websiteteam > :nth-child(2) > img {
+  width: 70vw;
+}
+
+@media screen and (max-width: 500px) {
+  .websiteteam {
+    flex-direction: column;
+    padding: 30px 20px 0px;
+    margin-bottom: 30px;
+  }
+  .websiteteam > :nth-child(2) > img {
+    width: 100vw;
+  }
+  .websiteteam-content > div > :nth-child(1) {
+    font-size: 13px;
+  }
+  .websiteteam-content > h1 {
+  font-size: 6vw;
+}
+}

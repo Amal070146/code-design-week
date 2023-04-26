@@ -3,8 +3,8 @@ import headEvent from "../../assets/team-head-img.svg";
 import "./about.css";
 import Team from "../../components/team/team";
 import codelogo from "../../assets/code-logo.png";
-import whydesign from '../../assets/team/whydesign.png'
-
+import whydesign from "../../assets/team/whydesign.png";
+import webteam from "../../assets/team/webteam.png";
 import CopyRight from "../../components/copyright/CopyRight";
 const About = () => {
   return (
@@ -52,7 +52,30 @@ const About = () => {
         </div>
       </div>
       <Team />
-
+      <div className="websiteteam">
+        <div className="websiteteam-content">
+          <h1>WEBSITE TEAM</h1>
+          <div className="designed">
+            <p>Designed by</p>
+            <p>
+              <span className="text-color">
+                <a>Enric S Neelamkavil</a> | <a>Noah Johny</a>
+              </span>
+            </p>
+          </div>
+          <div className="developed">
+            <p>Developed by</p>
+            <p>
+              <span className="text-color">
+                <a>Amal C P</a> | <a>Pranav Madhu</a>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div className="image-webteam">
+          <img src={webteam} alt="" />
+        </div>
+      </div>
       <CopyRight />
     </section>
   );
