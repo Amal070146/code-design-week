@@ -6,9 +6,10 @@ import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
 import e_card from "../../assets/Events-image/e-card-main.png";
-import des from '../../assets/Events-image/bg-designaton.png'
+import des from "../../assets/Events-image/bg-designaton.png";
 import arrow_event from "../../assets/Events-image/event-view-arrow.png";
 import qr from "../../assets/Events-image/qr.png";
+import des_bg_mob from "../../assets/Events-image/des-mob-bg.png";
 const event = () => {
   const eventArray = [
     {
@@ -154,6 +155,23 @@ const event = () => {
         </div>
         <div className="events-single-content-wrapper">
           <div className="mobile-event-head">EVENTS</div>
+          <div className="mobile-des-card">
+            <div className="card-des image-container">
+              <img src={des_bg_mob} alt="" />
+              <div className="card-des-content foreground-image">
+                <p>FOCUS. INTERACT. CREATE.</p>
+                <h1>DESIGNATHON</h1>
+                <p>by CODe</p>
+              </div>
+            </div>
+            <div className="popup-card-des image-container">
+              <img src={des_bg_mob} alt="" />
+              <div className="foreground-image">
+
+                jhwrbfueryhb
+              </div>
+            </div>
+          </div>
           {eventArray.map(
             ({ description, title, image, forms, date, time, venue }, i) => (
               <Eventsingles
