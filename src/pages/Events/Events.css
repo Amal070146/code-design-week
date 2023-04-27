@@ -57,6 +57,7 @@
 }
 .e-card-content-head > p {
   font-size: 35px;
+  font-family: "NeueMachinaRegular";
 }
 .e-card-content-head > h1 {
   font-size: 65px;
@@ -107,12 +108,11 @@
 .single-event-card-desk > div > img {
   width: 100%;
   height: 500px;
-
 }
 
 .single-event-card-desk > div {
   position: relative;
-    width: calc(300% / 3);
+  width: calc(300% / 3);
 }
 .popup-card {
   display: none;
@@ -127,12 +127,16 @@
   width: 400px;
   height: 500px;
 }
-.single-event-card-desk > div:hover .popup-card {
+.single-event-card-desk > div:hover .popup-card,
+.single-event-card-new > div:hover .popup-card {
   display: block;
 }
 .single-event-card-new {
   width: 360px;
   height: 500px;
+  display: none;
+}
+.mobile-event-head {
   display: none;
 }
 
@@ -146,41 +150,76 @@
   .event-card-main-des,
   .e-card-content,
   .event-card-main-des > img,
-  .e-card-content-head,.e-card-content-p {
+  .e-card-content-head,
+  .single-event-card-desk > div:hover .popup-card,
+  .e-card-content-p,
+  .event-card-main-des .image-container {
     display: none;
+  }
+  .events-wrapper-main > :nth-child(2),
+  .events-wrapper-main > :nth-child(1) {
+    display: none;
+  }
+  .mobile-event-head {
+    display: block;
+    font-size: 7vw;
+    color: white;
+    font-family: "NeueMachinaUltrabold";
+    margin-bottom: 40px;
   }
 }
 .single-event-card-new > div {
-  position: relative;
-  perspective: 1000px;
   width: 100%;
-  background-color: #e30069;
+}
+.single-event-card-new > div > img {
+  width: 350px;
 }
 .single-event-card-new > div > div > img {
-  width: 360px;
+  width: 350px;
+  height: 450px;
 }
-.ev-card-front {
-  position: absolute;
-  backface-visibility: hidden;
-  transition: transform 0.5s;
-  transform: rotateY(0deg);
+.popup-card-content-mob {
+  top: 5%;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  gap: 4px;
 }
-.ev-card-back {
-  position: absolute;
-  backface-visibility: hidden;
-  transition: transform 0.5s;
-  transform: rotateY(180deg);
+.popup-card-content-mob > :nth-child(1) {
+  width: 120px;
 }
-.single-event-card-new:hover .ev-card-front {
-  transform: rotateY(180deg);
+.popup-card-content-mob > h1 {
+  font-size: 26px;
 }
-.single-event-card-new:hover .ev-card-back {
-  transform: rotateY(0deg);
+.popup-card-content-mob > h2 {
+  font-size: 26px;
+  background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.popup-card-content-mob > p {
+  font-family: "NeueMachinaRegular";
+  font-size: 14px;
+}
+.popup-card-content-mob > a {
+  font-family: "NeueMachinaRegular";
+  font-size: 14px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
 }
 @media screen and (max-width: 600px) {
   .events-single-content-wrapper {
     gap: 0px;
-    margin-top: -500px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -206,6 +245,4 @@
   .event-single-card-content > div > p {
     font-size: 16px;
   }
-
-
 }

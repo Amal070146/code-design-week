@@ -153,6 +153,7 @@ const event = () => {
           </div>
         </div>
         <div className="events-single-content-wrapper">
+          <div className="mobile-event-head">EVENTS</div>
           {eventArray.map(
             ({ description, title, image, forms, date, time, venue }, i) => (
               <Eventsingles
