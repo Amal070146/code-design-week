@@ -4,10 +4,8 @@ import Contacts from "../../components/contact/Contacts";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
 import Sponsors from "../../components/sponsors/sponsors";
-// import header_video from "../../assets/designathon/Designathon bg video.mp4";
 import theme_bg from "../../assets/designathon/designathon-theme-bg.png";
 import Timeline from "./timeline";
-// import human_gif from "../../assets/designathon/Designathon bg video 1.gif";
 import FAQ from "./FAQ-m";
 import Map from "./Mapcomponent";
 
@@ -138,9 +136,6 @@ const Designathon = () => {
                 </div>
               </div>
               <div className="designathon-person-video">
-                {/* <video loop autoPlay>
-                  <source src={header_video} type="video/mp4" />
-                </video> */}
                 <img
                   src={`https://firebasestorage.googleapis.com/v0/b/cdw2k23.appspot.com/o/Designathon%20bg%20video%201.gif?alt=media&token=ef00d745-f5c0-4efb-ba32-90da3248102e`}
                   alt=""

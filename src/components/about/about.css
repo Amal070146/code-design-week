@@ -79,7 +79,6 @@
 .about-info {
   display: flex;
   color: white;
-  /* align-items: center; */
   gap: 10px;
   height: fit-content;
   justify-content: space-between;
@@ -90,11 +89,6 @@
 .card-back {
   font-family: "NeueMachinaRegular";
 }
-
-/* .about-info > div > img {
-  height: 32vw;
-  width: 52vw;
-} */
 .card {
   height: 32vw;
   width: 52vw;
@@ -134,7 +128,6 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  /* backface-visibility: hidden; */
   transition: transform 10s ease-in-out;
 }
 .card-back > p {
@@ -144,12 +137,6 @@
   text-align: justify;
 }
 
-/* .about-arrow-rotate-zero {
-  transform: rotateY(0deg);
-}
-.about-arrow-rotate-rev {
-  transform: rotateY(180deg);
-} */
 
 .about-info-data > div > h3 {
   font-weight: 800;

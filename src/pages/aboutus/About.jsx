@@ -1,5 +1,4 @@
 import Navbar from "../../components/navbar/Navbar";
-import headEvent from "../../assets/team-head-img.svg";
 import "./about.css";
 import Team from "../../components/team/team";
 import codelogo from "../../assets/code-logo.png";

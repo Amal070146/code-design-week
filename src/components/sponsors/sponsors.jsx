@@ -1,14 +1,11 @@
 import React from "react";
 import "./sponsors.css";
-import headEvent from "../../assets/events-head-img.svg";
 import twinkle from "../../assets/twinkle-star.svg";
-import tinkerhub from "../../assets/sponsors/tinkerhub.png";
 import solana from "../../assets/sponsors/Solana.png";
 import filecoin from "../../assets/sponsors/filecoin.png";
 import devfolio from "../../assets/sponsors/devfolio.png";
 import polygon from "../../assets/sponsors/polygon.png";
 import replict from "../../assets/sponsors/Replit.png";
-import arrow from "../../assets/sponsors-arrow.svg";
 import whitecard from "../../assets/white-cut-rect.png";
 import uparrow from "../../assets/pink-up-arrow.png";
 const sponsors = () => {

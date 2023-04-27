@@ -3,10 +3,8 @@ import Contacts from "../../components/contact/Contacts";
 import CopyRight from "../../components/copyright/CopyRight";
 import Events from "../../components/events/Events";
 import Navbar from "../../components/navbar/Navbar";
-import Header from "../../components/header/Headers";
 import Headernew from "../../components/header/Header-new";
 import Partners from '../../components/communitypartners/Partner'
-import Sponsors from "../../components/sponsors/sponsors";
 import "./Home.css";
 import React from "react";
 const Home = () => {

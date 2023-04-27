@@ -1,6 +1,5 @@
 import React from "react";
 import "./contacts.css";
-import headContact from "../../assets/team-header-img.svg";
 
 
 

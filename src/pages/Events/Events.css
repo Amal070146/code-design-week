@@ -26,7 +26,7 @@
   color: #3c3c3c;
 }
 .event-card-main-des {
-  width: 90%;
+  width: 90vw;
   height: 35vw;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -289,7 +289,11 @@ width: 20vw;
   align-items: center;
   text-decoration: none;
   color: white;
+  gap: 5px;
   background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
+}
+.popup-card-content-mob > a >img{
+  height: 16px;
 }
 @media screen and (max-width: 600px) {
   .single-event-card-new {

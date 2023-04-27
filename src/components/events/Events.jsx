@@ -22,32 +22,6 @@ import ccelogo from "../../assets/christ-logo.png";
 const Events = () => {
   return (
     <section id="events">
-      {/* <div className="event-wrapper">
-       <div className="event-header transition-div">
-          <img src={headEvent} alt="" />
-          <p>EVENTS</p>
-        </div> 
-         <div className="events-content-wrapper">
-          {eventArray
-            .slice(0, 3)
-            .map(({ description1, description2, title, image, number }, i) => (
-              <Eventsingle
-                description1={description1}
-                description2={description2}
-                image={image}
-                number={number}
-                title={title}
-              />
-            ))}
-        </div> 
-
-         <div className="events-view-button">
-          <a href="/events">
-            <h3>EXPLORE MORE EVENTS</h3>
-            <img src={arrow} alt="" />
-          </a>
-        </div> 
-      </div> */}
       <div className="event-card-wrapper">
         <a href="/events">
           <div className="explore-events image-container">
