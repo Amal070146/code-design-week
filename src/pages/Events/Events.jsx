@@ -9,6 +9,9 @@ import e_card from "../../assets/Events-image/e-card-main.png";
 import des from "../../assets/Events-image/bg-designaton.png";
 import arrow_event from "../../assets/Events-image/event-view-arrow.png";
 import qr from "../../assets/Events-image/qr.png";
+import logo from "../../assets/cdw-logo.svg";
+import qr_event from "../../assets/Events-image/qr-event.png";
+import event_arrow from "../../assets/Events-image/event-view-arrow.png";
 import des_bg_mob from "../../assets/Events-image/des-mob-bg.png";
 const event = () => {
   const eventArray = [
@@ -146,15 +149,20 @@ const event = () => {
                 <h3>27-28</h3>
                 <h4>MAY 2023</h4>
               </div>
+
               <div className="e-card-content-p-n3">
                 <img src={qr} alt="" />
-                <img src={arrow_event} alt="" />
+                <a href="/designathon">
+                  <img src={arrow_event} alt="" />
+                </a>
               </div>
             </div>
           </div>
         </div>
+        <div className="mobile-event-head" style={{ color: "white" }}>
+          EVENTS
+        </div>
         <div className="events-single-content-wrapper">
-          <div className="mobile-event-head">EVENTS</div>
           <div className="mobile-des-card">
             <div className="card-des image-container">
               <img src={des_bg_mob} alt="" />
@@ -165,10 +173,26 @@ const event = () => {
               </div>
             </div>
             <div className="popup-card-des image-container">
-              <img src={des_bg_mob} alt="" />
-              <div className="foreground-image">
-
-                jhwrbfueryhb
+              <img
+                style={{ filter: "grayscale(100%)" }}
+                src={des_bg_mob}
+                alt=""
+              />
+              <div className="popup-card-des-content foreground-image">
+                <img src={logo} />
+                <h1>Designathon</h1>
+                <h2>27-28 MAY 2023</h2>
+                <img src={qr_event} />
+                <p>
+                  Designathon, or design-hackathon, is an event where you're
+                  asked to design a solution for a given problem within the
+                  given 24 hours. No coding is involved. DESIGNATHON by CODe is
+                  the flagship event of the CODe Design Week 2023, which is a
+                  national event conducted on May 27 & 28.
+                </p>
+                <a href="/designathon">
+                  REGISTER <img src={event_arrow} alt="sjncjui" />
+                </a>
               </div>
             </div>
           </div>

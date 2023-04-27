@@ -27,17 +27,16 @@
 }
 .event-card-main-des {
   width: 90%;
-  height: 500px;
+  height: 35vw;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .event-card-main-des > img {
   width: 100%;
-  height: 400px;
+  height: 31vw;
 }
 .e-card-content {
   width: 100%;
-  height: 400px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,11 +44,11 @@
 }
 .e-card-content > img {
   width: 100%;
-  height: 250px;
+  height: 20vw;
 }
 .e-card-content-head {
   width: 100%;
-  height: 250px;
+  height: 21vw;
   color: white;
   display: flex;
   flex-direction: column;
@@ -57,11 +56,14 @@
   justify-content: center;
 }
 .e-card-content-head > p {
-  font-size: 35px;
+  font-size: 3.7vw;
+  line-height: 1;
+
   font-family: "NeueMachinaRegular";
 }
 .e-card-content-head > h1 {
-  font-size: 65px;
+  font-size: 6.5vw;
+  line-height: 1;
 }
 .e-card-content-p {
   padding: 10px;
@@ -71,7 +73,7 @@
 }
 .e-card-content-p > .e-card-content-p-n1 {
   width: 60%;
-  font-size: 20px;
+  font-size: 1.34vw;
   line-height: 1.2;
   font-family: "NeueMachinaRegular";
 }
@@ -81,10 +83,10 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-size: 50px;
+  font-size: 3vw;
 }
 .e-card-content-p > .e-card-content-p-n2 > h4 {
-  font-size: 30px;
+  font-size: 2vw;
 }
 .e-card-content-p > .e-card-content-p-n3 {
   display: flex;
@@ -92,8 +94,11 @@
   justify-content: space-between;
   align-items: flex-end;
 }
-.e-card-content-p > .e-card-content-p-n3 > :nth-child(2) {
-  width: 40px;
+.e-card-content-p > .e-card-content-p-n3 > :nth-child(1){
+width: 20vw;
+}
+.e-card-content-p > .e-card-content-p-n3 > :nth-child(2)>img {
+  width: 3.5vw;
   justify-self: flex-end;
   rotate: 90deg;
 }
@@ -101,8 +106,8 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: -50px;
-  gap: 20px;
-  width: 85vw;
+  gap: 3vw;
+  width: 90vw;
   height: fit-content;
 }
 
@@ -142,7 +147,7 @@
   height: 500px;
   display: none;
 }
-.mobile-event-head {
+.events-wrapper-main .mobile-event-head {
   display: none;
 }
 .mobile-des-card {
@@ -152,10 +157,9 @@
   height: 470px;
 }
 .card-des {
-
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
-.card-des-content{
+.card-des-content {
   width: 100%;
   height: 100%;
   display: flex;
@@ -164,14 +168,14 @@
   justify-content: center;
   color: white;
 }
-.card-des-content>p{
+.card-des-content > p {
   font-family: "NeueMachinaRegular";
-font-size: 20px;
+  font-size: 20px;
 }
-.card-des-content>h1{
+.card-des-content > h1 {
   font-size: 35px;
 }
-.card-des-content>:nth-child(3){
+.card-des-content > :nth-child(3) {
   align-self: flex-end;
   margin-right: 30px;
 }
@@ -180,8 +184,52 @@ font-size: 20px;
   top: -2%;
   left: 2%;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+
+  transition: opacity 0.5s ease-in-out;
 }
+.popup-card-des-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 20px 20px;
+  gap: 6px;
+}
+
+.popup-card-des-content > :nth-child(1) {
+  width: 120px;
+}
+.popup-card-des-content > h1 {
+  font-size: 26px;
+}
+.popup-card-des-content > h2 {
+  font-size: 26px;
+  background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.popup-card-des-content > p {
+  font-family: "NeueMachinaRegular";
+  font-size: 14px;
+}
+.popup-card-des-content > a {
+  font-family: "NeueMachinaRegular";
+  font-size: 14px;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 30px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
+}
+
 .mobile-des-card:hover .popup-card-des {
   opacity: 1;
 }
@@ -211,7 +259,7 @@ font-size: 20px;
   flex-direction: column;
   justify-content: center;
   color: white;
-  gap: 4px;
+  gap: 8px;
 }
 .popup-card-content-mob > :nth-child(1) {
   width: 120px;
@@ -263,12 +311,12 @@ font-size: 20px;
   .events-wrapper-main > :nth-child(1) {
     display: none;
   }
-  .mobile-event-head {
+  .events-wrapper-main .mobile-event-head {
     display: block;
     font-size: 7vw;
     color: white;
     font-family: "NeueMachinaUltrabold";
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   .mobile-des-card {
     display: block;

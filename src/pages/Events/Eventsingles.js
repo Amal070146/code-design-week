@@ -13,7 +13,6 @@ const Eventsingles = ({
   time,
   venue,
 }) => {
-
   return (
     <>
       <div className="single-event-card-desk">
@@ -21,6 +20,16 @@ const Eventsingles = ({
           <img src={image} />
           <div className="popup-card">
             <img src={p1} />
+            <div className="popup-card-content-mob foreground-image">
+              <img src={logo} />
+              <h1>{title}</h1>
+              <h2>{date}</h2>
+              <img src={qr_event} />
+              <p>{description}</p>
+              <a href={forms}>
+                Attend the Event <img src={event_arrow} alt="sjncjui" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -35,8 +44,8 @@ const Eventsingles = ({
               <h2>{date}</h2>
               <img src={qr_event} />
               <p>{description}</p>
-              <a href={forms } >
-                Attend the Event <img src={event_arrow} alt="sjncjui"/>
+              <a href={forms}>
+                Attend the Event <img src={event_arrow} alt="sjncjui" />
               </a>
             </div>
           </div>
