@@ -265,10 +265,10 @@ width: 20vw;
   width: 120px;
 }
 .popup-card-content-mob > h1 {
-  font-size: 26px;
+  font-size: 25px;
 }
 .popup-card-content-mob > h2 {
-  font-size: 26px;
+  font-size: 25px;
   background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -277,7 +277,11 @@ width: 20vw;
 }
 .popup-card-content-mob > p {
   font-family: "NeueMachinaRegular";
-  font-size: 14px;
+  font-size: 13.5px;
+  text-align: justify;
+}
+.single-event-card-desk .popup-card-content-mob>p{
+  font-size: 15px;
 }
 .popup-card-content-mob > a {
   font-family: "NeueMachinaRegular";

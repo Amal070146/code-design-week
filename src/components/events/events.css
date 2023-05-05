@@ -282,7 +282,7 @@ a {
   font-family: "NeueMachinaRegular";
 }
 .explore-events-content-text > div > .text-events {
-  margin-top: -1.1vw;
+  margin-top: -1vw;
   background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -318,15 +318,63 @@ a {
 .arrow-w-event {
   height: 4.3vw;
 }
+@media screen and (max-width: 1200px) {
+.event-card-wrapper {
+    margin-top: 30px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .explore-events > .bg-explore-events {
+    width: 85vw;
+    height: 30vw;
+  }
+   .explore-events-content-wrapper > div > img {
+    height: 25vw;
+  }
+   .explore-events-content-text > div > .text-explore-our {
+    font-size: 3.8vw;
+  }
+  .explore-events-content-text > div > .text-events {
+    margin-top: -1.1vw;
+    font-size: 5.5vw;
+  }
+  .barcode-event-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .barcode-event-wrapper > p {
+    font-size: 2vw;
+    color: white;
+   width: 60vw;
+  }
+  .barcode-line {
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+  }
+  .barcode-event-wrapper > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .barcode-w-event {
+    width: 22vw;
+  }
+  .arrow-w-event {
+    height: 4vw;
+  }
+}
 @media screen and (max-width: 500px) {
   .event-card-wrapper {
     margin-top: 30px;
     gap: 20px;
     flex-direction: column;
+    margin-bottom: 30vw;
   }
 
   .explore-events > .bg-explore-events {
     width: 85vw;
+    height: 45vw;
   }
   .explore-events-content-wrapper {
     padding: 4vw;
@@ -354,6 +402,7 @@ a {
   .barcode-event-wrapper > p {
     font-size: 2vw;
     color: white;
+    width: 45vw;
   }
   .barcode-line {
     height: 1px;
@@ -397,7 +446,7 @@ a {
   font-family: "NeueMachinaRegular";
 }
 .schedule-card-name {
-  margin-top: -0.8vw;
+  margin-top: -0.7vw;
   color: white;
   font-size: 2.5vw;
   font-family: "NeueMachinaUltrabold";
@@ -421,10 +470,51 @@ a {
   background-color: black;
 }
 
+@media screen and (max-width: 1200px) {
+  .schedule-bg-wrapper,
+  .know-schedule-wrapper>a,
+  .schedule-bg-wrapper > img,
+  .know-more-wrapper > img {
+    width: 45vw;
+    height: 22vw;
+  }
+  .schedule-container-wrapper {
+    padding: 2%;
+    gap: 8px;
+    width: 45vw;
+    height: 20vw;
+  }
+  .schedule-container-wrapper > img {
+    height: 19vw;
+  }
+
+  .schedule-view-event {
+    font-size: 2.7vw;
+    color: black;
+  }
+  .schedule-card-name {
+    margin-top: -1vw;
+    color: white;
+    font-size: 3vw;
+  }
+  .barcode-wrapper-schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .barcode-wrapper-schedule > p {
+    color: black;
+    font-size: 1.5vw;
+  }
+  .arrow-w-schedule {
+    height: 4vw;
+  }
+}
 @media screen and (max-width: 500px) {
   .schedule-bg-wrapper > img,
   .know-more-wrapper > img {
     width: 85vw;
+      height: 35vw;
   }
   .schedule-container-wrapper {
     padding: 2%;
@@ -471,59 +561,96 @@ a {
   width: 20vw;
   top: 20%;
   left: 20%;
+
+}
+@media screen and (max-width: 1200px) {
+  .know-schedule-wrapper{
+    display: flex;
+    gap: 10px;
+    width: 85vw;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 500px) {
+  .know-schedule-wrapper{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .know-more-wrapper > .foreground-image {
+    width: 25vw;
+    height: 8vw;
+  top: 30%;
+  }
+  .know-more-wrapper>img{
+    width: 37vw;
+  }
 }
 @media screen and (max-width: 500px) {
   .know-more-wrapper > .foreground-image {
-    width: 50vw;
+    width: 55vw;
+     height: 18vw;
     top: 25%;
-    left: 20%;
+    left: -20%;
+  }
+  .know-more-wrapper>img{
+    width: 85vw;
+     top: 25%;
+        left: 20%;
+  }
+  .know-more-wrapper{
+    top: 60%;
+       left: 45%;
   }
 }
 
-.support-org-wrapper{
+.support-org-wrapper {
   margin-top: 50px;
   width: 85vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.logo-wrapper-support{
+.logo-wrapper-support {
   display: flex;
   gap: 6.5vw;
 }
-.support-org-wrapper>div>img{
+.support-org-wrapper > div > img {
   height: 6.8vw;
 }
-.support-org-wrapper>div>p{
+.support-org-wrapper > div > p {
   font-size: 4.3vw;
   text-align: right;
-  font-family: "NeueMachinaUltrabold";  
-line-height: 0.8;
-color: white;
+  font-family: "NeueMachinaUltrabold";
+  line-height: 0.9;
+  color: white;
 }
-.support-org-wrapper>div>.text-colors{
+.support-org-wrapper > div > .text-colors {
   font-size: 4.7vw;
 
-  background: linear-gradient(128.92deg, #8E0042 0%, #E30069 57.77%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-color: transparent;
+  background: linear-gradient(128.92deg, #8e0042 0%, #e30069 57.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
-@media screen and (max-width: 500px){
-.support-org-wrapper>div>p{
-  font-size: 4.3vw;
-  text-align: right;
-  font-family: "NeueMachinaUltrabold";  
-line-height: 0.9;
-color: white;
-}
-.support-org-wrapper>div>img{
-  height: 9vw;
-}
-.logo-wrapper-support{
-  display: flex;
-  gap: 3vw;
-}
+@media screen and (max-width: 500px) {
+  .support-org-wrapper > div > p {
+    font-size: 4.3vw;
+    text-align: right;
+    font-family: "NeueMachinaUltrabold";
+    line-height: 0.9;
+    color: white;
+  }
+  .support-org-wrapper > div > img {
+    height: 9vw;
+  }
+  .logo-wrapper-support {
+    display: flex;
+    gap: 3vw;
+  }
+ 
 }

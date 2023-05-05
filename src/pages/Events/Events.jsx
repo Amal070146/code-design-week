@@ -2,6 +2,9 @@ import React from "react";
 import "./Events.css";
 import Contacts from "../../components/contact/Contacts";
 import eventAdobe from "../../assets/Events-image/event-p1.png";
+import event1 from "../../assets/Events-image/event1.png";
+import event2 from "../../assets/Events-image/event2.png";
+import coming from "../../assets/Events-image/coming.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
@@ -16,106 +19,32 @@ import des_bg_mob from "../../assets/Events-image/des-mob-bg.png";
 const event = () => {
   const eventArray = [
     {
-      forms: `http://bit.ly/cdwmascot`,
+      forms: `https://bit.ly/cdwmascot`,
       title: "MASCOT DESIGN CHALLENGE",
-      image: eventAdobe,
-      date: "28 APR 2023",
+      image: event1,
+      date: "20 MAY 2023",
       time: "12:00PM",
       venue: "ONLINE",
-      description: `Design a creative mascot for the CODe Design Week, give it an apt name. You can use any medium of your choice from traditional hand-drawn sketches to digital illustrations!! or you could even use AI generators like DALL-E or Mid journey for designing one for you!`,
+      description: `Find your inspiration💡 with creative mascot and let your creativity soar!✨ Design a creative mascot for the CODe Design Week, give it an apt name. You can use any medium of your choice from traditional hand-drawn sketches 🎨 to digital illustrations👾You could even use AI generators like DALL-E or Mid journey etc....
+`,
     },
     {
-      forms: `http://bit.ly/cdwdesigntocode`,
+      forms: `https://bit.ly/cdwdtoc`,
       title: "DESIGN TO CODE",
-      image: eventAdobe,
-      date: "28 APR 2023",
+      image: event2,
+      date: "25 MAY 2023",
       time: "12:00PM",
-      venue: "ONLINE",
-      description: `Are you a programmer? This event is for you. Develop a website with the given UI Design. The first one to develop the cleanest website wins! There are no language restrictions.`,
+      venue: "OFFLINE",
+      description: `Shout out to all the programmers out there!! 🤩Design week is all about design. But we've something for you too. 😉 The Design to Code challenge is here! Develop a website with the UI Design given. The fastest and the cleanest website wins! 🥳 Feel free to dig into one of the languages of your comfort. 😌`,
     },
     {
-      forms: `http://bit.ly/cdwfindthedesign`,
-      title: "FIND THE DESIGN",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: ` You will be provided a set of folders with numerous posters. Find the displayed poster accurately in 3 minutes. The fastest one to find the poster within the time limit will be recognized as the winner.`,
-    },
-    {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      forms: `https://www.beachhack.in/`,
-      title: "DESIGNATHON.",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: `Designathon, or design-hackathon, is an event where you're asked to design a solution for a given problem within the given 24hrs. No coding is involved.`,
-    },
-    {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
-    },
-    {
-      forms: `https://www.beachhack.in/`,
-      title: "ADOBE BY CODE",
-      date: "28 APR 2023",
-      image: eventAdobe,
-      time: "12:00PM",
-      venue: "ONLINE",
-      description: ` Adobe by Code is a series of workshops in which we ablah bah blah
-    balaah. (1 logo + korch text) font size ithrem venam ith pole
-    enthelum okke thatti vitta mathi ivde. aa event description pole.`,
+      forms: `/designathon`,
+      title: "COMING SOON",
+      image: coming,
+      date: "",
+      time: "",
+      venue: "",
+      description: `😌`,
     },
   ];
 
