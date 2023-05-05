@@ -4,7 +4,6 @@ import Contacts from "../../components/contact/Contacts";
 import eventAdobe from "../../assets/Events-image/event-p1.png";
 import event1 from "../../assets/Events-image/event1.png";
 import event2 from "../../assets/Events-image/event2.png";
-import coming from "../../assets/Events-image/coming.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
@@ -16,6 +15,9 @@ import logo from "../../assets/cdw-logo.svg";
 import qr_event from "../../assets/Events-image/qr-event.png";
 import event_arrow from "../../assets/Events-image/event-view-arrow.png";
 import des_bg_mob from "../../assets/Events-image/des-mob-bg.png";
+
+import coming from "../../assets/Events-image/coming.png";
+
 const event = () => {
   const eventArray = [
     {
@@ -36,15 +38,6 @@ const event = () => {
       time: "12:00PM",
       venue: "OFFLINE",
       description: `Shout out to all the programmers out there!! 🤩Design week is all about design. But we've something for you too. 😉 The Design to Code challenge is here! Develop a website with the UI Design given. The fastest and the cleanest website wins! 🥳 Feel free to dig into one of the languages of your comfort. 😌`,
-    },
-    {
-      forms: `/designathon`,
-      title: "COMING SOON",
-      image: coming,
-      date: "",
-      time: "",
-      venue: "",
-      description: `😌`,
     },
   ];
 
@@ -138,6 +131,11 @@ const event = () => {
               />
             )
           )}
+          <div className="single-event-card-desk">
+            <div>
+              <img src={coming} />
+            </div>
+          </div>
         </div>
       </div>
       <Contacts />

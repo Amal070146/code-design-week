@@ -2,7 +2,8 @@ import { useState } from "react";
 import "./faq.css";
 import arrow from "../../assets/designathon/white-down-arrow-faq.png";
 import arrowblack from "../../assets/designathon/uparrow-black-faq.png";
-
+import faqb from "../../assets/designathon/faqb.png";
+import faqw from "../../assets/designathon/faqw.png";
 const FAQ = ({ heading, dots, para }) => {
   const [openpopup, setopenpopup] = useState(false);
   function openPopup() {
@@ -10,6 +11,7 @@ const FAQ = ({ heading, dots, para }) => {
   }
   return (
     <div>
+      <img src="" alt="" />
       <div
         className="faq-container"
         style={{

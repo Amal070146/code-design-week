@@ -4,6 +4,8 @@ import p1 from "../../assets/Events-image/detail-p1.png";
 import logo from "../../assets/cdw-logo.svg";
 import qr_event from "../../assets/Events-image/qr-event.png";
 import event_arrow from "../../assets/designathon/white-down-arrow-faq.png";
+
+
 const Eventsingles = ({
   forms,
   title,
@@ -51,6 +53,7 @@ const Eventsingles = ({
           </div>
         </div>
       </div>
+      
     </>
   );
 };

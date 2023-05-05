@@ -263,6 +263,8 @@ width: 20vw;
 }
 .popup-card-content-mob > :nth-child(1) {
   width: 120px;
+}.popup-card-content-mob > :nth-child(4) {
+  width: 360px;
 }
 .popup-card-content-mob > h1 {
   font-size: 25px;
@@ -329,6 +331,9 @@ width: 20vw;
   .mobile-des-card {
     display: block;
   }
+  .popup-card-content-mob > :nth-child(4) {
+  width: 310px;
+}
 }
 @media screen and (max-width: 600px) {
   .events-single-content-wrapper {
