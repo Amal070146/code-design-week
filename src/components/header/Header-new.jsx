@@ -7,7 +7,8 @@ import bg_header from "../../assets/home-page/BG.png";
 import bg_star from "../../assets/home-page/star-line.png";
 import play from "../../assets/home-page/play-button.png";
 import pause from "../../assets/home-page/pause-button.png";
-import music_gif from "../../assets/home-page/music-gif.png";
+import music_gif from "../../assets/home-page/music.gif";
+import music_png from "../../assets/home-page/music.png";
 import Marqueuecomponent from "./Marqueuecomponent";
 import togglePlays from "../../assets/home-page/Elegy.mp3";
 
@@ -34,6 +35,7 @@ const Headernew = () => {
       audio.play();
     }
   };
+
   return (
     <section id="header">
       <div className="header-wrapper image-container">
@@ -59,7 +61,11 @@ const Headernew = () => {
                   <img src={play} alt="" />
                 )}
               </button>
-              <img src={music_gif} alt="" />
+              {isPlaying ? (
+                <img src={music_gif} alt="" />
+              ) : (
+                <img src={music_png} alt="" />
+              )}
             </div>
             <div className="text-image-wrap">
               <p className="font-styles">CODe DESIGN WEEK</p>

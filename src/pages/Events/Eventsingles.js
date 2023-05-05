@@ -5,7 +5,6 @@ import logo from "../../assets/cdw-logo.svg";
 import qr_event from "../../assets/Events-image/qr-event.png";
 import event_arrow from "../../assets/designathon/white-down-arrow-faq.png";
 
-
 const Eventsingles = ({
   forms,
   title,
@@ -46,14 +45,13 @@ const Eventsingles = ({
               <h2>{date}</h2>
               <img src={qr_event} />
               <p>{description}</p>
-              <a href={forms}>
+              <a href={forms} target="_blank">
                 Attend the Event <img src={event_arrow} alt="sjncjui" />
               </a>
             </div>
           </div>
         </div>
       </div>
-      
     </>
   );
 };

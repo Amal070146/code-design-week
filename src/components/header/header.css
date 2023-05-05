@@ -56,7 +56,8 @@
   height: 40px;
 }
 .music-player > img {
-  height: 30px;
+  height: 50px;
+  width: 200px;
 }
 .font-styles {
   font-size: 5.55vw;
