@@ -111,6 +111,11 @@ line-height: 0.95;
   }
   .partners-logo-wrapper {
     margin-top: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
   }
   .partners-logo-wrapper > a > img {
     height: 7vw;

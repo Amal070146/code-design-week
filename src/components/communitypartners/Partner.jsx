@@ -4,6 +4,7 @@ import tinkerhub from "../../assets/communitypartners/tinkerhub.png";
 import ieee from "../../assets/communitypartners/ieee.png";
 import iedc from "../../assets/communitypartners/iedc.png";
 import gtech from "../../assets/communitypartners/gtech.png";
+import fundesign from '../../assets/communitypartners/fundesign.png'
 import csi from "../../assets/communitypartners/csi.png";
 import bg_design from "../../assets/designaton-bg-card.png";
 import whitecard from "../../assets/white-cut-rect.png";
@@ -32,22 +33,22 @@ const partners = () => {
         </div>
       </div>
       <div className="heading-team">
-        <p>COMMUNITY PARTNERS</p>
+        <p>PARTNERS</p>
       </div>
       <div className="partners-logo-wrapper">
-        <a >
+        <a href="https://mulearn.org">
           <img src={gtech} alt="" />
         </a>
-        {/* <a >
-          <img src={tinkerhub} alt="" />
-        </a> */}
-        <a >
+        <a href="https://fundesign.netlify.app">
+          <img src={fundesign} alt="" />
+        </a>
+        <a href="https://iedc.cce.edu.in/">
           <img src={iedc} alt="" />
         </a>
-        <a >
+        <a href="https://cce.edu.in/department/EEE/professionalBodies">
           <img src={ieee} alt="" />
         </a>
-        <a>
+        <a href="https://cce.edu.in/department/CSE/professionalBodies">
           <img src={csi} alt="" />
         </a>
       </div>
