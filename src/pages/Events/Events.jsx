@@ -4,6 +4,7 @@ import Contacts from "../../components/contact/Contacts";
 import eventAdobe from "../../assets/Events-image/event-p1.png";
 import event1 from "../../assets/Events-image/event1.png";
 import event2 from "../../assets/Events-image/event2.png";
+import event3 from "../../assets/Events-image/event3.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
@@ -29,6 +30,15 @@ const event = () => {
       venue: "ONLINE",
       description: `Find your inspiration💡 with creative mascot and let your creativity soar!✨ Design a creative mascot for the CODe Design Week, give it an apt name. You can use any medium of your choice from traditional hand-drawn sketches 🎨 to digital illustrations👾You could even use AI generators like DALL-E or Mid journey etc....
 `,
+    },
+    {
+      forms: `https://bit.ly/cdwfthed`,
+      title: "FIND THE DESIGN",
+      image: event3,
+      date: "23 MAY 2023",
+      time: "12:00PM",
+      venue: "OFFLINE",
+      description: `Are your eyes 👀 fast enough? Let's find out ‼ You will have to find the exact poster from a set of posters within ⿣ minutes. Lucky or not , give it a shot 😌on Find The Design Challenge by CODe Design Week.`,
     },
     {
       forms: `https://bit.ly/cdwdtoc`,
