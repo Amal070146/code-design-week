@@ -5,6 +5,7 @@ import eventAdobe from "../../assets/Events-image/event-p1.png";
 import event1 from "../../assets/Events-image/event1.png";
 import event2 from "../../assets/Events-image/event2.png";
 import event3 from "../../assets/Events-image/event3.png";
+import event4 from "../../assets/Events-image/event4.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
@@ -44,6 +45,15 @@ const event = () => {
       forms: `https://bit.ly/cdwdtoc`,
       title: "DESIGN TO CODE",
       image: event2,
+      date: "25 MAY 2023",
+      time: "12:00PM",
+      venue: "OFFLINE",
+      description: `Shout out to all the programmers out there!! 🤩Design week is all about design. But we've something for you too. 😉 The Design to Code challenge is here! Develop a website with the UI Design given. The fastest and the cleanest website wins! 🥳 Feel free to dig into one of the languages of your comfort. 😌`,
+    },
+    {
+      forms: `https://bit.ly/cdwdtoc`,
+      title: "DESIGN TO CODE",
+      image: event4,
       date: "25 MAY 2023",
       time: "12:00PM",
       venue: "OFFLINE",
@@ -122,8 +132,11 @@ const event = () => {
                   the flagship event of the CODe Design Week 2023, which is a
                   national event conducted on May 27 & 28.
                 </p>
-                <a href="/designathon">
-                  REGISTER <img src={event_arrow} alt="sjncjui" />
+                <a
+                  href="/designathon"
+                  style={{ height: "40px", width: "fit-content" ,display:"flex",gap:"10px"}}
+                >
+                  REGISTER <img style={{height:"20px"}} src={event_arrow} alt="sjncjui" />
                 </a>
               </div>
             </div>
