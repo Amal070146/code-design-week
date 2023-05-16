@@ -9,6 +9,7 @@ import event4 from "../../assets/Events-image/event4.png";
 import event5 from "../../assets/Events-image/event5.png";
 import event6 from "../../assets/Events-image/event6.png";
 import event7 from "../../assets/Events-image/event7.png";
+import event8 from "../../assets/Events-image/event8.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
@@ -72,15 +73,15 @@ const event = () => {
       description: `"Design is not a single object or dimension. Design is messy and complex." - Natasha Jen Designers, listen up! 🧏‍♂ Join the T-shirt👕 Design Challenge organised as part of the CODe Design Week and win prizes worth 1K!💸 Submit your innovative t-shirt designs and get a wonderful chance to win big! 😍 Check out the poster attached for more details. Don't miss out this opportunity to show off your skills, and let your creativity run wild!😉`,
     },
     {
-      forms: `https://bit.ly/cdwuiux`,
-      title: "UI/UX DESIGN",
-      image: event5,
+      forms: `https://bit.ly/cdwgthel`,
+      title: "GUESS THE LOGO",
+      image: event8,
       date: "22 MAY 2023",
       time: "12:00PM",
       venue: "OFFLINE",
-      description: `Hey design enthusiasts, ready for some exciting stuff ?🤪 Register for the UI/UX Design Challenge conducted as part of the Code Design Week. Design an awesome UI/UX that would stand out between others! You can design websites, mobile or web applications with no theme restrictions. A prize pool worth 1K are awaiting the winners !!🥳 Hurry up, register without delay and submit your designs on or before 22 May 2023🌝 `,
+      description: `Are you a good observer?🧐 Can you recognize the brand just by seeing the logo? 🔍 The CODe Design Week is here with the Guess the logo 🤔 Quiz to find the best brand observer. Identify the logos displayed 🖥 and you may win exciting prizes worth 1K 😏💥 Hurry up, don't hesitate to give it a try.`,
     },
-    ,
+
     {
       forms: `https://bit.ly/cdwposter`,
       title: "POSTER DESIGN",
@@ -89,6 +90,15 @@ const event = () => {
       time: "12:00PM",
       venue: "OFFLINE",
       description: `Shout out to all the programmers out there!! 🤩Design week is all about design. But we've something for you too. 😉 The Design to Code challenge is here! Develop a website with the UI Design given. The fastest and the cleanest website wins! 🥳 Feel free to dig into one of the languages of your comfort. 😌`,
+    },
+    {
+      forms: `https://bit.ly/cdwuiux`,
+      title: "UI/UX DESIGN",
+      image: event5,
+      date: "22 MAY 2023",
+      time: "12:00PM",
+      venue: "OFFLINE",
+      description: `Hey design enthusiasts, ready for some exciting stuff ?🤪 Register for the UI/UX Design Challenge conducted as part of the Code Design Week. Design an awesome UI/UX that would stand out between others! You can design websites, mobile or web applications with no theme restrictions. A prize pool worth 1K are awaiting the winners !!🥳 Hurry up, register without delay and submit your designs on or before 22 May 2023🌝 `,
     },
   ];
 
