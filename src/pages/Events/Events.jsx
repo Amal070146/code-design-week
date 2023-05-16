@@ -6,6 +6,9 @@ import event1 from "../../assets/Events-image/event1.png";
 import event2 from "../../assets/Events-image/event2.png";
 import event3 from "../../assets/Events-image/event3.png";
 import event4 from "../../assets/Events-image/event4.png";
+import event5 from "../../assets/Events-image/event5.png";
+import event6 from "../../assets/Events-image/event6.png";
+import event7 from "../../assets/Events-image/event7.png";
 import Eventsingles from "./Eventsingles";
 import Navbar from "../../components/navbar/Navbar";
 import CopyRight from "../../components/copyright/CopyRight";
@@ -51,9 +54,37 @@ const event = () => {
       description: `Shout out to all the programmers out there!! 🤩Design week is all about design. But we've something for you too. 😉 The Design to Code challenge is here! Develop a website with the UI Design given. The fastest and the cleanest website wins! 🥳 Feel free to dig into one of the languages of your comfort. 😌`,
     },
     {
-      forms: `https://bit.ly/cdwdtoc`,
-      title: "DESIGN TO CODE",
+      forms: `https://bit.ly/cdwcampus`,
+      title: "CAMPUS AMBASSADORS",
       image: event4,
+      date: "xx MAY 2023",
+      time: "12:00PM",
+      venue: "OFFLINE",
+      description: `⚡ Make your best efforts and be the one to grab prize worth 2k🎁 DUTIES: 🗝Advertise Code Design Week by promoting various events and posts at various social media platforms and in your college. 🗝Organise events,workshops and promotional activities 🗝Help students with the registration process. Take a chance and be the face of CDW in your college `,
+    },
+    {
+      forms: `https://bit.ly/cdwtshirt`,
+      title: "TSHIRT DESIGN",
+      image: event7,
+      date: "22 MAY 2023",
+      time: "12:00PM",
+      venue: "OFFLINE",
+      description: `"Design is not a single object or dimension. Design is messy and complex." - Natasha Jen Designers, listen up! 🧏‍♂ Join the T-shirt👕 Design Challenge organised as part of the CODe Design Week and win prizes worth 1K!💸 Submit your innovative t-shirt designs and get a wonderful chance to win big! 😍 Check out the poster attached for more details. Don't miss out this opportunity to show off your skills, and let your creativity run wild!😉`,
+    },
+    {
+      forms: `https://bit.ly/cdwuiux`,
+      title: "UI/UX DESIGN",
+      image: event5,
+      date: "22 MAY 2023",
+      time: "12:00PM",
+      venue: "OFFLINE",
+      description: `Hey design enthusiasts, ready for some exciting stuff ?🤪 Register for the UI/UX Design Challenge conducted as part of the Code Design Week. Design an awesome UI/UX that would stand out between others! You can design websites, mobile or web applications with no theme restrictions. A prize pool worth 1K are awaiting the winners !!🥳 Hurry up, register without delay and submit your designs on or before 22 May 2023🌝 `,
+    },
+    ,
+    {
+      forms: `https://bit.ly/cdwposter`,
+      title: "POSTER DESIGN",
+      image: event6,
       date: "25 MAY 2023",
       time: "12:00PM",
       venue: "OFFLINE",

@@ -42,9 +42,9 @@ const partners = () => {
         <a href="https://fundesign.netlify.app">
           <img src={fundesign} alt="" />
         </a>
-        <a href="https://iedc.cce.edu.in/">
+        {/* <a href="https://iedc.cce.edu.in/">
           <img src={iedc} alt="" />
-        </a>
+        </a> */}
         <a href="https://cce.edu.in/department/EEE/professionalBodies">
           <img src={ieee} alt="" />
         </a>
