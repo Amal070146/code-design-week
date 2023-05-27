@@ -118,7 +118,7 @@ const Designathon = () => {
                     <p>MAY 2023</p>
                   </div>
                   <div>
-                    <h2>24</h2>
+                    <h2>12</h2>
                     <p>HOURS</p>
                   </div>
                   <div>
