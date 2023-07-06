@@ -10,7 +10,7 @@
   width: 100vw;
   padding-top: 110px;
   height: 140vh;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .header-head {
